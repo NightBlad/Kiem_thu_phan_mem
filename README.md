@@ -37,7 +37,7 @@ Dự án này thực hiện các kịch bản kiểm thử tự động (E2E) ch
 ---
 
 ### Video kết quả (Video Recording)
->https://drive.google.com/file/d/17-vtdETIqgdtHR3UC1cWxsYBhhQOa41o/view?usp=drive_link
+>[Video kết quả](https://drive.google.com/file/d/17-vtdETIqgdtHR3UC1cWxsYBhhQOa41o/view?usp=drive_link)
 
 ---
 
