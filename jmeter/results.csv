@@ -1,0 +1,1157 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1769249124690,1068,Home Page Request,200,OK,Thread Group 1: Basic 1-1,text,true,,195760,196,3,8,https://www.wikipedia.org/,628,0,527
+1769249125057,704,Home Page Request,200,OK,Thread Group 1: Basic 1-2,text,true,,195760,196,3,9,https://www.wikipedia.org/,260,0,160
+1769249124690,1078,Home Page Request,200,OK,Thread Group 2: Heavy Load 2-1,text,true,,195760,196,3,9,https://www.wikipedia.org/,630,0,527
+1769249125164,685,Home Page Request,200,OK,Thread Group 2: Heavy Load 2-2,text,true,,195760,196,3,9,https://www.wikipedia.org/,255,0,148
+1769249125762,389,Home Page Request,200,OK,Thread Group 1: Basic 1-1,text,true,,195760,196,4,11,https://www.wikipedia.org/,106,0,0
+1769249124690,1513,Main Page,200,OK,Thread Group 3: Custom 3-1,text,true,,234248,573,4,11,https://en.wikipedia.org/wiki/Main_Page,596,0,527
+1769249124690,603,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-1,text,true,,1834,210,4,11,https://www.wikipedia.org/wiki/Main_Page,596,0,527
+1769249125302,901,Main Page-1,200,OK,Thread Group 3: Custom 3-1,text,true,,232414,363,4,11,https://en.wikipedia.org/wiki/Main_Page,346,0,193
+1769249125763,484,Home Page Request,200,OK,Thread Group 1: Basic 1-2,text,true,,195760,196,4,11,https://www.wikipedia.org/,105,0,0
+1769249125097,1162,Main Page,200,OK,Thread Group 3: Custom 3-2,text,true,,234248,573,4,11,https://en.wikipedia.org/wiki/Main_Page,203,0,127
+1769249125097,203,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-2,text,true,,1834,210,4,11,https://www.wikipedia.org/wiki/Main_Page,203,0,127
+1769249125303,956,Main Page-1,200,OK,Thread Group 3: Custom 3-2,text,true,,232414,363,4,11,https://en.wikipedia.org/wiki/Main_Page,377,0,221
+1769249126152,308,Home Page Request,200,OK,Thread Group 1: Basic 1-1,text,true,,195760,196,4,12,https://www.wikipedia.org/,128,0,0
+1769249125556,996,Home Page Request,200,OK,Thread Group 1: Basic 1-3,text,true,,195760,196,5,13,https://www.wikipedia.org/,414,0,246
+1769249126249,487,Home Page Request,200,OK,Thread Group 1: Basic 1-2,text,true,,195760,196,5,14,https://www.wikipedia.org/,159,0,0
+1769249126462,343,Home Page Request,200,OK,Thread Group 1: Basic 1-1,text,true,,195760,196,5,14,https://www.wikipedia.org/,112,0,0
+1769249125762,1580,Home Page Request,200,OK,Thread Group 2: Heavy Load 2-3,text,true,,195760,196,5,17,https://www.wikipedia.org/,474,0,243
+1769249126554,944,Home Page Request,200,OK,Thread Group 1: Basic 1-3,text,true,,195760,196,6,17,https://www.wikipedia.org/,280,0,0
+1769249126807,749,Home Page Request,200,OK,Thread Group 1: Basic 1-1,text,true,,195760,196,7,18,https://www.wikipedia.org/,305,0,0
+1769249126738,886,Home Page Request,200,OK,Thread Group 1: Basic 1-2,text,true,,195760,196,6,19,https://www.wikipedia.org/,190,0,0
+1769249125851,1823,Search Page Request,200,OK,Thread Group 2: Heavy Load 2-2,text,true,,58502,791,6,19,https://en.wikipedia.org/wiki/Special:Search,318,0,0
+1769249125851,318,Search Page Request-0,301,Moved Permanently,Thread Group 2: Heavy Load 2-2,text,true,,1443,423,6,19,https://www.wikipedia.org/wiki/Special:Search,318,0,0
+1769249126170,1504,Search Page Request-1,200,OK,Thread Group 2: Heavy Load 2-2,text,true,,57059,368,6,19,https://en.wikipedia.org/wiki/Special:Search,791,0,220
+1769249125770,1915,Search Page Request,200,OK,Thread Group 2: Heavy Load 2-1,text,true,,58490,791,5,18,https://en.wikipedia.org/wiki/Special:Search,399,0,0
+1769249125770,399,Search Page Request-0,301,Moved Permanently,Thread Group 2: Heavy Load 2-1,text,true,,1432,423,5,18,https://www.wikipedia.org/wiki/Special:Search,399,0,0
+1769249126170,1515,Search Page Request-1,200,OK,Thread Group 2: Heavy Load 2-1,text,true,,57058,368,5,18,https://en.wikipedia.org/wiki/Special:Search,847,0,235
+1769249126204,1519,Portal:Science,200,OK,Thread Group 3: Custom 3-1,text,true,,340676,845,7,17,https://en.wikipedia.org/wiki/Portal:Science,414,0,0
+1769249126204,414,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-1,text,true,,1248,423,7,17,https://www.wikipedia.org/wiki/Portal:Science,414,0,0
+1769249126618,1105,Portal:Science-1,200,OK,Thread Group 3: Custom 3-1,text,true,,339428,422,7,17,https://en.wikipedia.org/wiki/Portal:Science,210,0,0
+1769249126260,1508,Portal:Science,200,OK,Thread Group 3: Custom 3-2,text,true,,340687,845,7,17,https://en.wikipedia.org/wiki/Portal:Science,358,0,0
+1769249126260,358,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-2,text,true,,1259,423,7,17,https://www.wikipedia.org/wiki/Portal:Science,358,0,0
+1769249126618,1150,Portal:Science-1,200,OK,Thread Group 3: Custom 3-2,text,true,,339428,422,7,17,https://en.wikipedia.org/wiki/Portal:Science,223,0,0
+1769249125596,4009,Main Page,200,OK,Thread Group 3: Custom 3-3,text,true,,234248,573,11,27,https://en.wikipedia.org/wiki/Main_Page,374,0,245
+1769249125596,375,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-3,text,true,,1834,210,11,27,https://www.wikipedia.org/wiki/Main_Page,374,0,245
+1769249125973,3632,Main Page-1,200,OK,Thread Group 3: Custom 3-3,text,true,,232414,363,11,27,https://en.wikipedia.org/wiki/Main_Page,466,0,301
+1769249126053,3572,Home Page Request,200,OK,Thread Group 1: Basic 1-4,text,true,,195760,196,9,27,https://www.wikipedia.org/,505,0,334
+1769249127626,2562,Home Page Request,200,OK,Thread Group 1: Basic 1-2,text,true,,195760,196,9,29,https://www.wikipedia.org/,1727,0,0
+1769249127500,2726,Home Page Request,200,OK,Thread Group 1: Basic 1-3,text,true,,195760,196,8,28,https://www.wikipedia.org/,248,0,0
+1769249127344,2976,Search Page Request,200,OK,Thread Group 2: Heavy Load 2-3,text,true,,58502,791,8,28,https://en.wikipedia.org/wiki/Special:Search,310,0,0
+1769249127344,310,Search Page Request-0,301,Moved Permanently,Thread Group 2: Heavy Load 2-3,text,true,,1443,423,8,28,https://www.wikipedia.org/wiki/Special:Search,310,0,0
+1769249127655,2665,Search Page Request-1,200,OK,Thread Group 2: Heavy Load 2-3,text,true,,57059,368,8,28,https://en.wikipedia.org/wiki/Special:Search,1959,0,600
+1769249126363,3998,Home Page Request,200,OK,Thread Group 2: Heavy Load 2-4,text,true,,195760,196,7,27,https://www.wikipedia.org/,537,0,225
+1769249128162,2897,Home Page Request,200,OK,Thread Group 2: Heavy Load 2-7,text,true,,195760,196,8,29,https://www.wikipedia.org/,1326,0,500
+1769249130228,1014,Home Page Request,200,OK,Thread Group 1: Basic 1-3,text,true,,195760,196,8,31,https://www.wikipedia.org/,526,0,0
+1769249129964,1889,Home Page Request,200,OK,Thread Group 2: Heavy Load 2-10,text,true,,195760,196,10,33,https://www.wikipedia.org/,820,0,388
+1769249127595,4269,Main Page,200,OK,Thread Group 3: Custom 3-7,text,true,,234249,573,15,33,https://en.wikipedia.org/wiki/Main_Page,961,0,633
+1769249127595,961,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-7,text,true,,1835,210,15,33,https://www.wikipedia.org/wiki/Main_Page,961,0,633
+1769249128557,3307,Main Page-1,200,OK,Thread Group 3: Custom 3-7,text,true,,232414,363,15,33,https://en.wikipedia.org/wiki/Main_Page,900,0,458
+1769249126096,5769,Main Page,200,OK,Thread Group 3: Custom 3-4,text,true,,234248,573,15,33,https://en.wikipedia.org/wiki/Main_Page,401,0,291
+1769249126096,401,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-4,text,true,,1834,210,15,33,https://www.wikipedia.org/wiki/Main_Page,401,0,291
+1769249126498,5367,Main Page-1,200,OK,Thread Group 3: Custom 3-4,text,true,,232414,363,15,33,https://en.wikipedia.org/wiki/Main_Page,838,0,322
+1769249127051,4864,Home Page Request,200,OK,Thread Group 1: Basic 1-6,text,true,,195760,196,8,33,https://www.wikipedia.org/,2395,0,721
+1769249128764,3167,Home Page Request,200,OK,Thread Group 2: Heavy Load 2-8,text,true,,195760,196,10,33,https://www.wikipedia.org/,1210,0,647
+1769249128049,4001,Home Page Request,200,OK,Thread Group 1: Basic 1-8,text,true,,195760,196,8,33,https://www.wikipedia.org/,1360,0,524
+1769249128556,3554,Home Page Request,200,OK,Thread Group 1: Basic 1-9,text,true,,195760,196,8,34,https://www.wikipedia.org/,995,0,453
+1769249127565,4741,Home Page Request,200,OK,Thread Group 2: Heavy Load 2-6,text,true,,195760,196,10,34,https://www.wikipedia.org/,2806,0,2085
+1769249131243,1183,Home Page Request,200,OK,Thread Group 1: Basic 1-3,text,true,,195760,196,8,35,https://www.wikipedia.org/,457,0,0
+1769249127094,5479,Main Page,200,OK,Thread Group 3: Custom 3-6,text,true,,234249,573,16,34,https://en.wikipedia.org/wiki/Main_Page,3261,0,713
+1769249127094,3261,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-6,text,true,,1835,210,16,34,https://www.wikipedia.org/wiki/Main_Page,3261,0,713
+1769249130356,2217,Main Page-1,200,OK,Thread Group 3: Custom 3-6,text,true,,232414,363,16,34,https://en.wikipedia.org/wiki/Main_Page,709,0,483
+1769249131060,1540,Search Page Request,200,OK,Thread Group 2: Heavy Load 2-7,text,true,,58502,791,11,35,https://en.wikipedia.org/wiki/Special:Search,107,0,0
+1769249131060,107,Search Page Request-0,301,Moved Permanently,Thread Group 2: Heavy Load 2-7,text,true,,1443,423,11,35,https://www.wikipedia.org/wiki/Special:Search,107,0,0
+1769249131167,1433,Search Page Request-1,200,OK,Thread Group 2: Heavy Load 2-7,text,true,,57059,368,11,35,https://en.wikipedia.org/wiki/Special:Search,1005,0,274
+1769249130362,2257,Search Page Request,200,OK,Thread Group 2: Heavy Load 2-4,text,true,,58502,791,10,34,https://en.wikipedia.org/wiki/Special:Search,347,0,0
+1769249130362,347,Search Page Request-0,301,Moved Permanently,Thread Group 2: Heavy Load 2-4,text,true,,1443,423,10,34,https://www.wikipedia.org/wiki/Special:Search,347,0,0
+1769249130710,1909,Search Page Request-1,200,OK,Thread Group 2: Heavy Load 2-4,text,true,,57059,368,10,34,https://en.wikipedia.org/wiki/Special:Search,1244,0,308
+1769249127724,4961,Main Page,200,OK,Thread Group 3: Custom 3-1,text,true,,234249,573,17,33,https://en.wikipedia.org/wiki/Main_Page,1391,0,0
+1769249127724,1391,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-1,text,true,,1835,210,17,33,https://www.wikipedia.org/wiki/Main_Page,1391,0,0
+1769249129116,3569,Main Page-1,200,OK,Thread Group 3: Custom 3-1,text,true,,232414,363,17,33,https://en.wikipedia.org/wiki/Main_Page,463,0,0
+1769249131164,1724,Home Page Request,200,OK,Thread Group 2: Heavy Load 2-12,text,true,,195760,196,9,33,https://www.wikipedia.org/,513,0,230
+1769249130096,2894,Main Page,200,OK,Thread Group 3: Custom 3-12,text,true,,234249,573,17,34,https://en.wikipedia.org/wiki/Main_Page,607,0,244
+1769249130096,607,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-12,text,true,,1835,210,17,34,https://www.wikipedia.org/wiki/Main_Page,607,0,244
+1769249130705,2285,Main Page-1,200,OK,Thread Group 3: Custom 3-12,text,true,,232414,363,17,34,https://en.wikipedia.org/wiki/Main_Page,638,0,313
+1769249126552,6514,Home Page Request,200,OK,Thread Group 1: Basic 1-5,text,true,,195760,196,7,34,https://www.wikipedia.org/,1018,0,546
+1769249129095,4084,Main Page,200,OK,Thread Group 3: Custom 3-10,text,true,,234249,573,18,35,https://en.wikipedia.org/wiki/Main_Page,1608,0,409
+1769249129095,1608,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-10,text,true,,1835,210,18,35,https://www.wikipedia.org/wiki/Main_Page,1608,0,409
+1769249130705,2474,Main Page-1,200,OK,Thread Group 3: Custom 3-10,text,true,,232414,363,18,35,https://en.wikipedia.org/wiki/Main_Page,607,0,319
+1769249129363,3901,Home Page Request,200,OK,Thread Group 2: Heavy Load 2-9,text,true,,195760,196,10,35,https://www.wikipedia.org/,2490,0,1983
+1769249129050,4244,Home Page Request,200,OK,Thread Group 1: Basic 1-10,text,true,,195760,196,7,35,https://www.wikipedia.org/,1155,0,478
+1769249130563,2745,Home Page Request,200,OK,Thread Group 2: Heavy Load 2-11,text,true,,195760,196,10,35,https://www.wikipedia.org/,701,0,300
+1769249131854,1459,Search Page Request,200,OK,Thread Group 2: Heavy Load 2-10,text,true,,58502,791,10,35,https://en.wikipedia.org/wiki/Special:Search,480,0,0
+1769249131854,480,Search Page Request-0,301,Moved Permanently,Thread Group 2: Heavy Load 2-10,text,true,,1443,423,10,35,https://www.wikipedia.org/wiki/Special:Search,480,0,0
+1769249132335,978,Search Page Request-1,200,OK,Thread Group 2: Heavy Load 2-10,text,true,,57059,368,10,35,https://en.wikipedia.org/wiki/Special:Search,761,0,262
+1769249131865,1454,Portal:Science,200,OK,Thread Group 3: Custom 3-7,text,true,,340687,845,18,34,https://en.wikipedia.org/wiki/Portal:Science,116,0,0
+1769249131865,116,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-7,text,true,,1259,423,18,34,https://www.wikipedia.org/wiki/Portal:Science,116,0,0
+1769249131981,1338,Portal:Science-1,200,OK,Thread Group 3: Custom 3-7,text,true,,339428,422,18,34,https://en.wikipedia.org/wiki/Portal:Science,487,0,0
+1769249128594,4823,Main Page,200,OK,Thread Group 3: Custom 3-9,text,true,,234249,573,18,34,https://en.wikipedia.org/wiki/Main_Page,2544,0,2414
+1769249128594,2544,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-9,text,true,,1835,210,18,34,https://www.wikipedia.org/wiki/Main_Page,2544,0,2414
+1769249131139,2278,Main Page-1,200,OK,Thread Group 3: Custom 3-9,text,true,,232414,363,18,34,https://en.wikipedia.org/wiki/Main_Page,690,0,255
+1769249127552,5907,Home Page Request,200,OK,Thread Group 1: Basic 1-7,text,true,,195760,196,7,34,https://www.wikipedia.org/,4318,0,3774
+1769249132051,1481,Home Page Request,200,OK,Thread Group 1: Basic 1-8,text,true,,195760,196,7,34,https://www.wikipedia.org/,353,0,0
+1769249132308,1393,Search Page Request,200,OK,Thread Group 2: Heavy Load 2-6,text,true,,58501,791,10,36,https://en.wikipedia.org/wiki/Special:Search,118,0,0
+1769249132308,118,Search Page Request-0,301,Moved Permanently,Thread Group 2: Heavy Load 2-6,text,true,,1443,423,10,36,https://www.wikipedia.org/wiki/Special:Search,118,0,0
+1769249132427,1274,Search Page Request-1,200,OK,Thread Group 2: Heavy Load 2-6,text,true,,57058,368,10,36,https://en.wikipedia.org/wiki/Special:Search,915,0,297
+1769249127769,6234,Main Page,200,OK,Thread Group 3: Custom 3-2,text,true,,234249,573,19,35,https://en.wikipedia.org/wiki/Main_Page,650,0,0
+1769249127769,650,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-2,text,true,,1835,210,19,35,https://www.wikipedia.org/wiki/Main_Page,650,0,0
+1769249128420,5583,Main Page-1,200,OK,Thread Group 3: Custom 3-2,text,true,,232414,363,19,35,https://en.wikipedia.org/wiki/Main_Page,312,0,0
+1769249126595,7636,Main Page,200,OK,Thread Group 3: Custom 3-5,text,true,,234248,573,20,37,https://en.wikipedia.org/wiki/Main_Page,956,0,491
+1769249126595,956,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-5,text,true,,1834,210,20,37,https://www.wikipedia.org/wiki/Main_Page,956,0,491
+1769249127552,6679,Main Page-1,200,OK,Thread Group 3: Custom 3-5,text,true,,232414,363,20,37,https://en.wikipedia.org/wiki/Main_Page,2784,0,2035
+1769249129627,4664,Home Page Request,200,OK,Thread Group 1: Basic 1-4,text,true,,195760,196,7,37,https://www.wikipedia.org/,704,0,0
+1769249132685,1664,Portal:Science,200,OK,Thread Group 3: Custom 3-1,text,true,,340687,845,20,37,https://en.wikipedia.org/wiki/Portal:Science,519,0,0
+1769249132685,519,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-1,text,true,,1259,423,20,37,https://www.wikipedia.org/wiki/Portal:Science,519,0,0
+1769249133205,1144,Portal:Science-1,200,OK,Thread Group 3: Custom 3-1,text,true,,339428,422,20,37,https://en.wikipedia.org/wiki/Portal:Science,201,0,0
+1769249133321,1948,Main Page,200,OK,Thread Group 3: Custom 3-7,text,true,,234249,573,20,38,https://en.wikipedia.org/wiki/Main_Page,186,0,0
+1769249133321,186,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-7,text,true,,1835,210,20,38,https://www.wikipedia.org/wiki/Main_Page,186,0,0
+1769249133507,1762,Main Page-1,200,OK,Thread Group 3: Custom 3-7,text,true,,232414,363,20,38,https://en.wikipedia.org/wiki/Main_Page,310,0,0
+1769249133533,2766,Home Page Request,200,OK,Thread Group 1: Basic 1-8,text,true,,195760,196,7,40,https://www.wikipedia.org/,408,0,0
+1769249132964,3335,Home Page Request,200,OK,Thread Group 2: Heavy Load 2-15,text,true,,195760,196,13,40,https://www.wikipedia.org/,495,0,282
+1769249131932,4567,Search Page Request,200,OK,Thread Group 2: Heavy Load 2-8,text,true,,58504,791,13,40,https://en.wikipedia.org/wiki/Special:Search,178,0,0
+1769249131932,178,Search Page Request-0,301,Moved Permanently,Thread Group 2: Heavy Load 2-8,text,true,,1443,423,13,40,https://www.wikipedia.org/wiki/Special:Search,178,0,0
+1769249132111,4388,Search Page Request-1,200,OK,Thread Group 2: Heavy Load 2-8,text,true,,57061,368,13,40,https://en.wikipedia.org/wiki/Special:Search,3332,0,1083
+1769249133564,3248,Home Page Request,200,OK,Thread Group 2: Heavy Load 2-16,text,true,,195760,196,13,40,https://www.wikipedia.org/,1240,0,768
+1769249132362,4461,Home Page Request,200,OK,Thread Group 2: Heavy Load 2-14,text,true,,195760,196,13,40,https://www.wikipedia.org/,1810,0,1087
+1769249131916,4912,Home Page Request,200,OK,Thread Group 1: Basic 1-6,text,true,,195760,196,7,40,https://www.wikipedia.org/,515,0,0
+1769249131595,5244,Main Page,200,OK,Thread Group 3: Custom 3-15,text,true,,234249,573,20,40,https://en.wikipedia.org/wiki/Main_Page,536,0,362
+1769249131595,536,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-15,text,true,,1835,210,20,40,https://www.wikipedia.org/wiki/Main_Page,536,0,362
+1769249132132,4707,Main Page-1,200,OK,Thread Group 3: Custom 3-15,text,true,,232414,363,20,40,https://en.wikipedia.org/wiki/Main_Page,1417,0,1015
+1769249132991,3869,Portal:Science,200,OK,Thread Group 3: Custom 3-12,text,true,,340687,845,20,40,https://en.wikipedia.org/wiki/Portal:Science,116,0,0
+1769249132991,116,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-12,text,true,,1259,423,20,40,https://www.wikipedia.org/wiki/Portal:Science,116,0,0
+1769249133108,3752,Portal:Science-1,200,OK,Thread Group 3: Custom 3-12,text,true,,339428,422,20,40,https://en.wikipedia.org/wiki/Portal:Science,218,0,0
+1769249133295,3714,Home Page Request,200,OK,Thread Group 1: Basic 1-10,text,true,,195760,196,7,40,https://www.wikipedia.org/,301,0,0
+1769249132575,4447,Portal:Science,200,OK,Thread Group 3: Custom 3-6,text,true,,340687,845,20,40,https://en.wikipedia.org/wiki/Portal:Science,115,0,0
+1769249132575,116,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-6,text,true,,1259,423,20,40,https://www.wikipedia.org/wiki/Portal:Science,115,0,0
+1769249132691,4331,Portal:Science-1,200,OK,Thread Group 3: Custom 3-6,text,true,,339428,422,20,40,https://en.wikipedia.org/wiki/Portal:Science,489,0,0
+1769249133265,3994,Search Page Request,200,OK,Thread Group 2: Heavy Load 2-9,text,true,,58502,791,14,41,https://en.wikipedia.org/wiki/Special:Search,189,0,0
+1769249133265,189,Search Page Request-0,301,Moved Permanently,Thread Group 2: Heavy Load 2-9,text,true,,1443,423,14,41,https://www.wikipedia.org/wiki/Special:Search,189,0,0
+1769249133455,3804,Search Page Request-1,200,OK,Thread Group 2: Heavy Load 2-9,text,true,,57059,368,14,41,https://en.wikipedia.org/wiki/Special:Search,2352,0,709
+1769249134766,2506,Home Page Request,200,OK,Thread Group 2: Heavy Load 2-18,text,true,,195760,196,13,40,https://www.wikipedia.org/,812,0,210
+1769249133418,3864,Portal:Science,200,OK,Thread Group 3: Custom 3-9,text,true,,340688,845,20,40,https://en.wikipedia.org/wiki/Portal:Science,235,0,0
+1769249133418,235,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-9,text,true,,1259,423,20,40,https://www.wikipedia.org/wiki/Portal:Science,235,0,0
+1769249133654,3628,Portal:Science-1,200,OK,Thread Group 3: Custom 3-9,text,true,,339429,422,20,40,https://en.wikipedia.org/wiki/Portal:Science,458,0,0
+1769249130594,6701,Main Page,200,OK,Thread Group 3: Custom 3-13,text,true,,234249,573,20,40,https://en.wikipedia.org/wiki/Main_Page,2416,0,1475
+1769249130594,2416,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-13,text,true,,1835,210,20,40,https://www.wikipedia.org/wiki/Main_Page,2416,0,1475
+1769249133011,4284,Main Page-1,200,OK,Thread Group 3: Custom 3-13,text,true,,232414,363,20,40,https://en.wikipedia.org/wiki/Main_Page,592,0,328
+1769249134350,3066,Main Page,200,OK,Thread Group 3: Custom 3-1,text,true,,234249,573,20,40,https://en.wikipedia.org/wiki/Main_Page,119,0,0
+1769249134350,119,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-1,text,true,,1835,210,20,40,https://www.wikipedia.org/wiki/Main_Page,119,0,0
+1769249134470,2946,Main Page-1,200,OK,Thread Group 3: Custom 3-1,text,true,,232414,363,20,40,https://en.wikipedia.org/wiki/Main_Page,598,0,0
+1769249133309,4178,Search Page Request,200,OK,Thread Group 2: Heavy Load 2-11,text,true,,58503,791,13,40,https://en.wikipedia.org/wiki/Special:Search,198,0,0
+1769249133309,198,Search Page Request-0,301,Moved Permanently,Thread Group 2: Heavy Load 2-11,text,true,,1444,423,13,40,https://www.wikipedia.org/wiki/Special:Search,198,0,0
+1769249133508,3979,Search Page Request-1,200,OK,Thread Group 2: Heavy Load 2-11,text,true,,57059,368,13,40,https://en.wikipedia.org/wiki/Special:Search,3261,0,725
+1769249134164,3405,Home Page Request,200,OK,Thread Group 2: Heavy Load 2-17,text,true,,195760,196,12,39,https://www.wikipedia.org/,2209,0,1294
+1769249131095,6518,Main Page,200,OK,Thread Group 3: Custom 3-14,text,true,,234249,573,20,39,https://en.wikipedia.org/wiki/Main_Page,2050,0,1929
+1769249131095,2050,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-14,text,true,,1835,210,20,39,https://www.wikipedia.org/wiki/Main_Page,2050,0,1929
+1769249133146,4467,Main Page-1,200,OK,Thread Group 3: Custom 3-14,text,true,,232414,363,20,39,https://en.wikipedia.org/wiki/Main_Page,665,0,364
+1769249132889,4801,Search Page Request,200,OK,Thread Group 2: Heavy Load 2-12,text,true,,58502,791,12,39,https://en.wikipedia.org/wiki/Special:Search,133,0,0
+1769249132889,133,Search Page Request-0,301,Moved Permanently,Thread Group 2: Heavy Load 2-12,text,true,,1443,423,12,39,https://www.wikipedia.org/wiki/Special:Search,133,0,0
+1769249133023,4667,Search Page Request-1,200,OK,Thread Group 2: Heavy Load 2-12,text,true,,57059,368,12,39,https://en.wikipedia.org/wiki/Special:Search,2729,0,311
+1769249135272,2474,Portal:Science,200,OK,Thread Group 3: Custom 3-7,text,true,,340689,845,20,38,https://en.wikipedia.org/wiki/Portal:Science,179,0,0
+1769249135272,179,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-7,text,true,,1260,423,20,38,https://www.wikipedia.org/wiki/Portal:Science,179,0,0
+1769249135451,2295,Portal:Science-1,200,OK,Thread Group 3: Custom 3-7,text,true,,339429,422,20,38,https://en.wikipedia.org/wiki/Portal:Science,630,0,0
+1769249134004,3779,Portal:Science,200,OK,Thread Group 3: Custom 3-2,text,true,,340689,845,20,39,https://en.wikipedia.org/wiki/Portal:Science,542,0,0
+1769249134004,542,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-2,text,true,,1260,423,20,39,https://www.wikipedia.org/wiki/Portal:Science,542,0,0
+1769249134546,3237,Portal:Science-1,200,OK,Thread Group 3: Custom 3-2,text,true,,339429,422,20,39,https://en.wikipedia.org/wiki/Portal:Science,673,0,0
+1769249132111,5936,Home Page Request,200,OK,Thread Group 1: Basic 1-9,text,true,,195760,196,7,39,https://www.wikipedia.org/,309,0,0
+1769249131764,6675,Home Page Request,200,OK,Thread Group 2: Heavy Load 2-13,text,true,,195760,196,13,40,https://www.wikipedia.org/,2272,0,1678
+1769249133180,5345,Portal:Science,200,OK,Thread Group 3: Custom 3-10,text,true,,340687,845,20,40,https://en.wikipedia.org/wiki/Portal:Science,157,0,0
+1769249133180,157,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-10,text,true,,1259,423,20,40,https://www.wikipedia.org/wiki/Portal:Science,157,0,0
+1769249133337,5188,Portal:Science-1,200,OK,Thread Group 3: Custom 3-10,text,true,,339428,422,20,40,https://en.wikipedia.org/wiki/Portal:Science,394,0,0
+1769249128095,10516,Main Page,200,OK,Thread Group 3: Custom 3-8,text,true,,234249,573,20,40,https://en.wikipedia.org/wiki/Main_Page,4858,0,1427
+1769249128095,4859,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-8,text,true,,1835,210,20,40,https://www.wikipedia.org/wiki/Main_Page,4858,0,1427
+1769249132955,5656,Main Page-1,200,OK,Thread Group 3: Custom 3-8,text,true,,232414,363,20,40,https://en.wikipedia.org/wiki/Main_Page,474,0,253
+1769249137176,2476,Home Page Request,200,OK,Thread Group 2: Heavy Load 2-22,text,true,,195760,196,15,42,https://www.wikipedia.org/,840,0,425
+1769249136824,2956,Search Page Request,200,OK,Thread Group 2: Heavy Load 2-14,text,true,,58503,791,15,42,https://en.wikipedia.org/wiki/Special:Search,221,0,0
+1769249136824,221,Search Page Request-0,301,Moved Permanently,Thread Group 2: Heavy Load 2-14,text,true,,1445,423,15,42,https://www.wikipedia.org/wiki/Special:Search,221,0,0
+1769249137045,2735,Search Page Request-1,200,OK,Thread Group 2: Heavy Load 2-14,text,true,,57058,368,15,42,https://en.wikipedia.org/wiki/Special:Search,1299,0,344
+1769249132595,7299,Main Page,200,OK,Thread Group 3: Custom 3-17,text,true,,234249,573,20,41,https://en.wikipedia.org/wiki/Main_Page,4706,0,2160
+1769249132595,4706,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-17,text,true,,1835,210,20,41,https://www.wikipedia.org/wiki/Main_Page,4706,0,2160
+1769249137303,2591,Main Page-1,200,OK,Thread Group 3: Custom 3-17,text,true,,232414,363,20,41,https://en.wikipedia.org/wiki/Main_Page,702,0,314
+1769249136862,3059,Main Page,200,OK,Thread Group 3: Custom 3-12,text,true,,234249,573,20,41,https://en.wikipedia.org/wiki/Main_Page,166,0,0
+1769249136862,166,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-12,text,true,,1835,210,20,41,https://www.wikipedia.org/wiki/Main_Page,166,0,0
+1769249137029,2892,Main Page-1,200,OK,Thread Group 3: Custom 3-12,text,true,,232414,363,20,41,https://en.wikipedia.org/wiki/Main_Page,349,0,0
+1769249135964,3986,Home Page Request,200,OK,Thread Group 2: Heavy Load 2-20,text,true,,195760,196,14,41,https://www.wikipedia.org/,1501,0,1329
+1769249137746,2286,Main Page,200,OK,Thread Group 3: Custom 3-7,text,true,,234249,573,20,41,https://en.wikipedia.org/wiki/Main_Page,683,0,0
+1769249137746,683,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-7,text,true,,1835,210,20,41,https://www.wikipedia.org/wiki/Main_Page,683,0,0
+1769249138430,1602,Main Page-1,200,OK,Thread Group 3: Custom 3-7,text,true,,232414,363,20,41,https://en.wikipedia.org/wiki/Main_Page,551,0,0
+1769249137284,2805,Main Page,200,OK,Thread Group 3: Custom 3-9,text,true,,234249,573,20,41,https://en.wikipedia.org/wiki/Main_Page,121,0,0
+1769249137284,121,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-9,text,true,,1835,210,20,41,https://www.wikipedia.org/wiki/Main_Page,121,0,0
+1769249137406,2683,Main Page-1,200,OK,Thread Group 3: Custom 3-9,text,true,,232414,363,20,41,https://en.wikipedia.org/wiki/Main_Page,340,0,0
+1769249137023,3120,Main Page,200,OK,Thread Group 3: Custom 3-6,text,true,,234249,573,20,41,https://en.wikipedia.org/wiki/Main_Page,273,0,0
+1769249137023,273,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-6,text,true,,1835,210,20,41,https://www.wikipedia.org/wiki/Main_Page,273,0,0
+1769249137297,2846,Main Page-1,200,OK,Thread Group 3: Custom 3-6,text,true,,232414,363,20,41,https://en.wikipedia.org/wiki/Main_Page,244,0,0
+1769249133595,6554,Main Page,200,OK,Thread Group 3: Custom 3-19,text,true,,234249,573,20,41,https://en.wikipedia.org/wiki/Main_Page,3438,0,3208
+1769249133595,3438,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-19,text,true,,1835,210,20,41,https://www.wikipedia.org/wiki/Main_Page,3438,0,3208
+1769249137035,3114,Main Page-1,200,OK,Thread Group 3: Custom 3-19,text,true,,232414,363,20,41,https://en.wikipedia.org/wiki/Main_Page,627,0,362
+1769249129593,10633,Main Page,200,OK,Thread Group 3: Custom 3-11,text,true,,234249,573,20,42,https://en.wikipedia.org/wiki/Main_Page,3996,0,1801
+1769249129593,3996,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-11,text,true,,1835,210,20,42,https://www.wikipedia.org/wiki/Main_Page,3996,0,1801
+1769249133590,6636,Main Page-1,200,OK,Thread Group 3: Custom 3-11,text,true,,232414,363,20,42,https://en.wikipedia.org/wiki/Main_Page,1251,0,767
+1769249137615,2660,Portal:Science,200,OK,Thread Group 3: Custom 3-14,text,true,,340690,845,20,42,https://en.wikipedia.org/wiki/Portal:Science,305,0,0
+1769249137615,305,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-14,text,true,,1261,423,20,42,https://www.wikipedia.org/wiki/Portal:Science,305,0,0
+1769249137921,2354,Portal:Science-1,200,OK,Thread Group 3: Custom 3-14,text,true,,339429,422,20,42,https://en.wikipedia.org/wiki/Portal:Science,762,0,0
+1769249137785,2586,Main Page,200,OK,Thread Group 3: Custom 3-2,text,true,,234249,573,20,42,https://en.wikipedia.org/wiki/Main_Page,649,0,0
+1769249137785,649,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-2,text,true,,1835,210,20,42,https://www.wikipedia.org/wiki/Main_Page,649,0,0
+1769249138434,1937,Main Page-1,200,OK,Thread Group 3: Custom 3-2,text,true,,232414,363,20,42,https://en.wikipedia.org/wiki/Main_Page,570,0,0
+1769249136301,4314,Home Page Request,200,OK,Thread Group 1: Basic 1-8,text,true,,195760,196,7,42,https://www.wikipedia.org/,782,0,0
+1769249136301,4348,Search Page Request,200,OK,Thread Group 2: Heavy Load 2-15,text,true,,58504,791,15,42,https://en.wikipedia.org/wiki/Special:Search,155,0,0
+1769249136301,155,Search Page Request-0,301,Moved Permanently,Thread Group 2: Heavy Load 2-15,text,true,,1445,423,15,42,https://www.wikipedia.org/wiki/Special:Search,155,0,0
+1769249136457,4192,Search Page Request-1,200,OK,Thread Group 2: Heavy Load 2-15,text,true,,57059,368,15,42,https://en.wikipedia.org/wiki/Special:Search,1410,0,579
+1769249137273,3503,Search Page Request,200,OK,Thread Group 2: Heavy Load 2-18,text,true,,58504,791,15,42,https://en.wikipedia.org/wiki/Special:Search,111,0,0
+1769249137273,111,Search Page Request-0,301,Moved Permanently,Thread Group 2: Heavy Load 2-18,text,true,,1445,423,15,42,https://www.wikipedia.org/wiki/Special:Search,111,0,0
+1769249137385,3391,Search Page Request-1,200,OK,Thread Group 2: Heavy Load 2-18,text,true,,57059,368,15,42,https://en.wikipedia.org/wiki/Special:Search,2842,0,583
+1769249129606,11377,Portal:Science,200,OK,Thread Group 3: Custom 3-3,text,true,,340687,845,20,41,https://en.wikipedia.org/wiki/Portal:Science,131,0,0
+1769249129606,132,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-3,text,true,,1259,423,20,41,https://www.wikipedia.org/wiki/Portal:Science,131,0,0
+1769249129738,11245,Portal:Science-1,200,OK,Thread Group 3: Custom 3-3,text,true,,339428,422,20,41,https://en.wikipedia.org/wiki/Portal:Science,510,0,0
+1769249134292,7269,Home Page Request,200,OK,Thread Group 1: Basic 1-4,text,true,,195760,196,7,42,https://www.wikipedia.org/,895,0,0
+1769249139651,2087,Search Page Request,200,OK,Thread Group 2: Heavy Load 2-22,text,true,,58511,791,15,42,https://en.wikipedia.org/wiki/Special:Search,209,0,0
+1769249139651,209,Search Page Request-0,301,Moved Permanently,Thread Group 2: Heavy Load 2-22,text,true,,1445,423,15,42,https://www.wikipedia.org/wiki/Special:Search,209,0,0
+1769249139861,1877,Search Page Request-1,200,OK,Thread Group 2: Heavy Load 2-22,text,true,,57066,368,15,42,https://en.wikipedia.org/wiki/Special:Search,1845,0,508
+1769249138441,3402,Search Page Request,200,OK,Thread Group 2: Heavy Load 2-13,text,true,,58504,791,14,41,https://en.wikipedia.org/wiki/Special:Search,1195,0,0
+1769249138441,1195,Search Page Request-0,301,Moved Permanently,Thread Group 2: Heavy Load 2-13,text,true,,1445,423,14,41,https://www.wikipedia.org/wiki/Special:Search,1195,0,0
+1769249139636,2207,Search Page Request-1,200,OK,Thread Group 2: Heavy Load 2-13,text,true,,57059,368,14,41,https://en.wikipedia.org/wiki/Special:Search,1358,0,537
+1769249132095,10147,Main Page,200,OK,Thread Group 3: Custom 3-16,text,true,,234249,573,20,41,https://en.wikipedia.org/wiki/Main_Page,1600,0,1354
+1769249133067,9175,Home Page Request,200,OK,Thread Group 1: Basic 1-5,text,true,,195760,196,7,41,https://www.wikipedia.org/,680,0,0
+1769249132095,1600,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-16,text,true,,1835,210,20,41,https://www.wikipedia.org/wiki/Main_Page,1600,0,1354
+1769249133696,8546,Main Page-1,200,OK,Thread Group 3: Custom 3-16,text,true,,232414,363,20,41,https://en.wikipedia.org/wiki/Main_Page,5845,0,5345
+1769249138964,3519,Home Page Request,200,OK,Thread Group 2: Heavy Load 2-25,text,true,,195760,196,14,41,https://www.wikipedia.org/,919,0,270
+1769249140032,2486,Portal:Science,200,OK,Thread Group 3: Custom 3-7,text,true,,340690,845,20,41,https://en.wikipedia.org/wiki/Portal:Science,165,0,0
+1769249140032,166,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-7,text,true,,1261,423,20,41,https://www.wikipedia.org/wiki/Portal:Science,165,0,0
+1769249140198,2320,Portal:Science-1,200,OK,Thread Group 3: Custom 3-7,text,true,,339429,422,20,41,https://en.wikipedia.org/wiki/Portal:Science,290,0,0
+1769249138527,4011,Main Page,200,OK,Thread Group 3: Custom 3-10,text,true,,234249,573,20,41,https://en.wikipedia.org/wiki/Main_Page,580,0,0
+1769249138527,580,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-10,text,true,,1835,210,20,41,https://www.wikipedia.org/wiki/Main_Page,580,0,0
+1769249139108,3430,Main Page-1,200,OK,Thread Group 3: Custom 3-10,text,true,,232414,363,20,41,https://en.wikipedia.org/wiki/Main_Page,494,0,0
+1769249140275,2369,Main Page,200,OK,Thread Group 3: Custom 3-14,text,true,,234249,573,20,42,https://en.wikipedia.org/wiki/Main_Page,253,0,0
+1769249140275,253,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-14,text,true,,1835,210,20,42,https://www.wikipedia.org/wiki/Main_Page,253,0,0
+1769249140528,2116,Main Page-1,200,OK,Thread Group 3: Custom 3-14,text,true,,232414,363,20,42,https://en.wikipedia.org/wiki/Main_Page,449,0,0
+1769249133460,9312,Home Page Request,200,OK,Thread Group 1: Basic 1-7,text,true,,195760,196,7,42,https://www.wikipedia.org/,401,0,0
+1769249134097,8696,Main Page,200,OK,Thread Group 3: Custom 3-20,text,true,,234249,573,20,42,https://en.wikipedia.org/wiki/Main_Page,1443,0,1345
+1769249134097,1443,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-20,text,true,,1835,210,20,42,https://www.wikipedia.org/wiki/Main_Page,1443,0,1345
+1769249135542,7251,Main Page-1,200,OK,Thread Group 3: Custom 3-20,text,true,,232414,363,20,42,https://en.wikipedia.org/wiki/Main_Page,1929,0,1494
+1769249126966,15842,Home Page Request,200,OK,Thread Group 2: Heavy Load 2-5,text,true,,195760,196,15,42,https://www.wikipedia.org/,2431,0,760
+1769249137571,5339,Search Page Request,200,OK,Thread Group 2: Heavy Load 2-17,text,true,,58504,791,15,42,https://en.wikipedia.org/wiki/Special:Search,269,0,0
+1769249137571,269,Search Page Request-0,301,Moved Permanently,Thread Group 2: Heavy Load 2-17,text,true,,1445,423,15,42,https://www.wikipedia.org/wiki/Special:Search,269,0,0
+1769249137841,5069,Search Page Request-1,200,OK,Thread Group 2: Heavy Load 2-17,text,true,,57059,368,15,42,https://en.wikipedia.org/wiki/Special:Search,4840,0,3790
+1769249138049,5001,Home Page Request,200,OK,Thread Group 1: Basic 1-9,text,true,,195760,196,7,41,https://www.wikipedia.org/,960,0,0
+1769249136841,6397,Portal:Science,200,OK,Thread Group 3: Custom 3-15,text,true,,340690,845,20,42,https://en.wikipedia.org/wiki/Portal:Science,193,0,0
+1769249136841,193,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-15,text,true,,1261,423,20,42,https://www.wikipedia.org/wiki/Portal:Science,193,0,0
+1769249137034,6204,Portal:Science-1,200,OK,Thread Group 3: Custom 3-15,text,true,,339429,422,20,42,https://en.wikipedia.org/wiki/Portal:Science,426,0,0
+1769249131865,11391,Portal:Science,200,OK,Thread Group 3: Custom 3-4,text,true,,340687,845,20,42,https://en.wikipedia.org/wiki/Portal:Science,116,0,0
+1769249131865,116,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-4,text,true,,1259,423,20,42,https://www.wikipedia.org/wiki/Portal:Science,116,0,0
+1769249131981,11275,Portal:Science-1,200,OK,Thread Group 3: Custom 3-4,text,true,,339428,422,20,42,https://en.wikipedia.org/wiki/Portal:Science,1096,0,0
+1769249138364,4893,Home Page Request,200,OK,Thread Group 2: Heavy Load 2-24,text,true,,195760,196,15,42,https://www.wikipedia.org/,1653,0,1486
+1769249140148,3593,Portal:Science,200,OK,Thread Group 3: Custom 3-19,text,true,,340690,845,20,42,https://en.wikipedia.org/wiki/Portal:Science,228,0,0
+1769249140148,228,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-19,text,true,,1261,423,20,42,https://www.wikipedia.org/wiki/Portal:Science,228,0,0
+1769249140376,3365,Portal:Science-1,200,OK,Thread Group 3: Custom 3-19,text,true,,339429,422,20,42,https://en.wikipedia.org/wiki/Portal:Science,394,0,0
+1769249137297,6582,Portal:Science,200,OK,Thread Group 3: Custom 3-13,text,true,,340690,845,20,43,https://en.wikipedia.org/wiki/Portal:Science,120,0,0
+1769249137297,120,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-13,text,true,,1261,423,20,43,https://www.wikipedia.org/wiki/Portal:Science,120,0,0
+1769249137417,6462,Portal:Science-1,200,OK,Thread Group 3: Custom 3-13,text,true,,339429,422,20,43,https://en.wikipedia.org/wiki/Portal:Science,455,0,0
+1769249139894,3994,Portal:Science,200,OK,Thread Group 3: Custom 3-17,text,true,,340690,845,20,43,https://en.wikipedia.org/wiki/Portal:Science,280,0,0
+1769249139894,280,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-17,text,true,,1261,423,20,43,https://www.wikipedia.org/wiki/Portal:Science,280,0,0
+1769249140175,3713,Portal:Science-1,200,OK,Thread Group 3: Custom 3-17,text,true,,339429,422,20,43,https://en.wikipedia.org/wiki/Portal:Science,291,0,0
+1769249140143,4017,Portal:Science,200,OK,Thread Group 3: Custom 3-6,text,true,,340690,845,20,43,https://en.wikipedia.org/wiki/Portal:Science,246,0,0
+1769249140143,246,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-6,text,true,,1261,423,20,43,https://www.wikipedia.org/wiki/Portal:Science,246,0,0
+1769249140389,3771,Portal:Science-1,200,OK,Thread Group 3: Custom 3-6,text,true,,339429,422,20,43,https://en.wikipedia.org/wiki/Portal:Science,397,0,0
+1769249141963,2222,Home Page Request,200,OK,Thread Group 2: Heavy Load 2-30,text,true,,195760,196,16,43,https://www.wikipedia.org/,645,0,220
+1769249141365,2844,Home Page Request,200,OK,Thread Group 2: Heavy Load 2-29,text,true,,195760,196,16,43,https://www.wikipedia.org/,1185,0,309
+1769249142562,1658,Home Page Request,200,OK,Thread Group 2: Heavy Load 2-31,text,true,,195760,196,16,43,https://www.wikipedia.org/,520,0,243
+1769249140089,4142,Portal:Science,200,OK,Thread Group 3: Custom 3-9,text,true,,340690,845,20,43,https://en.wikipedia.org/wiki/Portal:Science,276,0,0
+1769249140089,276,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-9,text,true,,1261,423,20,43,https://www.wikipedia.org/wiki/Portal:Science,276,0,0
+1769249140365,3866,Portal:Science-1,200,OK,Thread Group 3: Custom 3-9,text,true,,339429,422,20,43,https://en.wikipedia.org/wiki/Portal:Science,405,0,0
+1769249137418,7154,Portal:Science,200,OK,Thread Group 3: Custom 3-1,text,true,,340690,845,20,44,https://en.wikipedia.org/wiki/Portal:Science,196,0,0
+1769249137418,196,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-1,text,true,,1261,423,20,44,https://www.wikipedia.org/wiki/Portal:Science,196,0,0
+1769249137615,6957,Portal:Science-1,200,OK,Thread Group 3: Custom 3-1,text,true,,339429,422,20,44,https://en.wikipedia.org/wiki/Portal:Science,378,0,0
+1769249139921,4782,Portal:Science,200,OK,Thread Group 3: Custom 3-12,text,true,,340690,845,20,44,https://en.wikipedia.org/wiki/Portal:Science,238,0,0
+1769249139921,238,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-12,text,true,,1261,423,20,44,https://www.wikipedia.org/wiki/Portal:Science,238,0,0
+1769249140159,4544,Portal:Science-1,200,OK,Thread Group 3: Custom 3-12,text,true,,339429,422,20,44,https://en.wikipedia.org/wiki/Portal:Science,399,0,0
+1769249136572,8174,Home Page Request,200,OK,Thread Group 2: Heavy Load 2-21,text,true,,195760,196,17,44,https://www.wikipedia.org/,773,0,458
+1769249142519,2299,Main Page,200,OK,Thread Group 3: Custom 3-7,text,true,,234249,573,20,44,https://en.wikipedia.org/wiki/Main_Page,118,0,0
+1769249142519,118,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-7,text,true,,1835,210,20,44,https://www.wikipedia.org/wiki/Main_Page,118,0,0
+1769249142638,2180,Main Page-1,200,OK,Thread Group 3: Custom 3-7,text,true,,232414,363,20,44,https://en.wikipedia.org/wiki/Main_Page,383,0,0
+1769249139566,5329,Home Page Request,200,OK,Thread Group 2: Heavy Load 2-26,text,true,,195760,196,17,44,https://www.wikipedia.org/,644,0,425
+1769249135367,9577,Home Page Request,200,OK,Thread Group 2: Heavy Load 2-19,text,true,,195760,196,17,44,https://www.wikipedia.org/,615,0,248
+1769249140371,4597,Portal:Science,200,OK,Thread Group 3: Custom 3-2,text,true,,340690,845,20,45,https://en.wikipedia.org/wiki/Portal:Science,238,0,0
+1769249140371,238,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-2,text,true,,1261,423,20,45,https://www.wikipedia.org/wiki/Portal:Science,238,0,0
+1769249140609,4359,Portal:Science-1,200,OK,Thread Group 3: Custom 3-2,text,true,,339429,422,20,45,https://en.wikipedia.org/wiki/Portal:Science,1043,0,0
+1769249140162,4866,Home Page Request,200,OK,Thread Group 2: Heavy Load 2-27,text,true,,195760,196,18,45,https://www.wikipedia.org/,3864,0,500
+1769249134232,11021,Portal:Science,200,OK,Thread Group 3: Custom 3-5,text,true,,340689,845,20,45,https://en.wikipedia.org/wiki/Portal:Science,3145,0,0
+1769249134232,3145,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-5,text,true,,1260,423,20,45,https://www.wikipedia.org/wiki/Portal:Science,3145,0,0
+1769249137379,7874,Portal:Science-1,200,OK,Thread Group 3: Custom 3-5,text,true,,339429,422,20,45,https://en.wikipedia.org/wiki/Portal:Science,482,0,0
+1769249137765,7581,Home Page Request,200,OK,Thread Group 2: Heavy Load 2-23,text,true,,195760,196,18,45,https://www.wikipedia.org/,4759,0,3847
+1769249140764,4767,Home Page Request,200,OK,Thread Group 2: Heavy Load 2-28,text,true,,195760,196,18,45,https://www.wikipedia.org/,1786,0,1335
+1769249143163,2495,Home Page Request,200,OK,Thread Group 2: Heavy Load 2-32,text,true,,195760,196,19,46,https://www.wikipedia.org/,1004,0,244
+1769249142809,2941,Search Page Request,200,OK,Thread Group 2: Heavy Load 2-5,text,true,,58503,791,19,46,https://en.wikipedia.org/wiki/Special:Search,399,0,0
+1769249142809,399,Search Page Request-0,301,Moved Permanently,Thread Group 2: Heavy Load 2-5,text,true,,1445,423,19,46,https://www.wikipedia.org/wiki/Special:Search,399,0,0
+1769249143208,2542,Search Page Request-1,200,OK,Thread Group 2: Heavy Load 2-5,text,true,,57058,368,19,46,https://en.wikipedia.org/wiki/Special:Search,2099,0,1432
+1769249144186,1704,Search Page Request,200,OK,Thread Group 2: Heavy Load 2-30,text,true,,58512,791,18,45,https://en.wikipedia.org/wiki/Special:Search,102,0,0
+1769249144186,102,Search Page Request-0,301,Moved Permanently,Thread Group 2: Heavy Load 2-30,text,true,,1445,423,18,45,https://www.wikipedia.org/wiki/Special:Search,102,0,0
+1769249144289,1601,Search Page Request-1,200,OK,Thread Group 2: Heavy Load 2-30,text,true,,57067,368,18,45,https://en.wikipedia.org/wiki/Special:Search,1089,0,260
+1769249142773,3203,Home Page Request,200,OK,Thread Group 1: Basic 1-7,text,true,,195760,196,7,44,https://www.wikipedia.org/,495,0,0
+1769249144210,1791,Search Page Request,200,OK,Thread Group 2: Heavy Load 2-29,text,true,,58504,791,17,44,https://en.wikipedia.org/wiki/Special:Search,639,0,0
+1769249144210,639,Search Page Request-0,301,Moved Permanently,Thread Group 2: Heavy Load 2-29,text,true,,1445,423,17,44,https://www.wikipedia.org/wiki/Special:Search,639,0,0
+1769249144850,1151,Search Page Request-1,200,OK,Thread Group 2: Heavy Load 2-29,text,true,,57059,368,17,44,https://en.wikipedia.org/wiki/Special:Search,671,0,229
+1769249136830,9540,Home Page Request,200,OK,Thread Group 1: Basic 1-6,text,true,,195760,196,7,44,https://www.wikipedia.org/,526,0,0
+1769249143742,2840,Main Page,200,OK,Thread Group 3: Custom 3-19,text,true,,234249,573,20,44,https://en.wikipedia.org/wiki/Main_Page,278,0,0
+1769249143742,278,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-19,text,true,,1835,210,20,44,https://www.wikipedia.org/wiki/Main_Page,278,0,0
+1769249144021,2561,Main Page-1,200,OK,Thread Group 3: Custom 3-19,text,true,,232414,363,20,44,https://en.wikipedia.org/wiki/Main_Page,536,0,0
+1769249144221,2571,Search Page Request,200,OK,Thread Group 2: Heavy Load 2-31,text,true,,58512,791,18,45,https://en.wikipedia.org/wiki/Special:Search,136,0,0
+1769249144221,136,Search Page Request-0,301,Moved Permanently,Thread Group 2: Heavy Load 2-31,text,true,,1445,423,18,45,https://www.wikipedia.org/wiki/Special:Search,136,0,0
+1769249144358,2434,Search Page Request-1,200,OK,Thread Group 2: Heavy Load 2-31,text,true,,57067,368,18,45,https://en.wikipedia.org/wiki/Special:Search,1992,0,1388
+1769249145531,1297,Search Page Request,200,OK,Thread Group 2: Heavy Load 2-28,text,true,,58503,791,17,44,https://en.wikipedia.org/wiki/Special:Search,150,0,0
+1769249145531,150,Search Page Request-0,301,Moved Permanently,Thread Group 2: Heavy Load 2-28,text,true,,1445,423,17,44,https://www.wikipedia.org/wiki/Special:Search,150,0,0
+1769249145682,1146,Search Page Request-1,200,OK,Thread Group 2: Heavy Load 2-28,text,true,,57058,368,17,44,https://en.wikipedia.org/wiki/Special:Search,939,0,223
+1769249142243,4624,Portal:Science,200,OK,Thread Group 3: Custom 3-16,text,true,,340690,845,20,43,https://en.wikipedia.org/wiki/Portal:Science,678,0,0
+1769249142243,678,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-16,text,true,,1261,423,20,43,https://www.wikipedia.org/wiki/Portal:Science,678,0,0
+1769249142921,3946,Portal:Science-1,200,OK,Thread Group 3: Custom 3-16,text,true,,339429,422,20,43,https://en.wikipedia.org/wiki/Portal:Science,556,0,0
+1769249144161,2886,Main Page,200,OK,Thread Group 3: Custom 3-6,text,true,,234249,573,20,43,https://en.wikipedia.org/wiki/Main_Page,121,0,0
+1769249144161,121,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-6,text,true,,1835,210,20,43,https://www.wikipedia.org/wiki/Main_Page,121,0,0
+1769249144282,2765,Main Page-1,200,OK,Thread Group 3: Custom 3-6,text,true,,232414,363,20,43,https://en.wikipedia.org/wiki/Main_Page,331,0,0
+1769249143764,3375,Home Page Request,200,OK,Thread Group 2: Heavy Load 2-33,text,true,,195760,196,16,43,https://www.wikipedia.org/,2157,0,1913
+1769249144364,2824,Home Page Request,200,OK,Thread Group 2: Heavy Load 2-34,text,true,,195760,196,16,43,https://www.wikipedia.org/,641,0,282
+1769249140615,6736,Home Page Request,200,OK,Thread Group 1: Basic 1-8,text,true,,195760,196,7,43,https://www.wikipedia.org/,2188,0,0
+1769249143050,4334,Home Page Request,200,OK,Thread Group 1: Basic 1-9,text,true,,195760,196,6,43,https://www.wikipedia.org/,948,0,0
+1769249144944,2476,Search Page Request,200,OK,Thread Group 2: Heavy Load 2-19,text,true,,58503,791,17,43,https://en.wikipedia.org/wiki/Special:Search,120,0,0
+1769249144944,120,Search Page Request-0,301,Moved Permanently,Thread Group 2: Heavy Load 2-19,text,true,,1445,423,17,43,https://www.wikipedia.org/wiki/Special:Search,120,0,0
+1769249145065,2355,Search Page Request-1,200,OK,Thread Group 2: Heavy Load 2-19,text,true,,57058,368,17,43,https://en.wikipedia.org/wiki/Special:Search,1976,0,259
+1769249142537,5001,Portal:Science,200,OK,Thread Group 3: Custom 3-10,text,true,,340690,845,20,42,https://en.wikipedia.org/wiki/Portal:Science,107,0,0
+1769249142537,107,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-10,text,true,,1261,423,20,42,https://www.wikipedia.org/wiki/Portal:Science,107,0,0
+1769249142644,4894,Portal:Science-1,200,OK,Thread Group 3: Custom 3-10,text,true,,339429,422,20,42,https://en.wikipedia.org/wiki/Portal:Science,624,0,0
+1769249133097,14524,Main Page,200,OK,Thread Group 3: Custom 3-18,text,true,,234249,573,20,42,https://en.wikipedia.org/wiki/Main_Page,575,0,329
+1769249133097,575,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-18,text,true,,1835,210,20,42,https://www.wikipedia.org/wiki/Main_Page,575,0,329
+1769249133673,13948,Main Page-1,200,OK,Thread Group 3: Custom 3-18,text,true,,232414,363,20,42,https://en.wikipedia.org/wiki/Main_Page,11184,0,10549
+1769249143889,3906,Main Page,200,OK,Thread Group 3: Custom 3-17,text,true,,234249,573,20,42,https://en.wikipedia.org/wiki/Main_Page,1199,0,0
+1769249143889,1199,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-17,text,true,,1835,210,20,42,https://www.wikipedia.org/wiki/Main_Page,1199,0,0
+1769249145088,2707,Main Page-1,200,OK,Thread Group 3: Custom 3-17,text,true,,232414,363,20,42,https://en.wikipedia.org/wiki/Main_Page,208,0,0
+1769249142483,5348,Search Page Request,200,OK,Thread Group 2: Heavy Load 2-25,text,true,,58503,791,16,42,https://en.wikipedia.org/wiki/Special:Search,132,0,0
+1769249142483,132,Search Page Request-0,301,Moved Permanently,Thread Group 2: Heavy Load 2-25,text,true,,1445,423,16,42,https://www.wikipedia.org/wiki/Special:Search,132,0,0
+1769249142616,5215,Search Page Request-1,200,OK,Thread Group 2: Heavy Load 2-25,text,true,,57058,368,16,42,https://en.wikipedia.org/wiki/Special:Search,4139,0,3098
+1769249144572,3260,Main Page,200,OK,Thread Group 3: Custom 3-1,text,true,,234249,573,20,42,https://en.wikipedia.org/wiki/Main_Page,113,0,0
+1769249144572,114,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-1,text,true,,1835,210,20,42,https://www.wikipedia.org/wiki/Main_Page,113,0,0
+1769249144686,3146,Main Page-1,200,OK,Thread Group 3: Custom 3-1,text,true,,232414,363,20,42,https://en.wikipedia.org/wiki/Main_Page,1180,0,0
+1769249138613,9220,Portal:Science,200,OK,Thread Group 3: Custom 3-8,text,true,,340690,845,20,42,https://en.wikipedia.org/wiki/Portal:Science,586,0,0
+1769249138613,586,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-8,text,true,,1261,423,20,42,https://www.wikipedia.org/wiki/Portal:Science,586,0,0
+1769249139199,8634,Portal:Science-1,200,OK,Thread Group 3: Custom 3-8,text,true,,339429,422,20,42,https://en.wikipedia.org/wiki/Portal:Science,620,0,0
+1769249145658,2180,Search Page Request,200,OK,Thread Group 2: Heavy Load 2-32,text,true,,58504,791,15,41,https://en.wikipedia.org/wiki/Special:Search,103,0,0
+1769249145658,103,Search Page Request-0,301,Moved Permanently,Thread Group 2: Heavy Load 2-32,text,true,,1445,423,15,41,https://www.wikipedia.org/wiki/Special:Search,103,0,0
+1769249145761,2077,Search Page Request-1,200,OK,Thread Group 2: Heavy Load 2-32,text,true,,57059,368,15,41,https://en.wikipedia.org/wiki/Special:Search,1665,0,225
+1769249145029,2809,Search Page Request,200,OK,Thread Group 2: Heavy Load 2-27,text,true,,58504,791,15,41,https://en.wikipedia.org/wiki/Special:Search,113,0,0
+1769249145029,113,Search Page Request-0,301,Moved Permanently,Thread Group 2: Heavy Load 2-27,text,true,,1445,423,15,41,https://www.wikipedia.org/wiki/Special:Search,113,0,0
+1769249145143,2695,Search Page Request-1,200,OK,Thread Group 2: Heavy Load 2-27,text,true,,57059,368,15,41,https://en.wikipedia.org/wiki/Special:Search,883,0,231
+1769249145346,2814,Search Page Request,200,OK,Thread Group 2: Heavy Load 2-23,text,true,,58504,791,14,40,https://en.wikipedia.org/wiki/Special:Search,293,0,0
+1769249142645,5516,Portal:Science,200,OK,Thread Group 3: Custom 3-14,text,true,,340690,845,20,40,https://en.wikipedia.org/wiki/Portal:Science,714,0,0
+1769249145346,293,Search Page Request-0,301,Moved Permanently,Thread Group 2: Heavy Load 2-23,text,true,,1445,423,14,40,https://www.wikipedia.org/wiki/Special:Search,293,0,0
+1769249142645,714,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-14,text,true,,1261,423,20,40,https://www.wikipedia.org/wiki/Portal:Science,714,0,0
+1769249145640,2520,Search Page Request-1,200,OK,Thread Group 2: Heavy Load 2-23,text,true,,57059,368,14,40,https://en.wikipedia.org/wiki/Special:Search,1915,0,1122
+1769249143359,4802,Portal:Science-1,200,OK,Thread Group 3: Custom 3-14,text,true,,339429,422,20,40,https://en.wikipedia.org/wiki/Portal:Science,468,0,0
+1769249144232,3941,Main Page,200,OK,Thread Group 3: Custom 3-9,text,true,,234249,573,20,39,https://en.wikipedia.org/wiki/Main_Page,675,0,0
+1769249144232,676,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-9,text,true,,1835,210,20,39,https://www.wikipedia.org/wiki/Main_Page,675,0,0
+1769249144908,3265,Main Page-1,200,OK,Thread Group 3: Custom 3-9,text,true,,232414,363,20,39,https://en.wikipedia.org/wiki/Main_Page,750,0,0
+1769249144968,3277,Main Page,200,OK,Thread Group 3: Custom 3-2,text,true,,234249,573,20,39,https://en.wikipedia.org/wiki/Main_Page,114,0,0
+1769249144968,114,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-2,text,true,,1835,210,20,39,https://www.wikipedia.org/wiki/Main_Page,114,0,0
+1769249145082,3163,Main Page-1,200,OK,Thread Group 3: Custom 3-2,text,true,,232414,363,20,39,https://en.wikipedia.org/wiki/Main_Page,599,0,0
+1769249141562,6707,Home Page Request,200,OK,Thread Group 1: Basic 1-4,text,true,,195760,196,6,39,https://www.wikipedia.org/,920,0,0
+1769249143238,5109,Main Page,200,OK,Thread Group 3: Custom 3-15,text,true,,234249,573,20,39,https://en.wikipedia.org/wiki/Main_Page,971,0,0
+1769249143238,971,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-15,text,true,,1835,210,20,39,https://www.wikipedia.org/wiki/Main_Page,971,0,0
+1769249144209,4138,Main Page-1,200,OK,Thread Group 3: Custom 3-15,text,true,,232414,363,20,39,https://en.wikipedia.org/wiki/Main_Page,560,0,0
+1769249144745,3813,Search Page Request,200,OK,Thread Group 2: Heavy Load 2-21,text,true,,58511,791,13,39,https://en.wikipedia.org/wiki/Special:Search,117,0,0
+1769249144745,117,Search Page Request-0,301,Moved Permanently,Thread Group 2: Heavy Load 2-21,text,true,,1445,423,13,39,https://www.wikipedia.org/wiki/Special:Search,117,0,0
+1769249144863,3695,Search Page Request-1,200,OK,Thread Group 2: Heavy Load 2-21,text,true,,57066,368,13,39,https://en.wikipedia.org/wiki/Special:Search,2980,0,1888
+1769249147189,1435,Search Page Request,200,OK,Thread Group 2: Heavy Load 2-34,text,true,,58504,791,13,39,https://en.wikipedia.org/wiki/Special:Search,218,0,0
+1769249147189,218,Search Page Request-0,301,Moved Permanently,Thread Group 2: Heavy Load 2-34,text,true,,1445,423,13,39,https://www.wikipedia.org/wiki/Special:Search,218,0,0
+1769249147408,1216,Search Page Request-1,200,OK,Thread Group 2: Heavy Load 2-34,text,true,,57059,368,13,39,https://en.wikipedia.org/wiki/Special:Search,1069,0,373
+1769249143878,4779,Main Page,200,OK,Thread Group 3: Custom 3-13,text,true,,234249,573,20,38,https://en.wikipedia.org/wiki/Main_Page,115,0,0
+1769249143878,115,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-13,text,true,,1835,210,20,38,https://www.wikipedia.org/wiki/Main_Page,115,0,0
+1769249143993,4664,Main Page-1,200,OK,Thread Group 3: Custom 3-13,text,true,,232414,363,20,38,https://en.wikipedia.org/wiki/Main_Page,795,0,0
+1769249145575,3167,Home Page Request,200,OK,Thread Group 2: Heavy Load 2-36,text,true,,195760,196,12,38,https://www.wikipedia.org/,758,0,244
+1769249142792,6049,Portal:Science,200,OK,Thread Group 3: Custom 3-20,text,true,,340690,845,20,38,https://en.wikipedia.org/wiki/Portal:Science,117,0,0
+1769249142792,117,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-20,text,true,,1261,423,20,38,https://www.wikipedia.org/wiki/Portal:Science,117,0,0
+1769249142909,5932,Portal:Science-1,200,OK,Thread Group 3: Custom 3-20,text,true,,339429,422,20,38,https://en.wikipedia.org/wiki/Portal:Science,383,0,0
+1769249147363,1587,Home Page Request,200,OK,Thread Group 2: Heavy Load 2-39,text,true,,195760,196,12,38,https://www.wikipedia.org/,500,0,261
+1769249144704,4264,Main Page,200,OK,Thread Group 3: Custom 3-12,text,true,,234249,573,20,38,https://en.wikipedia.org/wiki/Main_Page,107,0,0
+1769249144704,107,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-12,text,true,,1835,210,20,38,https://www.wikipedia.org/wiki/Main_Page,107,0,0
+1769249144811,4157,Main Page-1,200,OK,Thread Group 3: Custom 3-12,text,true,,232414,363,20,38,https://en.wikipedia.org/wiki/Main_Page,1048,0,0
+1769249146867,2238,Main Page,200,OK,Thread Group 3: Custom 3-16,text,true,,234249,573,20,38,https://en.wikipedia.org/wiki/Main_Page,114,0,0
+1769249146867,114,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-16,text,true,,1835,210,20,38,https://www.wikipedia.org/wiki/Main_Page,114,0,0
+1769249146982,2123,Main Page-1,200,OK,Thread Group 3: Custom 3-16,text,true,,232414,363,20,38,https://en.wikipedia.org/wiki/Main_Page,431,0,0
+1769249146765,2615,Home Page Request,200,OK,Thread Group 2: Heavy Load 2-38,text,true,,195760,196,13,39,https://www.wikipedia.org/,661,0,223
+1769249144818,4659,Portal:Science,200,OK,Thread Group 3: Custom 3-7,text,true,,340690,845,20,39,https://en.wikipedia.org/wiki/Portal:Science,113,0,0
+1769249144818,113,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-7,text,true,,1261,423,20,39,https://www.wikipedia.org/wiki/Portal:Science,113,0,0
+1769249144932,4545,Portal:Science-1,200,OK,Thread Group 3: Custom 3-7,text,true,,339429,422,20,39,https://en.wikipedia.org/wiki/Portal:Science,927,0,0
+1769249144895,4864,Search Page Request,200,OK,Thread Group 2: Heavy Load 2-26,text,true,,58504,791,13,39,https://en.wikipedia.org/wiki/Special:Search,3439,0,0
+1769249144895,3439,Search Page Request-0,301,Moved Permanently,Thread Group 2: Heavy Load 2-26,text,true,,1445,423,13,39,https://www.wikipedia.org/wiki/Special:Search,3439,0,0
+1769249148336,1423,Search Page Request-1,200,OK,Thread Group 2: Heavy Load 2-26,text,true,,57059,368,13,39,https://en.wikipedia.org/wiki/Special:Search,1101,0,383
+1769249137011,12804,Home Page Request,200,OK,Thread Group 1: Basic 1-10,text,true,,195760,196,6,39,https://www.wikipedia.org/,501,0,0
+1769249147140,2863,Search Page Request,200,OK,Thread Group 2: Heavy Load 2-33,text,true,,58504,791,13,39,https://en.wikipedia.org/wiki/Special:Search,262,0,0
+1769249147140,262,Search Page Request-0,301,Moved Permanently,Thread Group 2: Heavy Load 2-33,text,true,,1445,423,13,39,https://www.wikipedia.org/wiki/Special:Search,262,0,0
+1769249147403,2600,Search Page Request-1,200,OK,Thread Group 2: Heavy Load 2-33,text,true,,57059,368,13,39,https://en.wikipedia.org/wiki/Special:Search,1915,0,371
+1769249146165,3844,Home Page Request,200,OK,Thread Group 2: Heavy Load 2-37,text,true,,195760,196,12,38,https://www.wikipedia.org/,974,0,301
+1769249145253,4830,Main Page,200,OK,Thread Group 3: Custom 3-5,text,true,,234249,573,20,38,https://en.wikipedia.org/wiki/Main_Page,119,0,0
+1769249145253,119,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-5,text,true,,1835,210,20,38,https://www.wikipedia.org/wiki/Main_Page,119,0,0
+1769249145372,4711,Main Page-1,200,OK,Thread Group 3: Custom 3-5,text,true,,232414,363,20,38,https://en.wikipedia.org/wiki/Main_Page,582,0,0
+1769249148161,2078,Main Page,200,OK,Thread Group 3: Custom 3-14,text,true,,234249,573,20,38,https://en.wikipedia.org/wiki/Main_Page,107,0,0
+1769249148161,107,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-14,text,true,,1835,210,20,38,https://www.wikipedia.org/wiki/Main_Page,107,0,0
+1769249148269,1970,Main Page-1,200,OK,Thread Group 3: Custom 3-14,text,true,,232414,363,20,38,https://en.wikipedia.org/wiki/Main_Page,289,0,0
+1769249146369,4008,Home Page Request,200,OK,Thread Group 1: Basic 1-6,text,true,,195760,196,6,39,https://www.wikipedia.org/,1123,0,0
+1769249143256,7121,Search Page Request,200,OK,Thread Group 2: Heavy Load 2-24,text,true,,58504,791,13,39,https://en.wikipedia.org/wiki/Special:Search,959,0,0
+1769249143256,959,Search Page Request-0,301,Moved Permanently,Thread Group 2: Heavy Load 2-24,text,true,,1445,423,13,39,https://www.wikipedia.org/wiki/Special:Search,959,0,0
+1769249144216,6161,Search Page Request-1,200,OK,Thread Group 2: Heavy Load 2-24,text,true,,57059,368,13,39,https://en.wikipedia.org/wiki/Special:Search,5277,0,3689
+1769249146582,3801,Portal:Science,200,OK,Thread Group 3: Custom 3-19,text,true,,340690,845,20,38,https://en.wikipedia.org/wiki/Portal:Science,192,0,0
+1769249146582,192,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-19,text,true,,1261,423,20,38,https://www.wikipedia.org/wiki/Portal:Science,192,0,0
+1769249146774,3609,Portal:Science-1,200,OK,Thread Group 3: Custom 3-19,text,true,,339429,422,20,38,https://en.wikipedia.org/wiki/Portal:Science,398,0,0
+1769249147962,2441,Home Page Request,200,OK,Thread Group 2: Heavy Load 2-40,text,true,,195760,196,12,38,https://www.wikipedia.org/,590,0,378
+1769249147047,3689,Portal:Science,200,OK,Thread Group 3: Custom 3-6,text,true,,340690,845,20,38,https://en.wikipedia.org/wiki/Portal:Science,146,0,0
+1769249147047,147,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-6,text,true,,1261,423,20,38,https://www.wikipedia.org/wiki/Portal:Science,146,0,0
+1769249147194,3542,Portal:Science-1,200,OK,Thread Group 3: Custom 3-6,text,true,,339429,422,20,38,https://en.wikipedia.org/wiki/Portal:Science,326,0,0
+1769249145977,4823,Home Page Request,200,OK,Thread Group 1: Basic 1-7,text,true,,195760,196,6,38,https://www.wikipedia.org/,767,0,0
+1769249143257,7572,Main Page,200,OK,Thread Group 3: Custom 3-4,text,true,,234249,573,20,38,https://en.wikipedia.org/wiki/Main_Page,143,0,0
+1769249143257,143,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-4,text,true,,1835,210,20,38,https://www.wikipedia.org/wiki/Main_Page,143,0,0
+1769249143401,7428,Main Page-1,200,OK,Thread Group 3: Custom 3-4,text,true,,232414,363,20,38,https://en.wikipedia.org/wiki/Main_Page,514,0,0
+1769249147539,3421,Main Page,200,OK,Thread Group 3: Custom 3-10,text,true,,234249,573,20,38,https://en.wikipedia.org/wiki/Main_Page,250,0,0
+1769249147539,250,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-10,text,true,,1835,210,20,38,https://www.wikipedia.org/wiki/Main_Page,250,0,0
+1769249147790,3170,Main Page-1,200,OK,Thread Group 3: Custom 3-10,text,true,,232414,363,20,38,https://en.wikipedia.org/wiki/Main_Page,478,0,0
+1769249147795,3235,Portal:Science,200,OK,Thread Group 3: Custom 3-17,text,true,,340690,845,20,39,https://en.wikipedia.org/wiki/Portal:Science,123,0,0
+1769249147795,123,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-17,text,true,,1261,423,20,39,https://www.wikipedia.org/wiki/Portal:Science,123,0,0
+1769249147919,3111,Portal:Science-1,200,OK,Thread Group 3: Custom 3-17,text,true,,339429,422,20,39,https://en.wikipedia.org/wiki/Portal:Science,588,0,0
+1769249147385,3707,Home Page Request,200,OK,Thread Group 1: Basic 1-9,text,true,,195760,196,6,39,https://www.wikipedia.org/,464,0,0
+1769249140983,10184,Main Page,200,OK,Thread Group 3: Custom 3-3,text,true,,234249,573,20,38,https://en.wikipedia.org/wiki/Main_Page,355,0,0
+1769249140983,355,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-3,text,true,,1835,210,20,38,https://www.wikipedia.org/wiki/Main_Page,355,0,0
+1769249141339,9828,Main Page-1,200,OK,Thread Group 3: Custom 3-3,text,true,,232414,363,20,38,https://en.wikipedia.org/wiki/Main_Page,752,0,0
+1769249147622,3753,Portal:Science,200,OK,Thread Group 3: Custom 3-18,text,true,,340690,845,20,38,https://en.wikipedia.org/wiki/Portal:Science,204,0,0
+1769249147622,204,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-18,text,true,,1261,423,20,38,https://www.wikipedia.org/wiki/Portal:Science,204,0,0
+1769249147827,3548,Portal:Science-1,200,OK,Thread Group 3: Custom 3-18,text,true,,339429,422,20,38,https://en.wikipedia.org/wiki/Portal:Science,219,0,0
+1769249149165,2318,Home Page Request,200,OK,Thread Group 2: Heavy Load 2-42,text,true,,195760,196,13,38,https://www.wikipedia.org/,870,0,579
+1769249149381,2554,Search Page Request,200,OK,Thread Group 2: Heavy Load 2-38,text,true,,58504,791,14,39,https://en.wikipedia.org/wiki/Special:Search,1008,0,0
+1769249149381,1008,Search Page Request-0,301,Moved Permanently,Thread Group 2: Heavy Load 2-38,text,true,,1445,423,14,39,https://www.wikipedia.org/wiki/Special:Search,1008,0,0
+1769249150391,1544,Search Page Request-1,200,OK,Thread Group 2: Heavy Load 2-38,text,true,,57059,368,14,39,https://en.wikipedia.org/wiki/Special:Search,1127,0,420
+1769249148562,4081,Home Page Request,200,OK,Thread Group 2: Heavy Load 2-41,text,true,,195760,196,14,39,https://www.wikipedia.org/,1454,0,609
+1769249142243,10660,Home Page Request,200,OK,Thread Group 1: Basic 1-5,text,true,,195760,196,5,40,https://www.wikipedia.org/,1151,0,0
+1769249149106,3813,Portal:Science,200,OK,Thread Group 3: Custom 3-16,text,true,,340690,845,20,40,https://en.wikipedia.org/wiki/Portal:Science,348,0,0
+1769249149106,348,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-16,text,true,,1261,423,20,40,https://www.wikipedia.org/wiki/Portal:Science,348,0,0
+1769249149455,3464,Portal:Science-1,200,OK,Thread Group 3: Custom 3-16,text,true,,339429,422,20,40,https://en.wikipedia.org/wiki/Portal:Science,188,0,0
+1769249147832,5093,Portal:Science,200,OK,Thread Group 3: Custom 3-1,text,true,,340690,845,20,40,https://en.wikipedia.org/wiki/Portal:Science,108,0,0
+1769249147832,108,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-1,text,true,,1261,423,20,40,https://www.wikipedia.org/wiki/Portal:Science,108,0,0
+1769249147941,4984,Portal:Science-1,200,OK,Thread Group 3: Custom 3-1,text,true,,339429,422,20,40,https://en.wikipedia.org/wiki/Portal:Science,376,0,0
+1769249148246,4704,Portal:Science,200,OK,Thread Group 3: Custom 3-2,text,true,,340690,845,20,40,https://en.wikipedia.org/wiki/Portal:Science,131,0,0
+1769249148246,131,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-2,text,true,,1261,423,20,40,https://www.wikipedia.org/wiki/Portal:Science,131,0,0
+1769249148378,4572,Portal:Science-1,200,OK,Thread Group 3: Custom 3-2,text,true,,339429,422,20,40,https://en.wikipedia.org/wiki/Portal:Science,382,0,0
+1769249150241,2757,Portal:Science,200,OK,Thread Group 3: Custom 3-14,text,true,,340690,845,20,40,https://en.wikipedia.org/wiki/Portal:Science,149,0,0
+1769249150241,149,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-14,text,true,,1261,423,20,40,https://www.wikipedia.org/wiki/Portal:Science,149,0,0
+1769249150390,2608,Portal:Science-1,200,OK,Thread Group 3: Custom 3-14,text,true,,339429,422,20,40,https://en.wikipedia.org/wiki/Portal:Science,200,0,0
+1769249150364,2681,Home Page Request,200,OK,Thread Group 2: Heavy Load 2-44,text,true,,195760,196,15,40,https://www.wikipedia.org/,697,0,450
+1769249150404,2658,Search Page Request,200,OK,Thread Group 2: Heavy Load 2-40,text,true,,58504,791,15,40,https://en.wikipedia.org/wiki/Special:Search,125,0,0
+1769249150404,125,Search Page Request-0,301,Moved Permanently,Thread Group 2: Heavy Load 2-40,text,true,,1445,423,15,40,https://www.wikipedia.org/wiki/Special:Search,125,0,0
+1769249150530,2532,Search Page Request-1,200,OK,Thread Group 2: Heavy Load 2-40,text,true,,57059,368,15,40,https://en.wikipedia.org/wiki/Special:Search,2214,0,478
+1769249149478,3622,Main Page,200,OK,Thread Group 3: Custom 3-7,text,true,,234249,573,20,39,https://en.wikipedia.org/wiki/Main_Page,252,0,0
+1769249149478,252,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-7,text,true,,1835,210,20,39,https://www.wikipedia.org/wiki/Main_Page,252,0,0
+1769249149731,3369,Main Page-1,200,OK,Thread Group 3: Custom 3-7,text,true,,232414,363,20,39,https://en.wikipedia.org/wiki/Main_Page,673,0,0
+1769249150385,2779,Main Page,200,OK,Thread Group 3: Custom 3-19,text,true,,234249,573,20,39,https://en.wikipedia.org/wiki/Main_Page,127,0,0
+1769249150385,127,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-19,text,true,,1835,210,20,39,https://www.wikipedia.org/wiki/Main_Page,127,0,0
+1769249150513,2651,Main Page-1,200,OK,Thread Group 3: Custom 3-19,text,true,,232414,363,20,39,https://en.wikipedia.org/wiki/Main_Page,425,0,0
+1769249150010,3241,Search Page Request,200,OK,Thread Group 2: Heavy Load 2-37,text,true,,58504,791,14,39,https://en.wikipedia.org/wiki/Special:Search,130,0,0
+1769249150010,130,Search Page Request-0,301,Moved Permanently,Thread Group 2: Heavy Load 2-37,text,true,,1445,423,14,39,https://www.wikipedia.org/wiki/Special:Search,130,0,0
+1769249150141,3110,Search Page Request-1,200,OK,Thread Group 2: Heavy Load 2-37,text,true,,57059,368,14,39,https://en.wikipedia.org/wiki/Special:Search,3110,0,373
+1769249144967,8386,Home Page Request,200,OK,Thread Group 2: Heavy Load 2-35,text,true,,195760,196,13,38,https://www.wikipedia.org/,4150,0,3529
+1769249149765,3607,Home Page Request,200,OK,Thread Group 2: Heavy Load 2-43,text,true,,195760,196,14,39,https://www.wikipedia.org/,1680,0,1363
+1769249150967,2473,Home Page Request,200,OK,Thread Group 2: Heavy Load 2-45,text,true,,195760,196,14,39,https://www.wikipedia.org/,824,0,628
+1769249148969,4475,Portal:Science,200,OK,Thread Group 3: Custom 3-12,text,true,,340690,845,20,39,https://en.wikipedia.org/wiki/Portal:Science,299,0,0
+1769249148969,299,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-12,text,true,,1261,423,20,39,https://www.wikipedia.org/wiki/Portal:Science,299,0,0
+1769249149268,4176,Portal:Science-1,200,OK,Thread Group 3: Custom 3-12,text,true,,339429,422,20,39,https://en.wikipedia.org/wiki/Portal:Science,741,0,0
+1769249151032,2476,Main Page,200,OK,Thread Group 3: Custom 3-17,text,true,,234249,573,20,39,https://en.wikipedia.org/wiki/Main_Page,253,0,0
+1769249151032,253,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-17,text,true,,1835,210,20,39,https://www.wikipedia.org/wiki/Main_Page,253,0,0
+1769249151285,2223,Main Page-1,200,OK,Thread Group 3: Custom 3-17,text,true,,232414,363,20,39,https://en.wikipedia.org/wiki/Main_Page,538,0,0
+1769249151566,2001,Home Page Request,200,OK,Thread Group 2: Heavy Load 2-46,text,true,,195760,196,14,39,https://www.wikipedia.org/,781,0,284
+1769249148173,5502,Portal:Science,200,OK,Thread Group 3: Custom 3-9,text,true,,340690,845,20,39,https://en.wikipedia.org/wiki/Portal:Science,108,0,0
+1769249148173,108,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-9,text,true,,1261,423,20,39,https://www.wikipedia.org/wiki/Portal:Science,108,0,0
+1769249148281,5394,Portal:Science-1,200,OK,Thread Group 3: Custom 3-9,text,true,,339429,422,20,39,https://en.wikipedia.org/wiki/Portal:Science,389,0,0
+1769249150379,3404,Home Page Request,200,OK,Thread Group 1: Basic 1-6,text,true,,195760,196,5,39,https://www.wikipedia.org/,358,0,0
+1769249148951,4887,Search Page Request,200,OK,Thread Group 2: Heavy Load 2-39,text,true,,58511,791,14,38,https://en.wikipedia.org/wiki/Special:Search,295,0,0
+1769249148269,5569,Home Page Request,200,OK,Thread Group 1: Basic 1-4,text,true,,195760,196,4,38,https://www.wikipedia.org/,555,0,0
+1769249148951,295,Search Page Request-0,301,Moved Permanently,Thread Group 2: Heavy Load 2-39,text,true,,1445,423,14,38,https://www.wikipedia.org/wiki/Special:Search,295,0,0
+1769249149247,4591,Search Page Request-1,200,OK,Thread Group 2: Heavy Load 2-39,text,true,,57066,368,14,38,https://en.wikipedia.org/wiki/Special:Search,2055,0,1272
+1769249150738,3204,Main Page,200,OK,Thread Group 3: Custom 3-6,text,true,,234249,573,20,36,https://en.wikipedia.org/wiki/Main_Page,169,0,0
+1769249150738,169,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-6,text,true,,1835,210,20,36,https://www.wikipedia.org/wiki/Main_Page,169,0,0
+1769249150908,3034,Main Page-1,200,OK,Thread Group 3: Custom 3-6,text,true,,232414,363,20,36,https://en.wikipedia.org/wiki/Main_Page,301,0,0
+1769249152645,1731,Search Page Request,200,OK,Thread Group 2: Heavy Load 2-41,text,true,,58503,791,14,37,https://en.wikipedia.org/wiki/Special:Search,275,0,0
+1769249152645,275,Search Page Request-0,301,Moved Permanently,Thread Group 2: Heavy Load 2-41,text,true,,1445,423,14,37,https://www.wikipedia.org/wiki/Special:Search,275,0,0
+1769249152921,1455,Search Page Request-1,200,OK,Thread Group 2: Heavy Load 2-41,text,true,,57058,368,14,37,https://en.wikipedia.org/wiki/Special:Search,1301,0,376
+1769249153046,1657,Search Page Request,200,OK,Thread Group 2: Heavy Load 2-44,text,true,,58503,791,13,36,https://en.wikipedia.org/wiki/Special:Search,241,0,0
+1769249153046,241,Search Page Request-0,301,Moved Permanently,Thread Group 2: Heavy Load 2-44,text,true,,1445,423,13,36,https://www.wikipedia.org/wiki/Special:Search,241,0,0
+1769249153288,1415,Search Page Request-1,200,OK,Thread Group 2: Heavy Load 2-44,text,true,,57058,368,13,36,https://en.wikipedia.org/wiki/Special:Search,963,0,446
+1769249152766,1963,Home Page Request,200,OK,Thread Group 2: Heavy Load 2-48,text,true,,195760,196,12,35,https://www.wikipedia.org/,565,0,309
+1769249149815,4921,Home Page Request,200,OK,Thread Group 1: Basic 1-10,text,true,,195760,196,3,35,https://www.wikipedia.org/,748,0,0
+1769249147832,7143,Main Page,200,OK,Thread Group 3: Custom 3-8,text,true,,234249,573,20,35,https://en.wikipedia.org/wiki/Main_Page,898,0,0
+1769249147832,898,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-8,text,true,,1835,210,20,35,https://www.wikipedia.org/wiki/Main_Page,898,0,0
+1769249148730,6245,Main Page-1,200,OK,Thread Group 3: Custom 3-8,text,true,,232414,363,20,35,https://en.wikipedia.org/wiki/Main_Page,571,0,0
+1769249152166,2941,Home Page Request,200,OK,Thread Group 2: Heavy Load 2-47,text,true,,195760,196,12,35,https://www.wikipedia.org/,879,0,365
+1769249153441,1693,Search Page Request,200,OK,Thread Group 2: Heavy Load 2-45,text,true,,58504,791,12,35,https://en.wikipedia.org/wiki/Special:Search,246,0,0
+1769249153441,246,Search Page Request-0,301,Moved Permanently,Thread Group 2: Heavy Load 2-45,text,true,,1445,423,12,35,https://www.wikipedia.org/wiki/Special:Search,246,0,0
+1769249153688,1446,Search Page Request-1,200,OK,Thread Group 2: Heavy Load 2-45,text,true,,57059,368,12,35,https://en.wikipedia.org/wiki/Special:Search,1012,0,485
+1769249148742,6432,Search Page Request,200,OK,Thread Group 2: Heavy Load 2-36,text,true,,58503,791,11,34,https://en.wikipedia.org/wiki/Special:Search,284,0,0
+1769249148742,284,Search Page Request-0,301,Moved Permanently,Thread Group 2: Heavy Load 2-36,text,true,,1445,423,11,34,https://www.wikipedia.org/wiki/Special:Search,284,0,0
+1769249149027,6147,Search Page Request-1,200,OK,Thread Group 2: Heavy Load 2-36,text,true,,57058,368,11,34,https://en.wikipedia.org/wiki/Special:Search,5747,0,4905
+1769249150801,4494,Home Page Request,200,OK,Thread Group 1: Basic 1-7,text,true,,195760,196,3,33,https://www.wikipedia.org/,456,0,0
+1769249151377,3972,Main Page,200,OK,Thread Group 3: Custom 3-18,text,true,,234249,573,20,32,https://en.wikipedia.org/wiki/Main_Page,1305,0,0
+1769249151377,1305,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-18,text,true,,1835,210,20,32,https://www.wikipedia.org/wiki/Main_Page,1305,0,0
+1769249152683,2666,Main Page-1,200,OK,Thread Group 3: Custom 3-18,text,true,,232414,363,20,32,https://en.wikipedia.org/wiki/Main_Page,384,0,0
+1769249152999,2381,Main Page,200,OK,Thread Group 3: Custom 3-14,text,true,,234249,573,20,32,https://en.wikipedia.org/wiki/Main_Page,146,0,0
+1769249152999,146,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-14,text,true,,1835,210,20,32,https://www.wikipedia.org/wiki/Main_Page,146,0,0
+1769249153145,2235,Main Page-1,200,OK,Thread Group 3: Custom 3-14,text,true,,232414,363,20,32,https://en.wikipedia.org/wiki/Main_Page,251,0,0
+1769249148348,7270,Portal:Science,200,OK,Thread Group 3: Custom 3-15,text,true,,340690,845,20,32,https://en.wikipedia.org/wiki/Portal:Science,204,0,0
+1769249148348,204,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-15,text,true,,1261,423,20,32,https://www.wikipedia.org/wiki/Portal:Science,204,0,0
+1769249148552,7066,Portal:Science-1,200,OK,Thread Group 3: Custom 3-15,text,true,,339429,422,20,32,https://en.wikipedia.org/wiki/Portal:Science,592,0,0
+1769249153966,1711,Home Page Request,200,OK,Thread Group 2: Heavy Load 2-50,text,true,,195760,196,10,32,https://www.wikipedia.org/,633,0,336
+1769249153365,2403,Home Page Request,200,OK,Thread Group 2: Heavy Load 2-49,text,true,,195760,196,10,32,https://www.wikipedia.org/,1684,0,477
+1769249152927,2859,Main Page,200,OK,Thread Group 3: Custom 3-1,text,true,,234249,573,20,32,https://en.wikipedia.org/wiki/Main_Page,135,0,0
+1769249152927,135,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-1,text,true,,1835,210,20,32,https://www.wikipedia.org/wiki/Main_Page,135,0,0
+1769249153062,2724,Main Page-1,200,OK,Thread Group 3: Custom 3-1,text,true,,232414,363,20,32,https://en.wikipedia.org/wiki/Main_Page,389,0,0
+1769249152952,2834,Main Page,200,OK,Thread Group 3: Custom 3-2,text,true,,234249,573,20,32,https://en.wikipedia.org/wiki/Main_Page,144,0,0
+1769249152952,144,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-2,text,true,,1835,210,20,32,https://www.wikipedia.org/wiki/Main_Page,144,0,0
+1769249153096,2690,Main Page-1,200,OK,Thread Group 3: Custom 3-2,text,true,,232414,363,20,32,https://en.wikipedia.org/wiki/Main_Page,350,0,0
+1769249148841,7010,Main Page,200,OK,Thread Group 3: Custom 3-20,text,true,,234249,573,20,32,https://en.wikipedia.org/wiki/Main_Page,308,0,0
+1769249148841,308,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-20,text,true,,1835,210,20,32,https://www.wikipedia.org/wiki/Main_Page,308,0,0
+1769249149150,6701,Main Page-1,200,OK,Thread Group 3: Custom 3-20,text,true,,232414,363,20,32,https://en.wikipedia.org/wiki/Main_Page,1982,0,0
+1769249152921,3042,Main Page,200,OK,Thread Group 3: Custom 3-16,text,true,,234249,573,20,32,https://en.wikipedia.org/wiki/Main_Page,119,0,0
+1769249152921,119,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-16,text,true,,1835,210,20,32,https://www.wikipedia.org/wiki/Main_Page,119,0,0
+1769249153040,2923,Main Page-1,200,OK,Thread Group 3: Custom 3-16,text,true,,232414,363,20,32,https://en.wikipedia.org/wiki/Main_Page,417,0,0
+1769249151484,4490,Search Page Request,200,OK,Thread Group 2: Heavy Load 2-42,text,true,,58504,791,10,32,https://en.wikipedia.org/wiki/Special:Search,753,0,0
+1769249151484,753,Search Page Request-0,301,Moved Permanently,Thread Group 2: Heavy Load 2-42,text,true,,1445,423,10,32,https://www.wikipedia.org/wiki/Special:Search,753,0,0
+1769249152238,3736,Search Page Request-1,200,OK,Thread Group 2: Heavy Load 2-42,text,true,,57059,368,10,32,https://en.wikipedia.org/wiki/Special:Search,1393,0,379
+1769249150085,6018,Portal:Science,200,OK,Thread Group 3: Custom 3-5,text,true,,340690,845,20,31,https://en.wikipedia.org/wiki/Portal:Science,288,0,0
+1769249150085,288,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-5,text,true,,1261,423,20,31,https://www.wikipedia.org/wiki/Portal:Science,288,0,0
+1769249150373,5730,Portal:Science-1,200,OK,Thread Group 3: Custom 3-5,text,true,,339429,422,20,31,https://en.wikipedia.org/wiki/Portal:Science,375,0,0
+1769249153508,2659,Portal:Science,200,OK,Thread Group 3: Custom 3-17,text,true,,340690,845,20,31,https://en.wikipedia.org/wiki/Portal:Science,234,0,0
+1769249153508,234,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-17,text,true,,1261,423,20,31,https://www.wikipedia.org/wiki/Portal:Science,234,0,0
+1769249153743,2424,Portal:Science-1,200,OK,Thread Group 3: Custom 3-17,text,true,,339429,422,20,31,https://en.wikipedia.org/wiki/Portal:Science,514,0,0
+1769249153373,2854,Search Page Request,200,OK,Thread Group 2: Heavy Load 2-43,text,true,,58504,791,9,31,https://en.wikipedia.org/wiki/Special:Search,223,0,0
+1769249153373,223,Search Page Request-0,301,Moved Permanently,Thread Group 2: Heavy Load 2-43,text,true,,1445,423,9,31,https://www.wikipedia.org/wiki/Special:Search,223,0,0
+1769249153597,2630,Search Page Request-1,200,OK,Thread Group 2: Heavy Load 2-43,text,true,,57059,368,9,31,https://en.wikipedia.org/wiki/Special:Search,2444,0,1730
+1769249153446,2799,Main Page,200,OK,Thread Group 3: Custom 3-12,text,true,,234249,573,20,30,https://en.wikipedia.org/wiki/Main_Page,236,0,0
+1769249153446,236,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-12,text,true,,1835,210,20,30,https://www.wikipedia.org/wiki/Main_Page,236,0,0
+1769249153682,2563,Main Page-1,200,OK,Thread Group 3: Custom 3-12,text,true,,232414,363,20,30,https://en.wikipedia.org/wiki/Main_Page,599,0,0
+1769249153355,2901,Search Page Request,200,OK,Thread Group 2: Heavy Load 2-35,text,true,,58504,791,8,30,https://en.wikipedia.org/wiki/Special:Search,236,0,0
+1769249153355,236,Search Page Request-0,301,Moved Permanently,Thread Group 2: Heavy Load 2-35,text,true,,1445,423,8,30,https://www.wikipedia.org/wiki/Special:Search,236,0,0
+1769249153591,2665,Search Page Request-1,200,OK,Thread Group 2: Heavy Load 2-35,text,true,,57059,368,8,30,https://en.wikipedia.org/wiki/Special:Search,2339,0,1796
+1769249155106,1386,Search Page Request,200,OK,Thread Group 2: Heavy Load 2-47,text,true,,58504,791,7,29,https://en.wikipedia.org/wiki/Special:Search,125,0,0
+1769249155106,125,Search Page Request-0,301,Moved Permanently,Thread Group 2: Heavy Load 2-47,text,true,,1445,423,7,29,https://www.wikipedia.org/wiki/Special:Search,125,0,0
+1769249155232,1260,Search Page Request-1,200,OK,Thread Group 2: Heavy Load 2-47,text,true,,57059,368,7,29,https://en.wikipedia.org/wiki/Special:Search,1081,0,329
+1769249150961,5641,Portal:Science,200,OK,Thread Group 3: Custom 3-10,text,true,,340690,845,20,28,https://en.wikipedia.org/wiki/Portal:Science,290,0,0
+1769249150961,290,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-10,text,true,,1261,423,20,28,https://www.wikipedia.org/wiki/Portal:Science,290,0,0
+1769249151251,5351,Portal:Science-1,200,OK,Thread Group 3: Custom 3-10,text,true,,339429,422,20,28,https://en.wikipedia.org/wiki/Portal:Science,1079,0,0
+1769249148658,7955,Portal:Science,200,OK,Thread Group 3: Custom 3-13,text,true,,340690,845,20,28,https://en.wikipedia.org/wiki/Portal:Science,253,0,0
+1769249148658,253,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-13,text,true,,1261,423,20,28,https://www.wikipedia.org/wiki/Portal:Science,253,0,0
+1769249148911,7702,Portal:Science-1,200,OK,Thread Group 3: Custom 3-13,text,true,,339429,422,20,28,https://en.wikipedia.org/wiki/Portal:Science,903,0,0
+1769249153568,3160,Search Page Request,200,OK,Thread Group 2: Heavy Load 2-46,text,true,,58504,791,6,28,https://en.wikipedia.org/wiki/Special:Search,271,0,0
+1769249153568,271,Search Page Request-0,301,Moved Permanently,Thread Group 2: Heavy Load 2-46,text,true,,1445,423,6,28,https://www.wikipedia.org/wiki/Special:Search,271,0,0
+1769249153840,2888,Search Page Request-1,200,OK,Thread Group 2: Heavy Load 2-46,text,true,,57059,368,6,28,https://en.wikipedia.org/wiki/Special:Search,2555,0,1863
+1769249154729,2322,Search Page Request,200,OK,Thread Group 2: Heavy Load 2-48,text,true,,58504,791,5,27,https://en.wikipedia.org/wiki/Special:Search,1000,0,0
+1769249154729,1000,Search Page Request-0,301,Moved Permanently,Thread Group 2: Heavy Load 2-48,text,true,,1445,423,5,27,https://www.wikipedia.org/wiki/Special:Search,1000,0,0
+1769249155730,1321,Search Page Request-1,200,OK,Thread Group 2: Heavy Load 2-48,text,true,,57059,368,5,27,https://en.wikipedia.org/wiki/Special:Search,969,0,343
+1769249155677,1385,Search Page Request,200,OK,Thread Group 2: Heavy Load 2-50,text,true,,58504,791,4,26,https://en.wikipedia.org/wiki/Special:Search,125,0,0
+1769249155677,125,Search Page Request-0,301,Moved Permanently,Thread Group 2: Heavy Load 2-50,text,true,,1445,423,4,26,https://www.wikipedia.org/wiki/Special:Search,125,0,0
+1769249155802,1260,Search Page Request-1,200,OK,Thread Group 2: Heavy Load 2-50,text,true,,57059,368,4,26,https://en.wikipedia.org/wiki/Special:Search,930,0,390
+1769249155767,1532,Search Page Request,200,OK,Thread Group 2: Heavy Load 2-49,text,true,,58504,791,3,25,https://en.wikipedia.org/wiki/Special:Search,112,0,0
+1769249155767,112,Search Page Request-0,301,Moved Permanently,Thread Group 2: Heavy Load 2-49,text,true,,1445,423,3,25,https://www.wikipedia.org/wiki/Special:Search,112,0,0
+1769249155879,1420,Search Page Request-1,200,OK,Thread Group 2: Heavy Load 2-49,text,true,,57059,368,3,25,https://en.wikipedia.org/wiki/Special:Search,864,0,301
+1769249153164,4261,Portal:Science,200,OK,Thread Group 3: Custom 3-19,text,true,,340690,845,20,24,https://en.wikipedia.org/wiki/Portal:Science,168,0,0
+1769249153164,168,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-19,text,true,,1261,423,20,24,https://www.wikipedia.org/wiki/Portal:Science,168,0,0
+1769249153332,4093,Portal:Science-1,200,OK,Thread Group 3: Custom 3-19,text,true,,339429,422,20,24,https://en.wikipedia.org/wiki/Portal:Science,361,0,0
+1769249153101,4355,Portal:Science,200,OK,Thread Group 3: Custom 3-7,text,true,,340690,845,20,24,https://en.wikipedia.org/wiki/Portal:Science,186,0,0
+1769249153101,186,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-7,text,true,,1261,423,20,24,https://www.wikipedia.org/wiki/Portal:Science,186,0,0
+1769249153287,4169,Portal:Science-1,200,OK,Thread Group 3: Custom 3-7,text,true,,339429,422,20,24,https://en.wikipedia.org/wiki/Portal:Science,378,0,0
+1769249153677,3923,Main Page,200,OK,Thread Group 3: Custom 3-9,text,true,,234249,573,20,24,https://en.wikipedia.org/wiki/Main_Page,271,0,0
+1769249153677,271,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-9,text,true,,1835,210,20,24,https://www.wikipedia.org/wiki/Main_Page,271,0,0
+1769249153949,3651,Main Page-1,200,OK,Thread Group 3: Custom 3-9,text,true,,232414,363,20,24,https://en.wikipedia.org/wiki/Main_Page,799,0,0
+1769249154736,2914,Home Page Request,200,OK,Thread Group 1: Basic 1-10,text,true,,195760,196,2,24,https://www.wikipedia.org/,443,0,0
+1769249156166,1524,Main Page,200,OK,Thread Group 3: Custom 3-17,text,true,,234249,573,20,23,https://en.wikipedia.org/wiki/Main_Page,159,0,0
+1769249156166,159,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-17,text,true,,1835,210,20,23,https://www.wikipedia.org/wiki/Main_Page,159,0,0
+1769249156325,1365,Main Page-1,200,OK,Thread Group 3: Custom 3-17,text,true,,232414,363,20,23,https://en.wikipedia.org/wiki/Main_Page,185,0,0
+1769249155379,2355,Portal:Science,200,OK,Thread Group 3: Custom 3-14,text,true,,340690,845,20,23,https://en.wikipedia.org/wiki/Portal:Science,174,0,0
+1769249155379,175,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-14,text,true,,1261,423,20,23,https://www.wikipedia.org/wiki/Portal:Science,174,0,0
+1769249155554,2180,Portal:Science-1,200,OK,Thread Group 3: Custom 3-14,text,true,,339429,422,20,23,https://en.wikipedia.org/wiki/Portal:Science,242,0,0
+1769249140227,17598,Portal:Science,200,OK,Thread Group 3: Custom 3-11,text,true,,340690,845,20,23,https://en.wikipedia.org/wiki/Portal:Science,208,0,0
+1769249140227,209,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-11,text,true,,1261,423,20,23,https://www.wikipedia.org/wiki/Portal:Science,208,0,0
+1769249140436,17389,Portal:Science-1,200,OK,Thread Group 3: Custom 3-11,text,true,,339429,422,20,23,https://en.wikipedia.org/wiki/Portal:Science,586,0,0
+1769249153943,3931,Portal:Science,200,OK,Thread Group 3: Custom 3-6,text,true,,340690,845,20,23,https://en.wikipedia.org/wiki/Portal:Science,238,0,0
+1769249153943,238,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-6,text,true,,1261,423,20,23,https://www.wikipedia.org/wiki/Portal:Science,238,0,0
+1769249154181,3693,Portal:Science-1,200,OK,Thread Group 3: Custom 3-6,text,true,,339429,422,20,23,https://en.wikipedia.org/wiki/Portal:Science,353,0,0
+1769249156103,2706,Main Page,200,OK,Thread Group 3: Custom 3-5,text,true,,234249,573,20,23,https://en.wikipedia.org/wiki/Main_Page,115,0,0
+1769249156103,115,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-5,text,true,,1835,210,20,23,https://www.wikipedia.org/wiki/Main_Page,115,0,0
+1769249156219,2590,Main Page-1,200,OK,Thread Group 3: Custom 3-5,text,true,,232414,363,20,23,https://en.wikipedia.org/wiki/Main_Page,291,0,0
+1769249155786,3116,Portal:Science,200,OK,Thread Group 3: Custom 3-2,text,true,,340690,845,20,23,https://en.wikipedia.org/wiki/Portal:Science,272,0,0
+1769249155786,272,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-2,text,true,,1261,423,20,23,https://www.wikipedia.org/wiki/Portal:Science,272,0,0
+1769249156058,2844,Portal:Science-1,200,OK,Thread Group 3: Custom 3-2,text,true,,339429,422,20,23,https://en.wikipedia.org/wiki/Portal:Science,255,0,0
+1769249155785,3283,Portal:Science,200,OK,Thread Group 3: Custom 3-1,text,true,,340690,845,20,23,https://en.wikipedia.org/wiki/Portal:Science,273,0,0
+1769249155785,273,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-1,text,true,,1261,423,20,23,https://www.wikipedia.org/wiki/Portal:Science,273,0,0
+1769249156058,3010,Portal:Science-1,200,OK,Thread Group 3: Custom 3-1,text,true,,339429,422,20,23,https://en.wikipedia.org/wiki/Portal:Science,260,0,0
+1769249155349,3747,Portal:Science,200,OK,Thread Group 3: Custom 3-18,text,true,,340690,845,20,23,https://en.wikipedia.org/wiki/Portal:Science,149,0,0
+1769249155349,149,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-18,text,true,,1261,423,20,23,https://www.wikipedia.org/wiki/Portal:Science,149,0,0
+1769249155498,3598,Portal:Science-1,200,OK,Thread Group 3: Custom 3-18,text,true,,339429,422,20,23,https://en.wikipedia.org/wiki/Portal:Science,336,0,0
+1769249157735,1372,Main Page,200,OK,Thread Group 3: Custom 3-14,text,true,,234249,573,20,23,https://en.wikipedia.org/wiki/Main_Page,63,0,0
+1769249157735,63,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-14,text,true,,1835,210,20,23,https://www.wikipedia.org/wiki/Main_Page,63,0,0
+1769249157798,1309,Main Page-1,200,OK,Thread Group 3: Custom 3-14,text,true,,232414,363,20,23,https://en.wikipedia.org/wiki/Main_Page,137,0,0
+1769249156244,2990,Portal:Science,200,OK,Thread Group 3: Custom 3-12,text,true,,340690,845,20,23,https://en.wikipedia.org/wiki/Portal:Science,132,0,0
+1769249156244,132,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-12,text,true,,1261,423,20,23,https://www.wikipedia.org/wiki/Portal:Science,132,0,0
+1769249156377,2857,Portal:Science-1,200,OK,Thread Group 3: Custom 3-12,text,true,,339429,422,20,23,https://en.wikipedia.org/wiki/Portal:Science,355,0,0
+1769249156602,2770,Main Page,200,OK,Thread Group 3: Custom 3-10,text,true,,234249,573,20,23,https://en.wikipedia.org/wiki/Main_Page,158,0,0
+1769249156602,158,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-10,text,true,,1835,210,20,23,https://www.wikipedia.org/wiki/Main_Page,158,0,0
+1769249156760,2612,Main Page-1,200,OK,Thread Group 3: Custom 3-10,text,true,,232414,363,20,23,https://en.wikipedia.org/wiki/Main_Page,402,0,0
+1769249157424,2032,Main Page,200,OK,Thread Group 3: Custom 3-19,text,true,,234249,573,20,23,https://en.wikipedia.org/wiki/Main_Page,129,0,0
+1769249157424,129,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-19,text,true,,1835,210,20,23,https://www.wikipedia.org/wiki/Main_Page,129,0,0
+1769249157553,1903,Main Page-1,200,OK,Thread Group 3: Custom 3-19,text,true,,232414,363,20,23,https://en.wikipedia.org/wiki/Main_Page,197,0,0
+1769249151168,8321,Portal:Science,200,OK,Thread Group 3: Custom 3-3,text,true,,340690,845,20,23,https://en.wikipedia.org/wiki/Portal:Science,291,0,0
+1769249151168,291,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-3,text,true,,1261,423,20,23,https://www.wikipedia.org/wiki/Portal:Science,291,0,0
+1769249151459,8030,Portal:Science-1,200,OK,Thread Group 3: Custom 3-3,text,true,,339429,422,20,23,https://en.wikipedia.org/wiki/Portal:Science,861,0,0
+1769249157691,1989,Portal:Science,200,OK,Thread Group 3: Custom 3-17,text,true,,340690,845,20,23,https://en.wikipedia.org/wiki/Portal:Science,74,0,0
+1769249157691,74,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-17,text,true,,1261,423,20,23,https://www.wikipedia.org/wiki/Portal:Science,74,0,0
+1769249157765,1915,Portal:Science-1,200,OK,Thread Group 3: Custom 3-17,text,true,,339429,422,20,23,https://en.wikipedia.org/wiki/Portal:Science,138,0,0
+1769249155618,4115,Main Page,200,OK,Thread Group 3: Custom 3-15,text,true,,234249,573,20,23,https://en.wikipedia.org/wiki/Main_Page,117,0,0
+1769249155618,117,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-15,text,true,,1835,210,20,23,https://www.wikipedia.org/wiki/Main_Page,117,0,0
+1769249155735,3998,Main Page-1,200,OK,Thread Group 3: Custom 3-15,text,true,,232414,363,20,23,https://en.wikipedia.org/wiki/Main_Page,483,0,0
+1769249157456,2284,Main Page,200,OK,Thread Group 3: Custom 3-7,text,true,,234249,573,20,23,https://en.wikipedia.org/wiki/Main_Page,132,0,0
+1769249157456,132,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-7,text,true,,1835,210,20,23,https://www.wikipedia.org/wiki/Main_Page,132,0,0
+1769249157588,2152,Main Page-1,200,OK,Thread Group 3: Custom 3-7,text,true,,232414,363,20,23,https://en.wikipedia.org/wiki/Main_Page,207,0,0
+1769249155963,3782,Portal:Science,200,OK,Thread Group 3: Custom 3-16,text,true,,340690,845,20,23,https://en.wikipedia.org/wiki/Portal:Science,124,0,0
+1769249155963,124,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-16,text,true,,1261,423,20,23,https://www.wikipedia.org/wiki/Portal:Science,124,0,0
+1769249156088,3657,Portal:Science-1,200,OK,Thread Group 3: Custom 3-16,text,true,,339429,422,20,23,https://en.wikipedia.org/wiki/Portal:Science,249,0,0
+1769249157874,2324,Main Page,200,OK,Thread Group 3: Custom 3-6,text,true,,234249,573,20,23,https://en.wikipedia.org/wiki/Main_Page,148,0,0
+1769249157874,148,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-6,text,true,,1835,210,20,23,https://www.wikipedia.org/wiki/Main_Page,148,0,0
+1769249158022,2176,Main Page-1,200,OK,Thread Group 3: Custom 3-6,text,true,,232414,363,20,23,https://en.wikipedia.org/wiki/Main_Page,226,0,0
+1769249136814,23711,Search Page Request,200,OK,Thread Group 2: Heavy Load 2-16,text,true,,58503,791,2,23,https://en.wikipedia.org/wiki/Special:Search,220,0,0
+1769249136814,220,Search Page Request-0,301,Moved Permanently,Thread Group 2: Heavy Load 2-16,text,true,,1445,423,2,23,https://www.wikipedia.org/wiki/Special:Search,220,0,0
+1769249137035,23490,Search Page Request-1,200,OK,Thread Group 2: Heavy Load 2-16,text,true,,57058,368,2,23,https://en.wikipedia.org/wiki/Special:Search,1723,0,355
+1769249158903,1873,Main Page,200,OK,Thread Group 3: Custom 3-2,text,true,,234249,573,20,22,https://en.wikipedia.org/wiki/Main_Page,290,0,0
+1769249158903,290,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-2,text,true,,1835,210,20,22,https://www.wikipedia.org/wiki/Main_Page,290,0,0
+1769249159193,1583,Main Page-1,200,OK,Thread Group 3: Custom 3-2,text,true,,232414,363,20,22,https://en.wikipedia.org/wiki/Main_Page,184,0,0
+1769249156613,4388,Main Page,200,OK,Thread Group 3: Custom 3-13,text,true,,234249,573,20,22,https://en.wikipedia.org/wiki/Main_Page,175,0,0
+1769249156613,175,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-13,text,true,,1835,210,20,22,https://www.wikipedia.org/wiki/Main_Page,175,0,0
+1769249156788,4213,Main Page-1,200,OK,Thread Group 3: Custom 3-13,text,true,,232414,363,20,22,https://en.wikipedia.org/wiki/Main_Page,435,0,0
+1769249159069,1991,Main Page,200,OK,Thread Group 3: Custom 3-1,text,true,,234249,573,20,22,https://en.wikipedia.org/wiki/Main_Page,130,0,0
+1769249159069,130,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-1,text,true,,1835,210,20,22,https://www.wikipedia.org/wiki/Main_Page,130,0,0
+1769249159199,1861,Main Page-1,200,OK,Thread Group 3: Custom 3-1,text,true,,232414,363,20,22,https://en.wikipedia.org/wiki/Main_Page,190,0,0
+1769249159235,1842,Main Page,200,OK,Thread Group 3: Custom 3-12,text,true,,234249,573,20,22,https://en.wikipedia.org/wiki/Main_Page,79,0,0
+1769249159235,80,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-12,text,true,,1835,210,20,22,https://www.wikipedia.org/wiki/Main_Page,79,0,0
+1769249159315,1762,Main Page-1,200,OK,Thread Group 3: Custom 3-12,text,true,,232414,363,20,22,https://en.wikipedia.org/wiki/Main_Page,173,0,0
+1769249159107,2045,Portal:Science,200,OK,Thread Group 3: Custom 3-14,text,true,,340690,845,20,22,https://en.wikipedia.org/wiki/Portal:Science,97,0,0
+1769249159107,97,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-14,text,true,,1261,423,20,22,https://www.wikipedia.org/wiki/Portal:Science,97,0,0
+1769249159204,1948,Portal:Science-1,200,OK,Thread Group 3: Custom 3-14,text,true,,339429,422,20,22,https://en.wikipedia.org/wiki/Portal:Science,151,0,0
+1769249159680,1526,Main Page,200,OK,Thread Group 3: Custom 3-17,text,true,,234249,573,20,22,https://en.wikipedia.org/wiki/Main_Page,93,0,0
+1769249159680,93,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-17,text,true,,1835,210,20,22,https://www.wikipedia.org/wiki/Main_Page,93,0,0
+1769249159773,1433,Main Page-1,200,OK,Thread Group 3: Custom 3-17,text,true,,232414,363,20,22,https://en.wikipedia.org/wiki/Main_Page,157,0,0
+1769249154976,6241,Portal:Science,200,OK,Thread Group 3: Custom 3-8,text,true,,340690,845,20,22,https://en.wikipedia.org/wiki/Portal:Science,124,0,0
+1769249154976,124,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-8,text,true,,1261,423,20,22,https://www.wikipedia.org/wiki/Portal:Science,124,0,0
+1769249155100,6117,Portal:Science-1,200,OK,Thread Group 3: Custom 3-8,text,true,,339429,422,20,22,https://en.wikipedia.org/wiki/Portal:Science,425,0,0
+1769249159098,2182,Main Page,200,OK,Thread Group 3: Custom 3-18,text,true,,234249,573,20,22,https://en.wikipedia.org/wiki/Main_Page,112,0,0
+1769249159098,112,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-18,text,true,,1835,210,20,22,https://www.wikipedia.org/wiki/Main_Page,112,0,0
+1769249159211,2069,Main Page-1,200,OK,Thread Group 3: Custom 3-18,text,true,,232414,363,20,22,https://en.wikipedia.org/wiki/Main_Page,195,0,0
+1769249139949,21939,Search Page Request,200,OK,Thread Group 2: Heavy Load 2-20,text,true,,58503,791,1,22,https://en.wikipedia.org/wiki/Special:Search,238,0,0
+1769249139949,238,Search Page Request-0,301,Moved Permanently,Thread Group 2: Heavy Load 2-20,text,true,,1445,423,1,22,https://www.wikipedia.org/wiki/Special:Search,238,0,0
+1769249140188,21700,Search Page Request-1,200,OK,Thread Group 2: Heavy Load 2-20,text,true,,57058,368,1,22,https://en.wikipedia.org/wiki/Special:Search,1213,0,468
+1769249159745,2227,Main Page,200,OK,Thread Group 3: Custom 3-16,text,true,,234249,573,20,21,https://en.wikipedia.org/wiki/Main_Page,85,0,0
+1769249159745,85,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-16,text,true,,1835,210,20,21,https://www.wikipedia.org/wiki/Main_Page,85,0,0
+1769249159830,2142,Main Page-1,200,OK,Thread Group 3: Custom 3-16,text,true,,232414,363,20,21,https://en.wikipedia.org/wiki/Main_Page,238,0,0
+1769249157600,4448,Portal:Science,200,OK,Thread Group 3: Custom 3-9,text,true,,340690,845,20,21,https://en.wikipedia.org/wiki/Portal:Science,84,0,0
+1769249157600,84,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-9,text,true,,1261,423,20,21,https://www.wikipedia.org/wiki/Portal:Science,84,0,0
+1769249157684,4364,Portal:Science-1,200,OK,Thread Group 3: Custom 3-9,text,true,,339429,422,20,21,https://en.wikipedia.org/wiki/Portal:Science,245,0,0
+1769249155852,6264,Portal:Science,200,OK,Thread Group 3: Custom 3-20,text,true,,340690,845,20,21,https://en.wikipedia.org/wiki/Portal:Science,206,0,0
+1769249155852,206,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-20,text,true,,1261,423,20,21,https://www.wikipedia.org/wiki/Portal:Science,206,0,0
+1769249156058,6058,Portal:Science-1,200,OK,Thread Group 3: Custom 3-20,text,true,,339429,422,20,21,https://en.wikipedia.org/wiki/Portal:Science,380,0,0
+1769249159456,2840,Portal:Science,200,OK,Thread Group 3: Custom 3-19,text,true,,340690,845,20,21,https://en.wikipedia.org/wiki/Portal:Science,230,0,0
+1769249159456,230,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-19,text,true,,1261,423,20,21,https://www.wikipedia.org/wiki/Portal:Science,230,0,0
+1769249159686,2610,Portal:Science-1,200,OK,Thread Group 3: Custom 3-19,text,true,,339429,422,20,21,https://en.wikipedia.org/wiki/Portal:Science,189,0,0
+1769249161152,1376,Main Page,200,OK,Thread Group 3: Custom 3-14,text,true,,234249,573,20,21,https://en.wikipedia.org/wiki/Main_Page,68,0,0
+1769249161152,68,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-14,text,true,,1835,210,20,21,https://www.wikipedia.org/wiki/Main_Page,68,0,0
+1769249161220,1308,Main Page-1,200,OK,Thread Group 3: Custom 3-14,text,true,,232414,363,20,21,https://en.wikipedia.org/wiki/Main_Page,142,0,0
+1769249158810,3870,Portal:Science,200,OK,Thread Group 3: Custom 3-5,text,true,,340690,845,20,21,https://en.wikipedia.org/wiki/Portal:Science,170,0,0
+1769249158810,170,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-5,text,true,,1261,423,20,21,https://www.wikipedia.org/wiki/Portal:Science,170,0,0
+1769249158981,3699,Portal:Science-1,200,OK,Thread Group 3: Custom 3-5,text,true,,339429,422,20,21,https://en.wikipedia.org/wiki/Portal:Science,345,0,0
+1769249150830,11957,Portal:Science,200,OK,Thread Group 3: Custom 3-4,text,true,,340690,845,20,21,https://en.wikipedia.org/wiki/Portal:Science,179,0,0
+1769249150830,179,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-4,text,true,,1261,423,20,21,https://www.wikipedia.org/wiki/Portal:Science,179,0,0
+1769249151010,11777,Portal:Science-1,200,OK,Thread Group 3: Custom 3-4,text,true,,339429,422,20,21,https://en.wikipedia.org/wiki/Portal:Science,896,0,0
+1769249159373,3517,Portal:Science,200,OK,Thread Group 3: Custom 3-10,text,true,,340690,845,20,21,https://en.wikipedia.org/wiki/Portal:Science,295,0,0
+1769249159373,295,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-10,text,true,,1261,423,20,21,https://www.wikipedia.org/wiki/Portal:Science,295,0,0
+1769249159668,3222,Portal:Science-1,200,OK,Thread Group 3: Custom 3-10,text,true,,339429,422,20,21,https://en.wikipedia.org/wiki/Portal:Science,212,0,0
+1769249159740,3370,Portal:Science,200,OK,Thread Group 3: Custom 3-7,text,true,,340690,845,20,21,https://en.wikipedia.org/wiki/Portal:Science,90,0,0
+1769249159740,90,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-7,text,true,,1261,423,20,21,https://www.wikipedia.org/wiki/Portal:Science,90,0,0
+1769249159830,3280,Portal:Science-1,200,OK,Thread Group 3: Custom 3-7,text,true,,339429,422,20,21,https://en.wikipedia.org/wiki/Portal:Science,243,0,0
+1769249161077,2419,Portal:Science,200,OK,Thread Group 3: Custom 3-12,text,true,,340690,845,20,21,https://en.wikipedia.org/wiki/Portal:Science,95,0,0
+1769249161077,95,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-12,text,true,,1261,423,20,21,https://www.wikipedia.org/wiki/Portal:Science,95,0,0
+1769249161172,2324,Portal:Science-1,200,OK,Thread Group 3: Custom 3-12,text,true,,339429,422,20,21,https://en.wikipedia.org/wiki/Portal:Science,208,0,0
+1769249160200,3333,Portal:Science,200,OK,Thread Group 3: Custom 3-6,text,true,,340690,845,20,21,https://en.wikipedia.org/wiki/Portal:Science,258,0,0
+1769249160200,258,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-6,text,true,,1261,423,20,21,https://www.wikipedia.org/wiki/Portal:Science,258,0,0
+1769249160458,3075,Portal:Science-1,200,OK,Thread Group 3: Custom 3-6,text,true,,339429,422,20,21,https://en.wikipedia.org/wiki/Portal:Science,313,0,0
+1769249152905,10737,Home Page Request,200,OK,Thread Group 1: Basic 1-5,text,true,,195760,196,1,21,https://www.wikipedia.org/,1000,0,0
+1769249161061,2777,Portal:Science,200,OK,Thread Group 3: Custom 3-1,text,true,,340690,845,20,21,https://en.wikipedia.org/wiki/Portal:Science,111,0,0
+1769249161061,111,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-1,text,true,,1261,423,20,21,https://www.wikipedia.org/wiki/Portal:Science,111,0,0
+1769249161172,2666,Portal:Science-1,200,OK,Thread Group 3: Custom 3-1,text,true,,339429,422,20,21,https://en.wikipedia.org/wiki/Portal:Science,214,0,0
+1769249162296,1799,Main Page,200,OK,Thread Group 3: Custom 3-19,text,true,,234249,573,20,21,https://en.wikipedia.org/wiki/Main_Page,196,0,0
+1769249162296,196,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-19,text,true,,1835,210,20,21,https://www.wikipedia.org/wiki/Main_Page,196,0,0
+1769249162492,1603,Main Page-1,200,OK,Thread Group 3: Custom 3-19,text,true,,232414,363,20,21,https://en.wikipedia.org/wiki/Main_Page,294,0,0
+1769249159489,4613,Main Page,200,OK,Thread Group 3: Custom 3-3,text,true,,234249,573,20,21,https://en.wikipedia.org/wiki/Main_Page,197,0,0
+1769249159489,197,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-3,text,true,,1835,210,20,21,https://www.wikipedia.org/wiki/Main_Page,197,0,0
+1769249159686,4416,Main Page-1,200,OK,Thread Group 3: Custom 3-3,text,true,,232414,363,20,21,https://en.wikipedia.org/wiki/Main_Page,278,0,0
+1769249161206,2983,Portal:Science,200,OK,Thread Group 3: Custom 3-17,text,true,,340690,845,20,21,https://en.wikipedia.org/wiki/Portal:Science,103,0,0
+1769249161206,103,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-17,text,true,,1261,423,20,21,https://www.wikipedia.org/wiki/Portal:Science,103,0,0
+1769249161309,2880,Portal:Science-1,200,OK,Thread Group 3: Custom 3-17,text,true,,339429,422,20,21,https://en.wikipedia.org/wiki/Portal:Science,209,0,0
+1769249160776,3437,Portal:Science,200,OK,Thread Group 3: Custom 3-2,text,true,,340690,845,20,21,https://en.wikipedia.org/wiki/Portal:Science,230,0,0
+1769249160776,230,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-2,text,true,,1261,423,20,21,https://www.wikipedia.org/wiki/Portal:Science,230,0,0
+1769249161006,3207,Portal:Science-1,200,OK,Thread Group 3: Custom 3-2,text,true,,339429,422,20,21,https://en.wikipedia.org/wiki/Portal:Science,232,0,0
+1769249161280,3154,Portal:Science,200,OK,Thread Group 3: Custom 3-18,text,true,,340690,845,20,21,https://en.wikipedia.org/wiki/Portal:Science,75,0,0
+1769249161280,75,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-18,text,true,,1261,423,20,21,https://www.wikipedia.org/wiki/Portal:Science,75,0,0
+1769249161356,3078,Portal:Science-1,200,OK,Thread Group 3: Custom 3-18,text,true,,339429,422,20,21,https://en.wikipedia.org/wiki/Portal:Science,519,0,0
+1769249161973,2506,Portal:Science,200,OK,Thread Group 3: Custom 3-16,text,true,,340690,845,20,21,https://en.wikipedia.org/wiki/Portal:Science,115,0,0
+1769249161973,115,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-16,text,true,,1261,423,20,21,https://www.wikipedia.org/wiki/Portal:Science,115,0,0
+1769249162089,2390,Portal:Science-1,200,OK,Thread Group 3: Custom 3-16,text,true,,339429,422,20,21,https://en.wikipedia.org/wiki/Portal:Science,380,0,0
+1769249162529,1993,Portal:Science,200,OK,Thread Group 3: Custom 3-14,text,true,,340690,845,20,21,https://en.wikipedia.org/wiki/Portal:Science,181,0,0
+1769249162529,181,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-14,text,true,,1261,423,20,21,https://www.wikipedia.org/wiki/Portal:Science,181,0,0
+1769249162710,1812,Portal:Science-1,200,OK,Thread Group 3: Custom 3-14,text,true,,339429,422,20,21,https://en.wikipedia.org/wiki/Portal:Science,262,0,0
+1769249162681,2241,Main Page,200,OK,Thread Group 3: Custom 3-5,text,true,,234249,573,20,21,https://en.wikipedia.org/wiki/Main_Page,216,0,0
+1769249162681,216,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-5,text,true,,1835,210,20,21,https://www.wikipedia.org/wiki/Main_Page,216,0,0
+1769249162897,2025,Main Page-1,200,OK,Thread Group 3: Custom 3-5,text,true,,232414,363,20,21,https://en.wikipedia.org/wiki/Main_Page,520,0,0
+1769249161217,3728,Main Page,200,OK,Thread Group 3: Custom 3-8,text,true,,234249,573,20,21,https://en.wikipedia.org/wiki/Main_Page,87,0,0
+1769249161217,87,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-8,text,true,,1835,210,20,21,https://www.wikipedia.org/wiki/Main_Page,87,0,0
+1769249161304,3641,Main Page-1,200,OK,Thread Group 3: Custom 3-8,text,true,,232414,363,20,21,https://en.wikipedia.org/wiki/Main_Page,397,0,0
+1769249163110,1947,Main Page,200,OK,Thread Group 3: Custom 3-7,text,true,,234249,573,20,21,https://en.wikipedia.org/wiki/Main_Page,204,0,0
+1769249163110,204,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-7,text,true,,1835,210,20,21,https://www.wikipedia.org/wiki/Main_Page,204,0,0
+1769249163314,1743,Main Page-1,200,OK,Thread Group 3: Custom 3-7,text,true,,232414,363,20,21,https://en.wikipedia.org/wiki/Main_Page,186,0,0
+1769249163496,1651,Main Page,200,OK,Thread Group 3: Custom 3-12,text,true,,234249,573,20,21,https://en.wikipedia.org/wiki/Main_Page,104,0,0
+1769249163496,104,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-12,text,true,,1835,210,20,21,https://www.wikipedia.org/wiki/Main_Page,104,0,0
+1769249163600,1547,Main Page-1,200,OK,Thread Group 3: Custom 3-12,text,true,,232414,363,20,21,https://en.wikipedia.org/wiki/Main_Page,171,0,0
+1769249162049,3141,Main Page,200,OK,Thread Group 3: Custom 3-9,text,true,,234249,573,20,21,https://en.wikipedia.org/wiki/Main_Page,160,0,0
+1769249162049,160,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-9,text,true,,1835,210,20,21,https://www.wikipedia.org/wiki/Main_Page,160,0,0
+1769249162210,2980,Main Page-1,200,OK,Thread Group 3: Custom 3-9,text,true,,232414,363,20,21,https://en.wikipedia.org/wiki/Main_Page,341,0,0
+1769249159734,5514,Portal:Science,200,OK,Thread Group 3: Custom 3-15,text,true,,340690,845,20,21,https://en.wikipedia.org/wiki/Portal:Science,104,0,0
+1769249159734,104,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-15,text,true,,1261,423,20,21,https://www.wikipedia.org/wiki/Portal:Science,104,0,0
+1769249159838,5410,Portal:Science-1,200,OK,Thread Group 3: Custom 3-15,text,true,,339429,422,20,21,https://en.wikipedia.org/wiki/Portal:Science,371,0,0
+1769249157826,7703,Main Page,200,OK,Thread Group 3: Custom 3-11,text,true,,234249,573,20,21,https://en.wikipedia.org/wiki/Main_Page,88,0,0
+1769249157826,88,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-11,text,true,,1835,210,20,21,https://www.wikipedia.org/wiki/Main_Page,88,0,0
+1769249157914,7615,Main Page-1,200,OK,Thread Group 3: Custom 3-11,text,true,,232414,363,20,21,https://en.wikipedia.org/wiki/Main_Page,708,0,0
+1769249163534,2067,Main Page,200,OK,Thread Group 3: Custom 3-6,text,true,,234249,573,20,21,https://en.wikipedia.org/wiki/Main_Page,91,0,0
+1769249163534,91,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-6,text,true,,1835,210,20,21,https://www.wikipedia.org/wiki/Main_Page,91,0,0
+1769249163625,1976,Main Page-1,200,OK,Thread Group 3: Custom 3-6,text,true,,232414,363,20,21,https://en.wikipedia.org/wiki/Main_Page,179,0,0
+1769249164189,1451,Main Page,200,OK,Thread Group 3: Custom 3-17,text,true,,234249,573,20,21,https://en.wikipedia.org/wiki/Main_Page,129,0,0
+1769249164189,129,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-17,text,true,,1835,210,20,21,https://www.wikipedia.org/wiki/Main_Page,129,0,0
+1769249164318,1322,Main Page-1,200,OK,Thread Group 3: Custom 3-17,text,true,,232414,363,20,21,https://en.wikipedia.org/wiki/Main_Page,205,0,0
+1769249161001,4769,Portal:Science,200,OK,Thread Group 3: Custom 3-13,text,true,,340690,845,20,21,https://en.wikipedia.org/wiki/Portal:Science,171,0,0
+1769249161001,171,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-13,text,true,,1261,423,20,21,https://www.wikipedia.org/wiki/Portal:Science,171,0,0
+1769249161172,4598,Portal:Science-1,200,OK,Thread Group 3: Custom 3-13,text,true,,339429,422,20,21,https://en.wikipedia.org/wiki/Portal:Science,363,0,0
+1769249162116,3725,Main Page,200,OK,Thread Group 3: Custom 3-20,text,true,,234249,573,20,21,https://en.wikipedia.org/wiki/Main_Page,241,0,0
+1769249162116,241,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-20,text,true,,1835,210,20,21,https://www.wikipedia.org/wiki/Main_Page,241,0,0
+1769249162358,3483,Main Page-1,200,OK,Thread Group 3: Custom 3-20,text,true,,232414,363,20,21,https://en.wikipedia.org/wiki/Main_Page,465,0,0
+1769249163838,2325,Main Page,200,OK,Thread Group 3: Custom 3-1,text,true,,234249,573,20,21,https://en.wikipedia.org/wiki/Main_Page,132,0,0
+1769249163838,132,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-1,text,true,,1835,210,20,21,https://www.wikipedia.org/wiki/Main_Page,132,0,0
+1769249163970,2193,Main Page-1,200,OK,Thread Group 3: Custom 3-1,text,true,,232414,363,20,21,https://en.wikipedia.org/wiki/Main_Page,190,0,0
+1769249162891,3283,Main Page,200,OK,Thread Group 3: Custom 3-10,text,true,,234249,573,20,21,https://en.wikipedia.org/wiki/Main_Page,897,0,0
+1769249162891,897,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-10,text,true,,1835,210,20,21,https://www.wikipedia.org/wiki/Main_Page,897,0,0
+1769249163789,2385,Main Page-1,200,OK,Thread Group 3: Custom 3-10,text,true,,232414,363,20,21,https://en.wikipedia.org/wiki/Main_Page,277,0,0
+1769249164479,1854,Main Page,200,OK,Thread Group 3: Custom 3-16,text,true,,234249,573,20,21,https://en.wikipedia.org/wiki/Main_Page,246,0,0
+1769249164479,246,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-16,text,true,,1835,210,20,21,https://www.wikipedia.org/wiki/Main_Page,246,0,0
+1769249164725,1608,Main Page-1,200,OK,Thread Group 3: Custom 3-16,text,true,,232414,363,20,21,https://en.wikipedia.org/wiki/Main_Page,204,0,0
+1769249164435,2182,Main Page,200,OK,Thread Group 3: Custom 3-18,text,true,,234249,573,20,21,https://en.wikipedia.org/wiki/Main_Page,296,0,0
+1769249164435,296,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-18,text,true,,1835,210,20,21,https://www.wikipedia.org/wiki/Main_Page,296,0,0
+1769249164731,1886,Main Page-1,200,OK,Thread Group 3: Custom 3-18,text,true,,232414,363,20,21,https://en.wikipedia.org/wiki/Main_Page,245,0,0
+1769249164096,2531,Portal:Science,200,OK,Thread Group 3: Custom 3-19,text,true,,340690,845,20,21,https://en.wikipedia.org/wiki/Portal:Science,122,0,0
+1769249164096,122,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-19,text,true,,1261,423,20,21,https://www.wikipedia.org/wiki/Portal:Science,122,0,0
+1769249164218,2409,Portal:Science-1,200,OK,Thread Group 3: Custom 3-19,text,true,,339429,422,20,21,https://en.wikipedia.org/wiki/Portal:Science,221,0,0
+1769249164213,2657,Main Page,200,OK,Thread Group 3: Custom 3-2,text,true,,234249,573,20,21,https://en.wikipedia.org/wiki/Main_Page,134,0,0
+1769249164213,134,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-2,text,true,,1835,210,20,21,https://www.wikipedia.org/wiki/Main_Page,134,0,0
+1769249164348,2522,Main Page-1,200,OK,Thread Group 3: Custom 3-2,text,true,,232414,363,20,21,https://en.wikipedia.org/wiki/Main_Page,220,0,0
+1769249164523,2954,Main Page,200,OK,Thread Group 3: Custom 3-14,text,true,,234249,573,20,21,https://en.wikipedia.org/wiki/Main_Page,208,0,0
+1769249164523,208,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-14,text,true,,1835,210,20,21,https://www.wikipedia.org/wiki/Main_Page,208,0,0
+1769249164731,2746,Main Page-1,200,OK,Thread Group 3: Custom 3-14,text,true,,232414,363,20,21,https://en.wikipedia.org/wiki/Main_Page,192,0,0
+1769249165147,2644,Portal:Science,200,OK,Thread Group 3: Custom 3-12,text,true,,340690,845,20,21,https://en.wikipedia.org/wiki/Portal:Science,202,0,0
+1769249165147,202,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-12,text,true,,1261,423,20,21,https://www.wikipedia.org/wiki/Portal:Science,202,0,0
+1769249165350,2441,Portal:Science-1,200,OK,Thread Group 3: Custom 3-12,text,true,,339429,422,20,21,https://en.wikipedia.org/wiki/Portal:Science,428,0,0
+1769249165641,2150,Portal:Science,200,OK,Thread Group 3: Custom 3-17,text,true,,340690,845,20,21,https://en.wikipedia.org/wiki/Portal:Science,244,0,0
+1769249165641,244,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-17,text,true,,1261,423,20,21,https://www.wikipedia.org/wiki/Portal:Science,244,0,0
+1769249165886,1905,Portal:Science-1,200,OK,Thread Group 3: Custom 3-17,text,true,,339429,422,20,21,https://en.wikipedia.org/wiki/Portal:Science,234,0,0
+1769249164923,3028,Portal:Science,200,OK,Thread Group 3: Custom 3-5,text,true,,340690,845,20,21,https://en.wikipedia.org/wiki/Portal:Science,192,0,0
+1769249164923,192,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-5,text,true,,1261,423,20,21,https://www.wikipedia.org/wiki/Portal:Science,192,0,0
+1769249165116,2835,Portal:Science-1,200,OK,Thread Group 3: Custom 3-5,text,true,,339429,422,20,21,https://en.wikipedia.org/wiki/Portal:Science,396,0,0
+1769249165058,3009,Portal:Science,200,OK,Thread Group 3: Custom 3-7,text,true,,340690,845,20,21,https://en.wikipedia.org/wiki/Portal:Science,209,0,0
+1769249165058,209,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-7,text,true,,1261,423,20,21,https://www.wikipedia.org/wiki/Portal:Science,209,0,0
+1769249165268,2799,Portal:Science-1,200,OK,Thread Group 3: Custom 3-7,text,true,,339429,422,20,21,https://en.wikipedia.org/wiki/Portal:Science,361,0,0
+1769249166628,2105,Main Page,200,OK,Thread Group 3: Custom 3-19,text,true,,234250,573,20,21,https://en.wikipedia.org/wiki/Main_Page,178,0,0
+1769249166628,178,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-19,text,true,,1836,210,20,21,https://www.wikipedia.org/wiki/Main_Page,178,0,0
+1769249166806,1927,Main Page-1,200,OK,Thread Group 3: Custom 3-19,text,true,,232414,363,20,21,https://en.wikipedia.org/wiki/Main_Page,270,0,0
+1769249165601,3209,Portal:Science,200,OK,Thread Group 3: Custom 3-6,text,true,,340690,845,20,21,https://en.wikipedia.org/wiki/Portal:Science,284,0,0
+1769249165601,284,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-6,text,true,,1261,423,20,21,https://www.wikipedia.org/wiki/Portal:Science,284,0,0
+1769249165886,2924,Portal:Science-1,200,OK,Thread Group 3: Custom 3-6,text,true,,339429,422,20,21,https://en.wikipedia.org/wiki/Portal:Science,272,0,0
+1769249166334,2521,Portal:Science,200,OK,Thread Group 3: Custom 3-16,text,true,,340690,845,20,21,https://en.wikipedia.org/wiki/Portal:Science,104,0,0
+1769249166334,104,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-16,text,true,,1261,423,20,21,https://www.wikipedia.org/wiki/Portal:Science,104,0,0
+1769249166438,2417,Portal:Science-1,200,OK,Thread Group 3: Custom 3-16,text,true,,339429,422,20,21,https://en.wikipedia.org/wiki/Portal:Science,200,0,0
+1769249165249,3734,Main Page,200,OK,Thread Group 3: Custom 3-15,text,true,,234249,573,20,21,https://en.wikipedia.org/wiki/Main_Page,285,0,0
+1769249165249,285,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-15,text,true,,1835,210,20,21,https://www.wikipedia.org/wiki/Main_Page,285,0,0
+1769249165534,3449,Main Page-1,200,OK,Thread Group 3: Custom 3-15,text,true,,232414,363,20,21,https://en.wikipedia.org/wiki/Main_Page,635,0,0
+1769249166164,2939,Portal:Science,200,OK,Thread Group 3: Custom 3-1,text,true,,340690,845,20,21,https://en.wikipedia.org/wiki/Portal:Science,103,0,0
+1769249166164,103,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-1,text,true,,1261,423,20,21,https://www.wikipedia.org/wiki/Portal:Science,103,0,0
+1769249166267,2836,Portal:Science-1,200,OK,Thread Group 3: Custom 3-1,text,true,,339429,422,20,21,https://en.wikipedia.org/wiki/Portal:Science,244,0,0
+1769249167792,1544,Main Page,200,OK,Thread Group 3: Custom 3-17,text,true,,234250,573,20,21,https://en.wikipedia.org/wiki/Main_Page,275,0,0
+1769249167792,275,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-17,text,true,,1836,210,20,21,https://www.wikipedia.org/wiki/Main_Page,275,0,0
+1769249168067,1269,Main Page-1,200,OK,Thread Group 3: Custom 3-17,text,true,,232414,363,20,21,https://en.wikipedia.org/wiki/Main_Page,149,0,0
+1769249164102,5284,Portal:Science,200,OK,Thread Group 3: Custom 3-3,text,true,,340690,845,20,21,https://en.wikipedia.org/wiki/Portal:Science,127,0,0
+1769249164102,127,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-3,text,true,,1261,423,20,21,https://www.wikipedia.org/wiki/Portal:Science,127,0,0
+1769249164229,5157,Portal:Science-1,200,OK,Thread Group 3: Custom 3-3,text,true,,339429,422,20,21,https://en.wikipedia.org/wiki/Portal:Science,316,0,0
+1769249165771,3752,Main Page,200,OK,Thread Group 3: Custom 3-13,text,true,,234250,573,20,21,https://en.wikipedia.org/wiki/Main_Page,639,0,0
+1769249165771,639,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-13,text,true,,1836,210,20,21,https://www.wikipedia.org/wiki/Main_Page,639,0,0
+1769249166410,3113,Main Page-1,200,OK,Thread Group 3: Custom 3-13,text,true,,232414,363,20,21,https://en.wikipedia.org/wiki/Main_Page,251,0,0
+1769249167792,1812,Main Page,200,OK,Thread Group 3: Custom 3-12,text,true,,234250,573,20,21,https://en.wikipedia.org/wiki/Main_Page,258,0,0
+1769249167792,258,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-12,text,true,,1836,210,20,21,https://www.wikipedia.org/wiki/Main_Page,258,0,0
+1769249168050,1554,Main Page-1,200,OK,Thread Group 3: Custom 3-12,text,true,,232414,363,20,21,https://en.wikipedia.org/wiki/Main_Page,183,0,0
+1769249162786,7102,Main Page,200,OK,Thread Group 3: Custom 3-4,text,true,,234249,573,20,21,https://en.wikipedia.org/wiki/Main_Page,215,0,0
+1769249162786,215,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-4,text,true,,1835,210,20,21,https://www.wikipedia.org/wiki/Main_Page,215,0,0
+1769249163001,6887,Main Page-1,200,OK,Thread Group 3: Custom 3-4,text,true,,232414,363,20,21,https://en.wikipedia.org/wiki/Main_Page,519,0,0
+1769249164946,4996,Portal:Science,200,OK,Thread Group 3: Custom 3-8,text,true,,340690,845,20,21,https://en.wikipedia.org/wiki/Portal:Science,191,0,0
+1769249164946,191,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-8,text,true,,1261,423,20,21,https://www.wikipedia.org/wiki/Portal:Science,191,0,0
+1769249165137,4805,Portal:Science-1,200,OK,Thread Group 3: Custom 3-8,text,true,,339429,422,20,21,https://en.wikipedia.org/wiki/Portal:Science,447,0,0
+1769249167477,2495,Portal:Science,200,OK,Thread Group 3: Custom 3-14,text,true,,340690,845,20,21,https://en.wikipedia.org/wiki/Portal:Science,133,0,0
+1769249167477,133,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-14,text,true,,1261,423,20,21,https://www.wikipedia.org/wiki/Portal:Science,133,0,0
+1769249167610,2362,Portal:Science-1,200,OK,Thread Group 3: Custom 3-14,text,true,,339429,422,20,21,https://en.wikipedia.org/wiki/Portal:Science,247,0,0
+1769249168068,1932,Main Page,200,OK,Thread Group 3: Custom 3-7,text,true,,234250,573,20,21,https://en.wikipedia.org/wiki/Main_Page,94,0,0
+1769249168068,94,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-7,text,true,,1836,210,20,21,https://www.wikipedia.org/wiki/Main_Page,94,0,0
+1769249168162,1838,Main Page-1,200,OK,Thread Group 3: Custom 3-7,text,true,,232414,363,20,21,https://en.wikipedia.org/wiki/Main_Page,416,0,0
+1769249166871,3143,Portal:Science,200,OK,Thread Group 3: Custom 3-2,text,true,,340690,845,20,21,https://en.wikipedia.org/wiki/Portal:Science,160,0,0
+1769249166871,160,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-2,text,true,,1261,423,20,21,https://www.wikipedia.org/wiki/Portal:Science,160,0,0
+1769249167031,2983,Portal:Science-1,200,OK,Thread Group 3: Custom 3-2,text,true,,339429,422,20,21,https://en.wikipedia.org/wiki/Portal:Science,510,0,0
+1769249167952,2070,Main Page,200,OK,Thread Group 3: Custom 3-5,text,true,,234250,573,20,21,https://en.wikipedia.org/wiki/Main_Page,149,0,0
+1769249167952,149,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-5,text,true,,1836,210,20,21,https://www.wikipedia.org/wiki/Main_Page,149,0,0
+1769249168102,1920,Main Page-1,200,OK,Thread Group 3: Custom 3-5,text,true,,232414,363,20,21,https://en.wikipedia.org/wiki/Main_Page,487,0,0
+1769249166175,3880,Portal:Science,200,OK,Thread Group 3: Custom 3-10,text,true,,340690,845,20,21,https://en.wikipedia.org/wiki/Portal:Science,97,0,0
+1769249166617,3439,Portal:Science,200,OK,Thread Group 3: Custom 3-18,text,true,,340690,845,20,21,https://en.wikipedia.org/wiki/Portal:Science,182,0,0
+1769249166175,97,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-10,text,true,,1261,423,20,21,https://www.wikipedia.org/wiki/Portal:Science,97,0,0
+1769249166617,183,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-18,text,true,,1261,423,20,21,https://www.wikipedia.org/wiki/Portal:Science,182,0,0
+1769249166800,3256,Portal:Science-1,200,OK,Thread Group 3: Custom 3-18,text,true,,339429,422,20,21,https://en.wikipedia.org/wiki/Portal:Science,281,0,0
+1769249166272,3783,Portal:Science-1,200,OK,Thread Group 3: Custom 3-10,text,true,,339429,422,20,21,https://en.wikipedia.org/wiki/Portal:Science,278,0,0
+1769249165841,4416,Portal:Science,200,OK,Thread Group 3: Custom 3-20,text,true,,340690,845,20,21,https://en.wikipedia.org/wiki/Portal:Science,201,0,0
+1769249165841,202,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-20,text,true,,1261,423,20,21,https://www.wikipedia.org/wiki/Portal:Science,201,0,0
+1769249166043,4214,Portal:Science-1,200,OK,Thread Group 3: Custom 3-20,text,true,,339429,422,20,21,https://en.wikipedia.org/wiki/Portal:Science,284,0,0
+1769249168855,1813,Main Page,200,OK,Thread Group 3: Custom 3-16,text,true,,234250,573,20,21,https://en.wikipedia.org/wiki/Main_Page,214,0,0
+1769249168855,214,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-16,text,true,,1836,210,20,21,https://www.wikipedia.org/wiki/Main_Page,214,0,0
+1769249169070,1598,Main Page-1,200,OK,Thread Group 3: Custom 3-16,text,true,,232414,363,20,21,https://en.wikipedia.org/wiki/Main_Page,344,0,0
+1769249165190,5483,Portal:Science,200,OK,Thread Group 3: Custom 3-9,text,true,,340690,845,20,21,https://en.wikipedia.org/wiki/Portal:Science,209,0,0
+1769249165190,209,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-9,text,true,,1261,423,20,21,https://www.wikipedia.org/wiki/Portal:Science,209,0,0
+1769249165399,5274,Portal:Science-1,200,OK,Thread Group 3: Custom 3-9,text,true,,339429,422,20,21,https://en.wikipedia.org/wiki/Portal:Science,425,0,0
+1769249168811,2384,Main Page,200,OK,Thread Group 3: Custom 3-6,text,true,,234250,573,20,21,https://en.wikipedia.org/wiki/Main_Page,275,0,0
+1769249168811,275,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-6,text,true,,1836,210,20,21,https://www.wikipedia.org/wiki/Main_Page,275,0,0
+1769249169087,2108,Main Page-1,200,OK,Thread Group 3: Custom 3-6,text,true,,232414,363,20,21,https://en.wikipedia.org/wiki/Main_Page,354,0,0
+1769249169104,2197,Main Page,200,OK,Thread Group 3: Custom 3-1,text,true,,234250,573,20,21,https://en.wikipedia.org/wiki/Main_Page,232,0,0
+1769249169104,232,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-1,text,true,,1836,210,20,21,https://www.wikipedia.org/wiki/Main_Page,232,0,0
+1769249169337,1964,Main Page-1,200,OK,Thread Group 3: Custom 3-1,text,true,,232414,363,20,21,https://en.wikipedia.org/wiki/Main_Page,289,0,0
+1769249168733,3065,Portal:Science,200,OK,Thread Group 3: Custom 3-19,text,true,,340690,845,20,21,https://en.wikipedia.org/wiki/Portal:Science,320,0,0
+1769249168733,320,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-19,text,true,,1261,423,20,21,https://www.wikipedia.org/wiki/Portal:Science,320,0,0
+1769249169053,2745,Portal:Science-1,200,OK,Thread Group 3: Custom 3-19,text,true,,339429,422,20,21,https://en.wikipedia.org/wiki/Portal:Science,367,0,0
+1769249169972,1945,Main Page,200,OK,Thread Group 3: Custom 3-14,text,true,,234250,573,20,21,https://en.wikipedia.org/wiki/Main_Page,79,0,0
+1769249169972,79,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-14,text,true,,1836,210,20,21,https://www.wikipedia.org/wiki/Main_Page,79,0,0
+1769249170051,1866,Main Page-1,200,OK,Thread Group 3: Custom 3-14,text,true,,232414,363,20,21,https://en.wikipedia.org/wiki/Main_Page,174,0,0
+1769249170014,2140,Main Page,200,OK,Thread Group 3: Custom 3-2,text,true,,234250,573,20,21,https://en.wikipedia.org/wiki/Main_Page,59,0,0
+1769249170014,59,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-2,text,true,,1836,210,20,21,https://www.wikipedia.org/wiki/Main_Page,59,0,0
+1769249170074,2080,Main Page-1,200,OK,Thread Group 3: Custom 3-2,text,true,,232414,363,20,21,https://en.wikipedia.org/wiki/Main_Page,189,0,0
+1769249169337,2882,Portal:Science,200,OK,Thread Group 3: Custom 3-17,text,true,,340690,845,20,21,https://en.wikipedia.org/wiki/Portal:Science,202,0,0
+1769249169337,202,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-17,text,true,,1261,423,20,21,https://www.wikipedia.org/wiki/Portal:Science,202,0,0
+1769249169539,2680,Portal:Science-1,200,OK,Thread Group 3: Custom 3-17,text,true,,339429,422,20,21,https://en.wikipedia.org/wiki/Portal:Science,707,0,0
+1769249170056,2790,Main Page,200,OK,Thread Group 3: Custom 3-10,text,true,,234250,573,20,21,https://en.wikipedia.org/wiki/Main_Page,67,0,0
+1769249170056,67,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-10,text,true,,1836,210,20,21,https://www.wikipedia.org/wiki/Main_Page,67,0,0
+1769249170123,2723,Main Page-1,200,OK,Thread Group 3: Custom 3-10,text,true,,232414,363,20,21,https://en.wikipedia.org/wiki/Main_Page,190,0,0
+1769249170001,2870,Portal:Science,200,OK,Thread Group 3: Custom 3-7,text,true,,340690,845,20,21,https://en.wikipedia.org/wiki/Portal:Science,66,0,0
+1769249170001,66,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-7,text,true,,1261,423,20,21,https://www.wikipedia.org/wiki/Portal:Science,66,0,0
+1769249170068,2803,Portal:Science-1,200,OK,Thread Group 3: Custom 3-7,text,true,,339429,422,20,21,https://en.wikipedia.org/wiki/Portal:Science,167,0,0
+1769249170669,2285,Portal:Science,200,OK,Thread Group 3: Custom 3-16,text,true,,340692,845,20,21,https://en.wikipedia.org/wiki/Portal:Science,153,0,0
+1769249170669,153,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-16,text,true,,1262,423,20,21,https://www.wikipedia.org/wiki/Portal:Science,153,0,0
+1769249170822,2132,Portal:Science-1,200,OK,Thread Group 3: Custom 3-16,text,true,,339430,422,20,21,https://en.wikipedia.org/wiki/Portal:Science,384,0,0
+1769249169604,3411,Portal:Science,200,OK,Thread Group 3: Custom 3-12,text,true,,340691,845,20,21,https://en.wikipedia.org/wiki/Portal:Science,697,0,0
+1769249169604,697,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-12,text,true,,1261,423,20,21,https://www.wikipedia.org/wiki/Portal:Science,697,0,0
+1769249170301,2714,Portal:Science-1,200,OK,Thread Group 3: Custom 3-12,text,true,,339430,422,20,21,https://en.wikipedia.org/wiki/Portal:Science,412,0,0
+1769249170022,3068,Portal:Science,200,OK,Thread Group 3: Custom 3-5,text,true,,340691,845,20,21,https://en.wikipedia.org/wiki/Portal:Science,62,0,0
+1769249170022,62,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-5,text,true,,1262,423,20,21,https://www.wikipedia.org/wiki/Portal:Science,62,0,0
+1769249170084,3006,Portal:Science-1,200,OK,Thread Group 3: Custom 3-5,text,true,,339429,422,20,21,https://en.wikipedia.org/wiki/Portal:Science,173,0,0
+1769249170258,2925,Main Page,200,OK,Thread Group 3: Custom 3-20,text,true,,234250,573,20,21,https://en.wikipedia.org/wiki/Main_Page,254,0,0
+1769249170258,254,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-20,text,true,,1836,210,20,21,https://www.wikipedia.org/wiki/Main_Page,254,0,0
+1769249170512,2671,Main Page-1,200,OK,Thread Group 3: Custom 3-20,text,true,,232414,363,20,21,https://en.wikipedia.org/wiki/Main_Page,416,0,0
+1769249163641,9701,Home Page Request,200,OK,Thread Group 1: Basic 1-5,text,true,,195760,196,1,21,https://www.wikipedia.org/,870,0,0
+1769249172219,1436,Main Page,200,OK,Thread Group 3: Custom 3-17,text,true,,234250,573,20,20,https://en.wikipedia.org/wiki/Main_Page,124,0,0
+1769249172219,124,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-17,text,true,,1836,210,20,20,https://www.wikipedia.org/wiki/Main_Page,124,0,0
+1769249172343,1312,Main Page-1,200,OK,Thread Group 3: Custom 3-17,text,true,,232414,363,20,20,https://en.wikipedia.org/wiki/Main_Page,329,0,0
+1769249170056,3617,Main Page,200,OK,Thread Group 3: Custom 3-18,text,true,,234250,573,20,20,https://en.wikipedia.org/wiki/Main_Page,70,0,0
+1769249170056,70,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-18,text,true,,1836,210,20,20,https://www.wikipedia.org/wiki/Main_Page,70,0,0
+1769249170127,3546,Main Page-1,200,OK,Thread Group 3: Custom 3-18,text,true,,232414,363,20,20,https://en.wikipedia.org/wiki/Main_Page,186,0,0
+1769249170674,3170,Main Page,200,OK,Thread Group 3: Custom 3-9,text,true,,234250,573,20,20,https://en.wikipedia.org/wiki/Main_Page,154,0,0
+1769249170674,154,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-9,text,true,,1836,210,20,20,https://www.wikipedia.org/wiki/Main_Page,154,0,0
+1769249170828,3016,Main Page-1,200,OK,Thread Group 3: Custom 3-9,text,true,,232414,363,20,20,https://en.wikipedia.org/wiki/Main_Page,454,0,0
+1769249169943,4292,Main Page,200,OK,Thread Group 3: Custom 3-8,text,true,,234250,573,20,20,https://en.wikipedia.org/wiki/Main_Page,116,0,0
+1769249169943,116,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-8,text,true,,1836,210,20,20,https://www.wikipedia.org/wiki/Main_Page,116,0,0
+1769249170059,4176,Main Page-1,200,OK,Thread Group 3: Custom 3-8,text,true,,232414,363,20,20,https://en.wikipedia.org/wiki/Main_Page,259,0,0
+1769249171301,3027,Portal:Science,200,OK,Thread Group 3: Custom 3-1,text,true,,340692,845,20,20,https://en.wikipedia.org/wiki/Portal:Science,212,0,0
+1769249171301,212,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-1,text,true,,1262,423,20,20,https://www.wikipedia.org/wiki/Portal:Science,212,0,0
+1769249171513,2815,Portal:Science-1,200,OK,Thread Group 3: Custom 3-1,text,true,,339430,422,20,20,https://en.wikipedia.org/wiki/Portal:Science,501,0,0
+1769249169387,4991,Main Page,200,OK,Thread Group 3: Custom 3-3,text,true,,234250,573,20,20,https://en.wikipedia.org/wiki/Main_Page,948,0,0
+1769249169387,948,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-3,text,true,,1836,210,20,20,https://www.wikipedia.org/wiki/Main_Page,948,0,0
+1769249170335,4043,Main Page-1,200,OK,Thread Group 3: Custom 3-3,text,true,,232414,363,20,20,https://en.wikipedia.org/wiki/Main_Page,576,0,0
+1769249171917,2564,Portal:Science,200,OK,Thread Group 3: Custom 3-14,text,true,,340692,845,20,20,https://en.wikipedia.org/wiki/Portal:Science,328,0,0
+1769249171917,328,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-14,text,true,,1262,423,20,20,https://www.wikipedia.org/wiki/Portal:Science,328,0,0
+1769249172246,2235,Portal:Science-1,200,OK,Thread Group 3: Custom 3-14,text,true,,339430,422,20,20,https://en.wikipedia.org/wiki/Portal:Science,166,0,0
+1769249168983,5545,Portal:Science,200,OK,Thread Group 3: Custom 3-15,text,true,,340690,845,20,20,https://en.wikipedia.org/wiki/Portal:Science,120,0,0
+1769249168983,120,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-15,text,true,,1261,423,20,20,https://www.wikipedia.org/wiki/Portal:Science,120,0,0
+1769249169103,5425,Portal:Science-1,200,OK,Thread Group 3: Custom 3-15,text,true,,339429,422,20,20,https://en.wikipedia.org/wiki/Portal:Science,420,0,0
+1769249169523,5039,Portal:Science,200,OK,Thread Group 3: Custom 3-13,text,true,,340691,845,20,20,https://en.wikipedia.org/wiki/Portal:Science,579,0,0
+1769249169523,579,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-13,text,true,,1261,423,20,20,https://www.wikipedia.org/wiki/Portal:Science,579,0,0
+1769249170103,4459,Portal:Science-1,200,OK,Thread Group 3: Custom 3-13,text,true,,339430,422,20,20,https://en.wikipedia.org/wiki/Portal:Science,237,0,0
+1769249172955,1647,Main Page,200,OK,Thread Group 3: Custom 3-16,text,true,,234250,573,20,20,https://en.wikipedia.org/wiki/Main_Page,136,0,0
+1769249172955,136,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-16,text,true,,1836,210,20,20,https://www.wikipedia.org/wiki/Main_Page,136,0,0
+1769249173091,1511,Main Page-1,200,OK,Thread Group 3: Custom 3-16,text,true,,232414,363,20,20,https://en.wikipedia.org/wiki/Main_Page,177,0,0
+1769249173015,1728,Main Page,200,OK,Thread Group 3: Custom 3-12,text,true,,234250,573,20,20,https://en.wikipedia.org/wiki/Main_Page,99,0,0
+1769249173015,99,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-12,text,true,,1836,210,20,20,https://www.wikipedia.org/wiki/Main_Page,99,0,0
+1769249173114,1629,Main Page-1,200,OK,Thread Group 3: Custom 3-12,text,true,,232414,363,20,20,https://en.wikipedia.org/wiki/Main_Page,194,0,0
+1769249172872,1895,Main Page,200,OK,Thread Group 3: Custom 3-7,text,true,,234250,573,20,20,https://en.wikipedia.org/wiki/Main_Page,105,0,0
+1769249172872,105,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-7,text,true,,1836,210,20,20,https://www.wikipedia.org/wiki/Main_Page,105,0,0
+1769249172977,1790,Main Page-1,200,OK,Thread Group 3: Custom 3-7,text,true,,232414,363,20,20,https://en.wikipedia.org/wiki/Main_Page,190,0,0
+1769249171798,3514,Main Page,200,OK,Thread Group 3: Custom 3-19,text,true,,234250,573,20,20,https://en.wikipedia.org/wiki/Main_Page,1555,0,0
+1769249171798,1555,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-19,text,true,,1836,210,20,20,https://www.wikipedia.org/wiki/Main_Page,1555,0,0
+1769249173353,1959,Main Page-1,200,OK,Thread Group 3: Custom 3-19,text,true,,232414,363,20,20,https://en.wikipedia.org/wiki/Main_Page,414,0,0
+1769249171195,4421,Portal:Science,200,OK,Thread Group 3: Custom 3-6,text,true,,340692,845,20,20,https://en.wikipedia.org/wiki/Portal:Science,257,0,0
+1769249171195,257,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-6,text,true,,1262,423,20,20,https://www.wikipedia.org/wiki/Portal:Science,257,0,0
+1769249171453,4163,Portal:Science-1,200,OK,Thread Group 3: Custom 3-6,text,true,,339430,422,20,20,https://en.wikipedia.org/wiki/Portal:Science,556,0,0
+1769249173656,2145,Portal:Science,200,OK,Thread Group 3: Custom 3-17,text,true,,340692,845,20,20,https://en.wikipedia.org/wiki/Portal:Science,117,0,0
+1769249173656,117,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-17,text,true,,1262,423,20,20,https://www.wikipedia.org/wiki/Portal:Science,117,0,0
+1769249173773,2028,Portal:Science-1,200,OK,Thread Group 3: Custom 3-17,text,true,,339430,422,20,20,https://en.wikipedia.org/wiki/Portal:Science,205,0,0
+1769249165529,10283,Portal:Science,200,OK,Thread Group 3: Custom 3-11,text,true,,340690,845,20,20,https://en.wikipedia.org/wiki/Portal:Science,345,0,0
+1769249165529,345,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-11,text,true,,1261,423,20,20,https://www.wikipedia.org/wiki/Portal:Science,345,0,0
+1769249165874,9938,Portal:Science-1,200,OK,Thread Group 3: Custom 3-11,text,true,,339429,422,20,20,https://en.wikipedia.org/wiki/Portal:Science,506,0,0
+1769249172847,3004,Portal:Science,200,OK,Thread Group 3: Custom 3-10,text,true,,340692,845,20,20,https://en.wikipedia.org/wiki/Portal:Science,118,0,0
+1769249172847,118,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-10,text,true,,1262,423,20,20,https://www.wikipedia.org/wiki/Portal:Science,118,0,0
+1769249172965,2886,Portal:Science-1,200,OK,Thread Group 3: Custom 3-10,text,true,,339430,422,20,20,https://en.wikipedia.org/wiki/Portal:Science,208,0,0
+1769249172154,3939,Portal:Science,200,OK,Thread Group 3: Custom 3-2,text,true,,340692,845,20,20,https://en.wikipedia.org/wiki/Portal:Science,165,0,0
+1769249172154,165,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-2,text,true,,1262,423,20,20,https://www.wikipedia.org/wiki/Portal:Science,165,0,0
+1769249172319,3774,Portal:Science-1,200,OK,Thread Group 3: Custom 3-2,text,true,,339430,422,20,20,https://en.wikipedia.org/wiki/Portal:Science,189,0,0
+1769249174482,1727,Main Page,200,OK,Thread Group 3: Custom 3-14,text,true,,234250,573,20,20,https://en.wikipedia.org/wiki/Main_Page,268,0,0
+1769249174482,268,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-14,text,true,,1836,210,20,20,https://www.wikipedia.org/wiki/Main_Page,268,0,0
+1769249174752,1457,Main Page-1,200,OK,Thread Group 3: Custom 3-14,text,true,,232414,363,20,20,https://en.wikipedia.org/wiki/Main_Page,173,0,0
+1769249174328,1969,Main Page,200,OK,Thread Group 3: Custom 3-1,text,true,,234250,573,20,20,https://en.wikipedia.org/wiki/Main_Page,314,0,0
+1769249174328,314,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-1,text,true,,1836,210,20,20,https://www.wikipedia.org/wiki/Main_Page,314,0,0
+1769249174643,1654,Main Page-1,200,OK,Thread Group 3: Custom 3-1,text,true,,232414,363,20,20,https://en.wikipedia.org/wiki/Main_Page,576,0,0
+1769249173184,3395,Portal:Science,200,OK,Thread Group 3: Custom 3-20,text,true,,340692,845,20,20,https://en.wikipedia.org/wiki/Portal:Science,107,0,0
+1769249173184,108,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-20,text,true,,1262,423,20,20,https://www.wikipedia.org/wiki/Portal:Science,107,0,0
+1769249173292,3287,Portal:Science-1,200,OK,Thread Group 3: Custom 3-20,text,true,,339430,422,20,20,https://en.wikipedia.org/wiki/Portal:Science,504,0,0
+1769249174603,2013,Portal:Science,200,OK,Thread Group 3: Custom 3-16,text,true,,340692,845,20,20,https://en.wikipedia.org/wiki/Portal:Science,247,0,0
+1769249174603,247,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-16,text,true,,1262,423,20,20,https://www.wikipedia.org/wiki/Portal:Science,247,0,0
+1769249174851,1765,Portal:Science-1,200,OK,Thread Group 3: Custom 3-16,text,true,,339430,422,20,20,https://en.wikipedia.org/wiki/Portal:Science,174,0,0
+1769249173091,3553,Main Page,200,OK,Thread Group 3: Custom 3-5,text,true,,234250,573,20,20,https://en.wikipedia.org/wiki/Main_Page,110,0,0
+1769249173091,110,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-5,text,true,,1836,210,20,20,https://www.wikipedia.org/wiki/Main_Page,110,0,0
+1769249173202,3442,Main Page-1,200,OK,Thread Group 3: Custom 3-5,text,true,,232414,363,20,20,https://en.wikipedia.org/wiki/Main_Page,205,0,0
+1769249174745,2067,Portal:Science,200,OK,Thread Group 3: Custom 3-12,text,true,,340692,845,20,20,https://en.wikipedia.org/wiki/Portal:Science,112,0,0
+1769249174745,112,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-12,text,true,,1262,423,20,20,https://www.wikipedia.org/wiki/Portal:Science,112,0,0
+1769249174857,1955,Portal:Science-1,200,OK,Thread Group 3: Custom 3-12,text,true,,339430,422,20,20,https://en.wikipedia.org/wiki/Portal:Science,173,0,0
+1769249173673,3204,Portal:Science,200,OK,Thread Group 3: Custom 3-18,text,true,,340692,845,20,20,https://en.wikipedia.org/wiki/Portal:Science,112,0,0
+1769249173673,112,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-18,text,true,,1262,423,20,20,https://www.wikipedia.org/wiki/Portal:Science,112,0,0
+1769249173785,3092,Portal:Science-1,200,OK,Thread Group 3: Custom 3-18,text,true,,339430,422,20,20,https://en.wikipedia.org/wiki/Portal:Science,279,0,0
+1769249175803,1396,Main Page,200,OK,Thread Group 3: Custom 3-17,text,true,,234250,573,20,20,https://en.wikipedia.org/wiki/Main_Page,286,0,0
+1769249175803,286,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-17,text,true,,1836,210,20,20,https://www.wikipedia.org/wiki/Main_Page,286,0,0
+1769249176089,1110,Main Page-1,200,OK,Thread Group 3: Custom 3-17,text,true,,232414,363,20,20,https://en.wikipedia.org/wiki/Main_Page,162,0,0
+1769249174769,3150,Portal:Science,200,OK,Thread Group 3: Custom 3-7,text,true,,340692,845,20,20,https://en.wikipedia.org/wiki/Portal:Science,105,0,0
+1769249174769,105,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-7,text,true,,1262,423,20,20,https://www.wikipedia.org/wiki/Portal:Science,105,0,0
+1769249174874,3045,Portal:Science-1,200,OK,Thread Group 3: Custom 3-7,text,true,,339430,422,20,20,https://en.wikipedia.org/wiki/Portal:Science,351,0,0
+1769249174563,3423,Main Page,200,OK,Thread Group 3: Custom 3-13,text,true,,234250,573,20,20,https://en.wikipedia.org/wiki/Main_Page,264,0,0
+1769249174563,264,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-13,text,true,,1836,210,20,20,https://www.wikipedia.org/wiki/Main_Page,264,0,0
+1769249174828,3158,Main Page-1,200,OK,Thread Group 3: Custom 3-13,text,true,,232414,363,20,20,https://en.wikipedia.org/wiki/Main_Page,219,0,0
+1769249174529,3575,Main Page,200,OK,Thread Group 3: Custom 3-15,text,true,,234250,573,20,20,https://en.wikipedia.org/wiki/Main_Page,262,0,0
+1769249174529,262,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-15,text,true,,1836,210,20,20,https://www.wikipedia.org/wiki/Main_Page,262,0,0
+1769249174793,3311,Main Page-1,200,OK,Thread Group 3: Custom 3-15,text,true,,232414,363,20,20,https://en.wikipedia.org/wiki/Main_Page,248,0,0
+1769249175314,2802,Portal:Science,200,OK,Thread Group 3: Custom 3-19,text,true,,340692,845,20,20,https://en.wikipedia.org/wiki/Portal:Science,120,0,0
+1769249175314,120,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-19,text,true,,1262,423,20,20,https://www.wikipedia.org/wiki/Portal:Science,120,0,0
+1769249175434,2682,Portal:Science-1,200,OK,Thread Group 3: Custom 3-19,text,true,,339430,422,20,20,https://en.wikipedia.org/wiki/Portal:Science,199,0,0
+1769249175617,2542,Main Page,200,OK,Thread Group 3: Custom 3-6,text,true,,234250,573,20,20,https://en.wikipedia.org/wiki/Main_Page,214,0,0
+1769249175617,214,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-6,text,true,,1836,210,20,20,https://www.wikipedia.org/wiki/Main_Page,214,0,0
+1769249175831,2328,Main Page-1,200,OK,Thread Group 3: Custom 3-6,text,true,,232414,363,20,20,https://en.wikipedia.org/wiki/Main_Page,362,0,0
+1769249175853,2348,Main Page,200,OK,Thread Group 3: Custom 3-10,text,true,,234250,573,20,20,https://en.wikipedia.org/wiki/Main_Page,223,0,0
+1769249175853,223,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-10,text,true,,1836,210,20,20,https://www.wikipedia.org/wiki/Main_Page,223,0,0
+1769249176076,2125,Main Page-1,200,OK,Thread Group 3: Custom 3-10,text,true,,232414,363,20,20,https://en.wikipedia.org/wiki/Main_Page,206,0,0
+1769249176617,1663,Main Page,200,OK,Thread Group 3: Custom 3-16,text,true,,234250,573,20,20,https://en.wikipedia.org/wiki/Main_Page,212,0,0
+1769249176617,212,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-16,text,true,,1836,210,20,20,https://www.wikipedia.org/wiki/Main_Page,212,0,0
+1769249176830,1450,Main Page-1,200,OK,Thread Group 3: Custom 3-16,text,true,,232414,363,20,20,https://en.wikipedia.org/wiki/Main_Page,323,0,0
+1769249173844,4518,Portal:Science,200,OK,Thread Group 3: Custom 3-9,text,true,,340692,845,20,20,https://en.wikipedia.org/wiki/Portal:Science,167,0,0
+1769249173844,167,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-9,text,true,,1262,423,20,20,https://www.wikipedia.org/wiki/Portal:Science,167,0,0
+1769249174011,4351,Portal:Science-1,200,OK,Thread Group 3: Custom 3-9,text,true,,339430,422,20,20,https://en.wikipedia.org/wiki/Portal:Science,395,0,0
+1769249176094,2270,Main Page,200,OK,Thread Group 3: Custom 3-2,text,true,,234250,573,20,20,https://en.wikipedia.org/wiki/Main_Page,88,0,0
+1769249176094,88,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-2,text,true,,1836,210,20,20,https://www.wikipedia.org/wiki/Main_Page,88,0,0
+1769249176182,2182,Main Page-1,200,OK,Thread Group 3: Custom 3-2,text,true,,232414,363,20,20,https://en.wikipedia.org/wiki/Main_Page,245,0,0
+1769249169889,8505,Portal:Science,200,OK,Thread Group 3: Custom 3-4,text,true,,340690,845,20,20,https://en.wikipedia.org/wiki/Portal:Science,151,0,0
+1769249169889,151,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-4,text,true,,1261,423,20,20,https://www.wikipedia.org/wiki/Portal:Science,151,0,0
+1769249170040,8354,Portal:Science-1,200,OK,Thread Group 3: Custom 3-4,text,true,,339429,422,20,20,https://en.wikipedia.org/wiki/Portal:Science,398,0,0
+1769249176209,2577,Portal:Science,200,OK,Thread Group 3: Custom 3-14,text,true,,340692,845,20,20,https://en.wikipedia.org/wiki/Portal:Science,113,0,0
+1769249176209,113,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-14,text,true,,1262,423,20,20,https://www.wikipedia.org/wiki/Portal:Science,113,0,0
+1769249176322,2464,Portal:Science-1,200,OK,Thread Group 3: Custom 3-14,text,true,,339430,422,20,20,https://en.wikipedia.org/wiki/Portal:Science,230,0,0
+1769249176299,2504,Portal:Science,200,OK,Thread Group 3: Custom 3-1,text,true,,340692,845,20,20,https://en.wikipedia.org/wiki/Portal:Science,134,0,0
+1769249176299,134,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-1,text,true,,1262,423,20,20,https://www.wikipedia.org/wiki/Portal:Science,134,0,0
+1769249176434,2369,Portal:Science-1,200,OK,Thread Group 3: Custom 3-1,text,true,,339430,422,20,20,https://en.wikipedia.org/wiki/Portal:Science,276,0,0
+1769249176581,2804,Main Page,200,OK,Thread Group 3: Custom 3-20,text,true,,234250,573,20,20,https://en.wikipedia.org/wiki/Main_Page,216,0,0
+1769249176581,216,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-20,text,true,,1836,210,20,20,https://www.wikipedia.org/wiki/Main_Page,216,0,0
+1769249176797,2588,Main Page-1,200,OK,Thread Group 3: Custom 3-20,text,true,,232414,363,20,20,https://en.wikipedia.org/wiki/Main_Page,389,0,0
+1769249176879,2605,Main Page,200,OK,Thread Group 3: Custom 3-18,text,true,,234250,573,20,20,https://en.wikipedia.org/wiki/Main_Page,257,0,0
+1769249176879,257,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-18,text,true,,1836,210,20,20,https://www.wikipedia.org/wiki/Main_Page,257,0,0
+1769249177136,2348,Main Page-1,200,OK,Thread Group 3: Custom 3-18,text,true,,232414,363,20,20,https://en.wikipedia.org/wiki/Main_Page,527,0,0
+1769249176812,2805,Main Page,200,OK,Thread Group 3: Custom 3-12,text,true,,234250,573,20,20,https://en.wikipedia.org/wiki/Main_Page,247,0,0
+1769249176812,247,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-12,text,true,,1836,210,20,20,https://www.wikipedia.org/wiki/Main_Page,247,0,0
+1769249177059,2558,Main Page-1,200,OK,Thread Group 3: Custom 3-12,text,true,,232414,363,20,20,https://en.wikipedia.org/wiki/Main_Page,359,0,0
+1769249176645,3068,Portal:Science,200,OK,Thread Group 3: Custom 3-5,text,true,,340692,845,20,20,https://en.wikipedia.org/wiki/Portal:Science,291,0,0
+1769249176645,291,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-5,text,true,,1262,423,20,20,https://www.wikipedia.org/wiki/Portal:Science,291,0,0
+1769249176936,2777,Portal:Science-1,200,OK,Thread Group 3: Custom 3-5,text,true,,339430,422,20,20,https://en.wikipedia.org/wiki/Portal:Science,348,0,0
+1769249174236,5637,Portal:Science,200,OK,Thread Group 3: Custom 3-8,text,true,,340692,845,20,20,https://en.wikipedia.org/wiki/Portal:Science,310,0,0
+1769249174236,310,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-8,text,true,,1262,423,20,20,https://www.wikipedia.org/wiki/Portal:Science,310,0,0
+1769249174547,5326,Portal:Science-1,200,OK,Thread Group 3: Custom 3-8,text,true,,339430,422,20,20,https://en.wikipedia.org/wiki/Portal:Science,718,0,0
+1769249178116,1770,Main Page,200,OK,Thread Group 3: Custom 3-19,text,true,,234250,573,20,20,https://en.wikipedia.org/wiki/Main_Page,115,0,0
+1769249178116,115,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-19,text,true,,1836,210,20,20,https://www.wikipedia.org/wiki/Main_Page,115,0,0
+1769249178231,1655,Main Page-1,200,OK,Thread Group 3: Custom 3-19,text,true,,232414,363,20,20,https://en.wikipedia.org/wiki/Main_Page,201,0,0
+1769249177919,2111,Main Page,200,OK,Thread Group 3: Custom 3-7,text,true,,234250,573,20,20,https://en.wikipedia.org/wiki/Main_Page,116,0,0
+1769249177919,116,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-7,text,true,,1836,210,20,20,https://www.wikipedia.org/wiki/Main_Page,116,0,0
+1769249178035,1995,Main Page-1,200,OK,Thread Group 3: Custom 3-7,text,true,,232414,363,20,20,https://en.wikipedia.org/wiki/Main_Page,184,0,0
+1769249177200,2876,Portal:Science,200,OK,Thread Group 3: Custom 3-17,text,true,,340692,845,20,20,https://en.wikipedia.org/wiki/Portal:Science,1074,0,0
+1769249177200,1074,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-17,text,true,,1262,423,20,20,https://www.wikipedia.org/wiki/Portal:Science,1074,0,0
+1769249178274,1802,Portal:Science-1,200,OK,Thread Group 3: Custom 3-17,text,true,,339430,422,20,20,https://en.wikipedia.org/wiki/Portal:Science,169,0,0
+1769249174379,5972,Portal:Science,200,OK,Thread Group 3: Custom 3-3,text,true,,340692,845,20,20,https://en.wikipedia.org/wiki/Portal:Science,319,0,0
+1769249174379,319,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-3,text,true,,1262,423,20,20,https://www.wikipedia.org/wiki/Portal:Science,319,0,0
+1769249174699,5652,Portal:Science-1,200,OK,Thread Group 3: Custom 3-3,text,true,,339430,422,20,20,https://en.wikipedia.org/wiki/Portal:Science,414,0,0
+1769249178786,1604,Main Page,200,OK,Thread Group 3: Custom 3-14,text,true,,234250,573,20,20,https://en.wikipedia.org/wiki/Main_Page,202,0,0
+1769249178786,202,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-14,text,true,,1836,210,20,20,https://www.wikipedia.org/wiki/Main_Page,202,0,0
+1769249178989,1401,Main Page-1,200,OK,Thread Group 3: Custom 3-14,text,true,,232414,363,20,20,https://en.wikipedia.org/wiki/Main_Page,236,0,0
+1769249178281,2970,Portal:Science,200,OK,Thread Group 3: Custom 3-16,text,true,,340692,845,20,20,https://en.wikipedia.org/wiki/Portal:Science,108,0,0
+1769249178281,108,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-16,text,true,,1262,423,20,20,https://www.wikipedia.org/wiki/Portal:Science,108,0,0
+1769249178389,2862,Portal:Science-1,200,OK,Thread Group 3: Custom 3-16,text,true,,339430,422,20,20,https://en.wikipedia.org/wiki/Portal:Science,345,0,0
+1769249178364,3165,Main Page,200,OK,Thread Group 3: Custom 3-9,text,true,,234250,573,20,20,https://en.wikipedia.org/wiki/Main_Page,113,0,0
+1769249178364,113,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-9,text,true,,1836,210,20,20,https://www.wikipedia.org/wiki/Main_Page,113,0,0
+1769249178478,3051,Main Page-1,200,OK,Thread Group 3: Custom 3-9,text,true,,232414,363,20,20,https://en.wikipedia.org/wiki/Main_Page,597,0,0
+1769249178803,2835,Main Page,200,OK,Thread Group 3: Custom 3-1,text,true,,234250,573,20,20,https://en.wikipedia.org/wiki/Main_Page,192,0,0
+1769249178803,192,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-1,text,true,,1836,210,20,20,https://www.wikipedia.org/wiki/Main_Page,192,0,0
+1769249178995,2643,Main Page-1,200,OK,Thread Group 3: Custom 3-1,text,true,,232414,363,20,20,https://en.wikipedia.org/wiki/Main_Page,230,0,0
+1769249180076,1584,Main Page,200,OK,Thread Group 3: Custom 3-17,text,true,,234250,573,20,20,https://en.wikipedia.org/wiki/Main_Page,243,0,0
+1769249180076,244,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-17,text,true,,1836,210,20,20,https://www.wikipedia.org/wiki/Main_Page,243,0,0
+1769249180320,1340,Main Page-1,200,OK,Thread Group 3: Custom 3-17,text,true,,232414,363,20,20,https://en.wikipedia.org/wiki/Main_Page,403,0,0
+1769249175813,5852,Main Page,200,OK,Thread Group 3: Custom 3-11,text,true,,234250,573,20,20,https://en.wikipedia.org/wiki/Main_Page,269,0,0
+1769249175813,269,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-11,text,true,,1836,210,20,20,https://www.wikipedia.org/wiki/Main_Page,269,0,0
+1769249176082,5583,Main Page-1,200,OK,Thread Group 3: Custom 3-11,text,true,,232414,363,20,20,https://en.wikipedia.org/wiki/Main_Page,459,0,0
+1769249178201,3514,Portal:Science,200,OK,Thread Group 3: Custom 3-10,text,true,,340692,845,20,20,https://en.wikipedia.org/wiki/Portal:Science,116,0,0
+1769249178201,116,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-10,text,true,,1262,423,20,20,https://www.wikipedia.org/wiki/Portal:Science,116,0,0
+1769249178318,3397,Portal:Science-1,200,OK,Thread Group 3: Custom 3-10,text,true,,339430,422,20,20,https://en.wikipedia.org/wiki/Portal:Science,446,0,0
+1769249178160,3631,Portal:Science,200,OK,Thread Group 3: Custom 3-6,text,true,,340692,845,20,20,https://en.wikipedia.org/wiki/Portal:Science,114,0,0
+1769249178160,114,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-6,text,true,,1262,423,20,20,https://www.wikipedia.org/wiki/Portal:Science,114,0,0
+1769249178274,3517,Portal:Science-1,200,OK,Thread Group 3: Custom 3-6,text,true,,339430,422,20,20,https://en.wikipedia.org/wiki/Portal:Science,441,0,0
+1769249179713,2119,Main Page,200,OK,Thread Group 3: Custom 3-5,text,true,,234250,573,20,20,https://en.wikipedia.org/wiki/Main_Page,260,0,0
+1769249179713,260,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-5,text,true,,1836,210,20,20,https://www.wikipedia.org/wiki/Main_Page,260,0,0
+1769249179973,1859,Main Page-1,200,OK,Thread Group 3: Custom 3-5,text,true,,232414,363,20,20,https://en.wikipedia.org/wiki/Main_Page,318,0,0
+1769249178364,3664,Portal:Science,200,OK,Thread Group 3: Custom 3-2,text,true,,340692,845,20,20,https://en.wikipedia.org/wiki/Portal:Science,113,0,0
+1769249178364,113,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-2,text,true,,1262,423,20,20,https://www.wikipedia.org/wiki/Portal:Science,113,0,0
+1769249178477,3551,Portal:Science-1,200,OK,Thread Group 3: Custom 3-2,text,true,,339430,422,20,20,https://en.wikipedia.org/wiki/Portal:Science,519,0,0
+1769249179618,2470,Portal:Science,200,OK,Thread Group 3: Custom 3-12,text,true,,340692,845,20,20,https://en.wikipedia.org/wiki/Portal:Science,211,0,0
+1769249179618,211,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-12,text,true,,1262,423,20,20,https://www.wikipedia.org/wiki/Portal:Science,211,0,0
+1769249179828,2260,Portal:Science-1,200,OK,Thread Group 3: Custom 3-12,text,true,,339430,422,20,20,https://en.wikipedia.org/wiki/Portal:Science,327,0,0
+1769249179484,3142,Portal:Science,200,OK,Thread Group 3: Custom 3-18,text,true,,340692,845,20,20,https://en.wikipedia.org/wiki/Portal:Science,179,0,0
+1769249179484,179,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-18,text,true,,1262,423,20,20,https://www.wikipedia.org/wiki/Portal:Science,179,0,0
+1769249179663,2963,Portal:Science-1,200,OK,Thread Group 3: Custom 3-18,text,true,,339430,422,20,20,https://en.wikipedia.org/wiki/Portal:Science,413,0,0
+1769249179885,2799,Portal:Science,200,OK,Thread Group 3: Custom 3-19,text,true,,340692,845,20,20,https://en.wikipedia.org/wiki/Portal:Science,258,0,0
+1769249179885,258,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-19,text,true,,1262,423,20,20,https://www.wikipedia.org/wiki/Portal:Science,258,0,0
+1769249180143,2541,Portal:Science-1,200,OK,Thread Group 3: Custom 3-19,text,true,,339430,422,20,20,https://en.wikipedia.org/wiki/Portal:Science,246,0,0
+1769249179385,3393,Portal:Science,200,OK,Thread Group 3: Custom 3-20,text,true,,340692,845,20,20,https://en.wikipedia.org/wiki/Portal:Science,128,0,0
+1769249179385,128,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-20,text,true,,1262,423,20,20,https://www.wikipedia.org/wiki/Portal:Science,128,0,0
+1769249179513,3265,Portal:Science-1,200,OK,Thread Group 3: Custom 3-20,text,true,,339430,422,20,20,https://en.wikipedia.org/wiki/Portal:Science,316,0,0
+1769249180390,2428,Portal:Science,200,OK,Thread Group 3: Custom 3-14,text,true,,340692,845,20,20,https://en.wikipedia.org/wiki/Portal:Science,266,0,0
+1769249180390,266,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-14,text,true,,1262,423,20,20,https://www.wikipedia.org/wiki/Portal:Science,266,0,0
+1769249180656,2162,Portal:Science-1,200,OK,Thread Group 3: Custom 3-14,text,true,,339430,422,20,20,https://en.wikipedia.org/wiki/Portal:Science,845,0,0
+1769249177986,4951,Portal:Science,200,OK,Thread Group 3: Custom 3-13,text,true,,340692,845,20,20,https://en.wikipedia.org/wiki/Portal:Science,118,0,0
+1769249177986,118,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-13,text,true,,1262,423,20,20,https://www.wikipedia.org/wiki/Portal:Science,118,0,0
+1769249178104,4833,Portal:Science-1,200,OK,Thread Group 3: Custom 3-13,text,true,,339430,422,20,20,https://en.wikipedia.org/wiki/Portal:Science,312,0,0
+1769249181251,1771,Main Page,200,OK,Thread Group 3: Custom 3-16,text,true,,234250,573,20,20,https://en.wikipedia.org/wiki/Main_Page,210,0,0
+1769249181251,210,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-16,text,true,,1836,210,20,20,https://www.wikipedia.org/wiki/Main_Page,210,0,0
+1769249181462,1560,Main Page-1,200,OK,Thread Group 3: Custom 3-16,text,true,,232414,363,20,20,https://en.wikipedia.org/wiki/Main_Page,274,0,0
+1769249180030,3434,Portal:Science,200,OK,Thread Group 3: Custom 3-7,text,true,,340692,845,20,20,https://en.wikipedia.org/wiki/Portal:Science,199,0,0
+1769249180030,199,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-7,text,true,,1262,423,20,20,https://www.wikipedia.org/wiki/Portal:Science,199,0,0
+1769249180229,3235,Portal:Science-1,200,OK,Thread Group 3: Custom 3-7,text,true,,339430,422,20,20,https://en.wikipedia.org/wiki/Portal:Science,475,0,0
+1769249178395,5139,Main Page,200,OK,Thread Group 3: Custom 3-4,text,true,,234250,573,20,20,https://en.wikipedia.org/wiki/Main_Page,260,0,0
+1769249178395,260,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-4,text,true,,1836,210,20,20,https://www.wikipedia.org/wiki/Main_Page,260,0,0
+1769249178656,4878,Main Page-1,200,OK,Thread Group 3: Custom 3-4,text,true,,232414,363,20,20,https://en.wikipedia.org/wiki/Main_Page,547,0,0
+1769249181714,1974,Main Page,200,OK,Thread Group 3: Custom 3-10,text,true,,234250,573,20,20,https://en.wikipedia.org/wiki/Main_Page,167,0,0
+1769249181714,167,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-10,text,true,,1836,210,20,20,https://www.wikipedia.org/wiki/Main_Page,167,0,0
+1769249181881,1807,Main Page-1,200,OK,Thread Group 3: Custom 3-10,text,true,,232414,363,20,20,https://en.wikipedia.org/wiki/Main_Page,233,0,0
+1769249181660,2164,Portal:Science,200,OK,Thread Group 3: Custom 3-17,text,true,,340692,845,20,20,https://en.wikipedia.org/wiki/Portal:Science,213,0,0
+1769249181660,214,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-17,text,true,,1262,423,20,20,https://www.wikipedia.org/wiki/Portal:Science,213,0,0
+1769249181874,1950,Portal:Science-1,200,OK,Thread Group 3: Custom 3-17,text,true,,339430,422,20,20,https://en.wikipedia.org/wiki/Portal:Science,171,0,0
+1769249181638,2413,Portal:Science,200,OK,Thread Group 3: Custom 3-1,text,true,,340692,845,20,20,https://en.wikipedia.org/wiki/Portal:Science,224,0,0
+1769249181638,224,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-1,text,true,,1262,423,20,20,https://www.wikipedia.org/wiki/Portal:Science,224,0,0
+1769249181862,2189,Portal:Science-1,200,OK,Thread Group 3: Custom 3-1,text,true,,339430,422,20,20,https://en.wikipedia.org/wiki/Portal:Science,194,0,0
+1769249180351,3738,Main Page,200,OK,Thread Group 3: Custom 3-3,text,true,,234250,573,20,20,https://en.wikipedia.org/wiki/Main_Page,313,0,0
+1769249180351,313,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-3,text,true,,1836,210,20,20,https://www.wikipedia.org/wiki/Main_Page,313,0,0
+1769249180665,3424,Main Page-1,200,OK,Thread Group 3: Custom 3-3,text,true,,232414,363,20,20,https://en.wikipedia.org/wiki/Main_Page,524,0,0
+1769249178105,5991,Portal:Science,200,OK,Thread Group 3: Custom 3-15,text,true,,340692,845,20,20,https://en.wikipedia.org/wiki/Portal:Science,120,0,0
+1769249178105,120,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-15,text,true,,1262,423,20,20,https://www.wikipedia.org/wiki/Portal:Science,120,0,0
+1769249178226,5870,Portal:Science-1,200,OK,Thread Group 3: Custom 3-15,text,true,,339430,422,20,20,https://en.wikipedia.org/wiki/Portal:Science,508,0,0
+1769249181791,2327,Main Page,200,OK,Thread Group 3: Custom 3-6,text,true,,234250,573,20,20,https://en.wikipedia.org/wiki/Main_Page,120,0,0
+1769249181791,120,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-6,text,true,,1836,210,20,20,https://www.wikipedia.org/wiki/Main_Page,120,0,0
+1769249181912,2206,Main Page-1,200,OK,Thread Group 3: Custom 3-6,text,true,,232414,363,20,20,https://en.wikipedia.org/wiki/Main_Page,267,0,0
+1769249182088,2052,Main Page,200,OK,Thread Group 3: Custom 3-12,text,true,,234250,573,20,20,https://en.wikipedia.org/wiki/Main_Page,268,0,0
+1769249182088,268,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-12,text,true,,1836,210,20,20,https://www.wikipedia.org/wiki/Main_Page,268,0,0
+1769249182357,1783,Main Page-1,200,OK,Thread Group 3: Custom 3-12,text,true,,232414,363,20,20,https://en.wikipedia.org/wiki/Main_Page,368,0,0
+1769249179874,4316,Main Page,200,OK,Thread Group 3: Custom 3-8,text,true,,234250,573,20,20,https://en.wikipedia.org/wiki/Main_Page,258,0,0
+1769249179874,258,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-8,text,true,,1836,210,20,20,https://www.wikipedia.org/wiki/Main_Page,258,0,0
+1769249180132,4058,Main Page-1,200,OK,Thread Group 3: Custom 3-8,text,true,,232414,363,20,20,https://en.wikipedia.org/wiki/Main_Page,610,0,0
+1769249182684,1746,Main Page,200,OK,Thread Group 3: Custom 3-19,text,true,,234250,573,20,20,https://en.wikipedia.org/wiki/Main_Page,343,0,0
+1769249182684,343,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-19,text,true,,1836,210,20,20,https://www.wikipedia.org/wiki/Main_Page,343,0,0
+1769249183027,1403,Main Page-1,200,OK,Thread Group 3: Custom 3-19,text,true,,232414,363,20,20,https://en.wikipedia.org/wiki/Main_Page,208,0,0
+1769249181833,2740,Portal:Science,200,OK,Thread Group 3: Custom 3-5,text,true,,340692,845,20,20,https://en.wikipedia.org/wiki/Portal:Science,101,0,0
+1769249181833,101,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-5,text,true,,1262,423,20,20,https://www.wikipedia.org/wiki/Portal:Science,101,0,0
+1769249181934,2639,Portal:Science-1,200,OK,Thread Group 3: Custom 3-5,text,true,,339430,422,20,20,https://en.wikipedia.org/wiki/Portal:Science,245,0,0
+1769249182777,2024,Main Page,200,OK,Thread Group 3: Custom 3-20,text,true,,234250,573,20,20,https://en.wikipedia.org/wiki/Main_Page,316,0,0
+1769249182777,316,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-20,text,true,,1836,210,20,20,https://www.wikipedia.org/wiki/Main_Page,316,0,0
+1769249183093,1708,Main Page-1,200,OK,Thread Group 3: Custom 3-20,text,true,,232414,363,20,20,https://en.wikipedia.org/wiki/Main_Page,219,0,0
+1769249182818,2002,Main Page,200,OK,Thread Group 3: Custom 3-14,text,true,,234250,573,19,19,https://en.wikipedia.org/wiki/Main_Page,633,0,0
+1769249182818,633,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-14,text,true,,1836,210,19,19,https://www.wikipedia.org/wiki/Main_Page,633,0,0
+1769249183451,1369,Main Page-1,200,OK,Thread Group 3: Custom 3-14,text,true,,232414,363,19,19,https://en.wikipedia.org/wiki/Main_Page,312,0,0
+1769249182028,2809,Main Page,200,OK,Thread Group 3: Custom 3-2,text,true,,234250,573,18,18,https://en.wikipedia.org/wiki/Main_Page,168,0,0
+1769249182028,168,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-2,text,true,,1836,210,18,18,https://www.wikipedia.org/wiki/Main_Page,168,0,0
+1769249182197,2640,Main Page-1,200,OK,Thread Group 3: Custom 3-2,text,true,,232414,363,18,18,https://en.wikipedia.org/wiki/Main_Page,528,0,0
+1769249182626,2288,Main Page,200,OK,Thread Group 3: Custom 3-18,text,true,,234250,573,17,17,https://en.wikipedia.org/wiki/Main_Page,323,0,0
+1769249182626,323,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-18,text,true,,1836,210,17,17,https://www.wikipedia.org/wiki/Main_Page,323,0,0
+1769249182949,1965,Main Page-1,200,OK,Thread Group 3: Custom 3-18,text,true,,232414,363,17,17,https://en.wikipedia.org/wiki/Main_Page,305,0,0
+1769249183022,2078,Portal:Science,200,OK,Thread Group 3: Custom 3-16,text,true,,340692,845,16,16,https://en.wikipedia.org/wiki/Portal:Science,118,0,0
+1769249183022,118,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-16,text,true,,1262,423,16,16,https://www.wikipedia.org/wiki/Portal:Science,118,0,0
+1769249183141,1959,Portal:Science-1,200,OK,Thread Group 3: Custom 3-16,text,true,,339430,422,16,16,https://en.wikipedia.org/wiki/Portal:Science,359,0,0
+1769249183825,1667,Main Page,200,OK,Thread Group 3: Custom 3-17,text,true,,234250,573,15,15,https://en.wikipedia.org/wiki/Main_Page,205,0,0
+1769249183825,205,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-17,text,true,,1836,210,15,15,https://www.wikipedia.org/wiki/Main_Page,205,0,0
+1769249184030,1462,Main Page-1,200,OK,Thread Group 3: Custom 3-17,text,true,,232414,363,15,15,https://en.wikipedia.org/wiki/Main_Page,342,0,0
+1769249184052,1616,Main Page,200,OK,Thread Group 3: Custom 3-1,text,true,,234250,573,14,14,https://en.wikipedia.org/wiki/Main_Page,235,0,0
+1769249184052,235,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-1,text,true,,1836,210,14,14,https://www.wikipedia.org/wiki/Main_Page,235,0,0
+1769249184288,1380,Main Page-1,200,OK,Thread Group 3: Custom 3-1,text,true,,232414,363,14,14,https://en.wikipedia.org/wiki/Main_Page,236,0,0
+1769249183464,2262,Main Page,200,OK,Thread Group 3: Custom 3-7,text,true,,234250,573,13,13,https://en.wikipedia.org/wiki/Main_Page,117,0,0
+1769249183464,117,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-7,text,true,,1836,210,13,13,https://www.wikipedia.org/wiki/Main_Page,117,0,0
+1769249183582,2144,Main Page-1,200,OK,Thread Group 3: Custom 3-7,text,true,,232414,363,13,13,https://en.wikipedia.org/wiki/Main_Page,358,0,0
+1769249181528,4257,Portal:Science,200,OK,Thread Group 3: Custom 3-9,text,true,,340692,845,12,12,https://en.wikipedia.org/wiki/Portal:Science,142,0,0
+1769249181528,142,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-9,text,true,,1262,423,12,12,https://www.wikipedia.org/wiki/Portal:Science,142,0,0
+1769249181670,4115,Portal:Science-1,200,OK,Thread Group 3: Custom 3-9,text,true,,339430,422,12,12,https://en.wikipedia.org/wiki/Portal:Science,352,0,0
+1769249183688,2465,Portal:Science,200,OK,Thread Group 3: Custom 3-10,text,true,,340692,845,11,11,https://en.wikipedia.org/wiki/Portal:Science,141,0,0
+1769249183688,141,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-10,text,true,,1262,423,11,11,https://www.wikipedia.org/wiki/Portal:Science,141,0,0
+1769249183830,2323,Portal:Science-1,200,OK,Thread Group 3: Custom 3-10,text,true,,339430,422,11,11,https://en.wikipedia.org/wiki/Portal:Science,293,0,0
+1769249184574,1704,Main Page,200,OK,Thread Group 3: Custom 3-5,text,true,,234250,573,10,10,https://en.wikipedia.org/wiki/Main_Page,191,0,0
+1769249184574,191,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-5,text,true,,1836,210,10,10,https://www.wikipedia.org/wiki/Main_Page,191,0,0
+1769249184765,1513,Main Page-1,200,OK,Thread Group 3: Custom 3-5,text,true,,232414,363,10,10,https://en.wikipedia.org/wiki/Main_Page,313,0,0
+1769249184140,2216,Portal:Science,200,OK,Thread Group 3: Custom 3-12,text,true,,340692,845,9,9,https://en.wikipedia.org/wiki/Portal:Science,198,0,0
+1769249184140,198,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-12,text,true,,1262,423,9,9,https://www.wikipedia.org/wiki/Portal:Science,198,0,0
+1769249184338,2018,Portal:Science-1,200,OK,Thread Group 3: Custom 3-12,text,true,,339430,422,9,9,https://en.wikipedia.org/wiki/Portal:Science,230,0,0
+1769249184430,1984,Portal:Science,200,OK,Thread Group 3: Custom 3-19,text,true,,340692,845,8,8,https://en.wikipedia.org/wiki/Portal:Science,318,0,0
+1769249184430,318,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-19,text,true,,1262,423,8,8,https://www.wikipedia.org/wiki/Portal:Science,318,0,0
+1769249184748,1666,Portal:Science-1,200,OK,Thread Group 3: Custom 3-19,text,true,,339430,422,8,8,https://en.wikipedia.org/wiki/Portal:Science,304,0,0
+1769249182937,3585,Main Page,200,OK,Thread Group 3: Custom 3-13,text,true,,234250,573,7,7,https://en.wikipedia.org/wiki/Main_Page,580,0,0
+1769249182937,580,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-13,text,true,,1836,210,7,7,https://www.wikipedia.org/wiki/Main_Page,580,0,0
+1769249183517,3005,Main Page-1,200,OK,Thread Group 3: Custom 3-13,text,true,,232414,363,7,7,https://en.wikipedia.org/wiki/Main_Page,457,0,0
+1769249184095,2541,Main Page,200,OK,Thread Group 3: Custom 3-15,text,true,,234250,573,6,6,https://en.wikipedia.org/wiki/Main_Page,248,0,0
+1769249184095,248,Main Page-0,301,Moved Permanently,Thread Group 3: Custom 3-15,text,true,,1836,210,6,6,https://www.wikipedia.org/wiki/Main_Page,248,0,0
+1769249184344,2292,Main Page-1,200,OK,Thread Group 3: Custom 3-15,text,true,,232414,363,6,6,https://en.wikipedia.org/wiki/Main_Page,316,0,0
+1769249184119,2525,Portal:Science,200,OK,Thread Group 3: Custom 3-6,text,true,,340692,845,5,5,https://en.wikipedia.org/wiki/Portal:Science,231,0,0
+1769249184119,231,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-6,text,true,,1262,423,5,5,https://www.wikipedia.org/wiki/Portal:Science,231,0,0
+1769249184350,2294,Portal:Science-1,200,OK,Thread Group 3: Custom 3-6,text,true,,339430,422,5,5,https://en.wikipedia.org/wiki/Portal:Science,257,0,0
+1769249184090,2664,Portal:Science,200,OK,Thread Group 3: Custom 3-3,text,true,,340692,845,4,4,https://en.wikipedia.org/wiki/Portal:Science,254,0,0
+1769249184090,254,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-3,text,true,,1262,423,4,4,https://www.wikipedia.org/wiki/Portal:Science,254,0,0
+1769249184344,2410,Portal:Science-1,200,OK,Thread Group 3: Custom 3-3,text,true,,339430,422,4,4,https://en.wikipedia.org/wiki/Portal:Science,316,0,0
+1769249181664,5475,Portal:Science,200,OK,Thread Group 3: Custom 3-11,text,true,,340692,845,3,3,https://en.wikipedia.org/wiki/Portal:Science,204,0,0
+1769249181664,204,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-11,text,true,,1262,423,3,3,https://www.wikipedia.org/wiki/Portal:Science,204,0,0
+1769249181868,5271,Portal:Science-1,200,OK,Thread Group 3: Custom 3-11,text,true,,339430,422,3,3,https://en.wikipedia.org/wiki/Portal:Science,456,0,0
+1769249183534,3825,Portal:Science,200,OK,Thread Group 3: Custom 3-4,text,true,,340692,845,2,2,https://en.wikipedia.org/wiki/Portal:Science,107,0,0
+1769249183534,107,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-4,text,true,,1262,423,2,2,https://www.wikipedia.org/wiki/Portal:Science,107,0,0
+1769249183641,3718,Portal:Science-1,200,OK,Thread Group 3: Custom 3-4,text,true,,339430,422,2,2,https://en.wikipedia.org/wiki/Portal:Science,421,0,0
+1769249184191,3235,Portal:Science,200,OK,Thread Group 3: Custom 3-8,text,true,,340692,845,1,1,https://en.wikipedia.org/wiki/Portal:Science,152,0,0
+1769249184191,152,Portal:Science-0,301,Moved Permanently,Thread Group 3: Custom 3-8,text,true,,1262,423,1,1,https://www.wikipedia.org/wiki/Portal:Science,152,0,0
+1769249184344,3082,Portal:Science-1,200,OK,Thread Group 3: Custom 3-8,text,true,,339430,422,1,1,https://en.wikipedia.org/wiki/Portal:Science,344,0,0

@@ -1,0 +1,562 @@
+2026-01-24 17:05:23,845 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2026-01-24 17:05:23,875 INFO o.a.j.JMeter: Loading user properties from: C:\Java_OOP\Jmeter\apache-jmeter-5.6.3\bin\user.properties
+2026-01-24 17:05:23,875 INFO o.a.j.JMeter: Loading system properties from: C:\Java_OOP\Jmeter\apache-jmeter-5.6.3\bin\system.properties
+2026-01-24 17:05:23,883 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2026-01-24 17:05:23,883 INFO o.a.j.JMeter: Version 5.6.3
+2026-01-24 17:05:23,883 INFO o.a.j.JMeter: java.version=21.0.1
+2026-01-24 17:05:23,883 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2026-01-24 17:05:23,883 INFO o.a.j.JMeter: os.name=Windows 11
+2026-01-24 17:05:23,883 INFO o.a.j.JMeter: os.arch=amd64
+2026-01-24 17:05:23,883 INFO o.a.j.JMeter: os.version=10.0
+2026-01-24 17:05:23,883 INFO o.a.j.JMeter: file.encoding=UTF-8
+2026-01-24 17:05:23,883 INFO o.a.j.JMeter: java.awt.headless=true
+2026-01-24 17:05:23,883 INFO o.a.j.JMeter: Max memory     =1073741824
+2026-01-24 17:05:23,883 INFO o.a.j.JMeter: Available Processors =8
+2026-01-24 17:05:23,896 INFO o.a.j.JMeter: Default Locale=English (EN)
+2026-01-24 17:05:23,896 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2026-01-24 17:05:23,898 INFO o.a.j.JMeter: JMeterHome=C:\Java_OOP\Jmeter\apache-jmeter-5.6.3
+2026-01-24 17:05:23,898 INFO o.a.j.JMeter: user.dir  =C:\Java_OOP\Jmeter\jmeter
+2026-01-24 17:05:23,898 INFO o.a.j.JMeter: PWD       =C:\Java_OOP\Jmeter\jmeter
+2026-01-24 17:05:23,907 INFO o.a.j.JMeter: IP: 192.168.1.12 Name: HàKiên FullName: HàKiên
+2026-01-24 17:05:23,927 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'C:\Java_OOP\Jmeter\jmeter\report'
+2026-01-24 17:05:23,931 INFO o.a.j.s.FileServer: Default base='C:\Java_OOP\Jmeter\jmeter'
+2026-01-24 17:05:23,933 INFO o.a.j.s.FileServer: Set new base='C:\Java_OOP\Jmeter\jmeter'
+2026-01-24 17:05:24,160 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2026-01-24 17:05:24,196 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2026-01-24 17:05:24,200 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2026-01-24 17:05:24,205 INFO o.a.j.s.SaveService: Loading file: test_plan.jmx
+2026-01-24 17:05:24,249 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2026-01-24 17:05:24,281 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-01-24 17:05:24,281 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-01-24 17:05:24,281 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-01-24 17:05:24,281 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-01-24 17:05:24,281 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2026-01-24 17:05:24,281 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2026-01-24 17:05:24,320 INFO o.a.j.JMeter: Creating summariser <summary>
+2026-01-24 17:05:24,326 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2026-01-24 17:05:24,326 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: results.csv
+2026-01-24 17:05:24,326 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: C:\Java_OOP\Jmeter\apache-jmeter-5.6.3\bin\reportgenerator.properties
+2026-01-24 17:05:24,326 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2026-01-24 17:05:24,332 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2026-01-24 17:05:24,335 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2026-01-24 17:05:24,336 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2026-01-24 17:05:24,336 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2026-01-24 17:05:24,336 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2026-01-24 17:05:24,336 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2026-01-24 17:05:24,336 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2026-01-24 17:05:24,336 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2026-01-24 17:05:24,337 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2026-01-24 17:05:24,344 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2026-01-24 17:05:24,344 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-01-24 17:05:24,344 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2026-01-24 17:05:24,344 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2026-01-24 17:05:24,344 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2026-01-24 17:05:24,344 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2026-01-24 17:05:24,346 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-01-24 17:05:24,346 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-01-24 17:05:24,346 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-01-24 17:05:24,346 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-01-24 17:05:24,347 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2026-01-24 17:05:24,347 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2026-01-24 17:05:24,347 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2026-01-24 17:05:24,347 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2026-01-24 17:05:24,348 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2026-01-24 17:05:24,348 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2026-01-24 17:05:24,366 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2026-01-24 17:05:24,366 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-01-24 17:05:24,366 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-01-24 17:05:24,372 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2026-01-24 17:05:24,372 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2026-01-24 17:05:24,529 INFO o.a.j.JMeter: Running test (1769249124529)
+2026-01-24 17:05:24,547 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 1: Basic
+2026-01-24 17:05:24,547 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Thread Group 1: Basic.
+2026-01-24 17:05:24,547 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-01-24 17:05:24,547 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=5 delayedStart=false
+2026-01-24 17:05:24,558 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1: Basic 1-1
+2026-01-24 17:05:24,560 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2026-01-24 17:05:24,560 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Thread Group 2: Heavy Load
+2026-01-24 17:05:24,560 INFO o.a.j.e.StandardJMeterEngine: Starting 50 threads for group Thread Group 2: Heavy Load.
+2026-01-24 17:05:24,561 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-01-24 17:05:24,561 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=50 ramp-up=30 delayedStart=false
+2026-01-24 17:05:24,562 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 2: Heavy Load 2-1
+2026-01-24 17:05:24,591 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2026-01-24 17:05:24,592 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : Thread Group 3: Custom
+2026-01-24 17:05:24,592 INFO o.a.j.e.StandardJMeterEngine: Starting 20 threads for group Thread Group 3: Custom.
+2026-01-24 17:05:24,592 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-01-24 17:05:24,592 INFO o.a.j.t.ThreadGroup: Starting thread group... number=3 threads=20 ramp-up=10 delayedStart=false
+2026-01-24 17:05:24,593 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 3: Custom 3-1
+2026-01-24 17:05:24,594 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = HàKiên
+2026-01-24 17:05:24,603 INFO o.a.j.t.ThreadGroup: Started thread group number 3
+2026-01-24 17:05:24,604 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2026-01-24 17:05:24,606 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2026-01-24 17:05:24,610 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2026-01-24 17:05:24,610 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2026-01-24 17:05:24,611 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2026-01-24 17:05:24,611 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2026-01-24 17:05:24,743 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2026-01-24 17:05:24,751 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2026-01-24 17:05:24,751 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2026-01-24 17:05:24,877 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2026-01-24 17:05:24,882 INFO o.a.j.u.SSLManager: KeyStore created OK
+2026-01-24 17:05:24,882 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2026-01-24 17:05:25,054 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1: Basic 1-2
+2026-01-24 17:05:25,095 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 3: Custom 3-2
+2026-01-24 17:05:25,163 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 2: Heavy Load 2-2
+2026-01-24 17:05:25,553 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1: Basic 1-3
+2026-01-24 17:05:25,594 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 3: Custom 3-3
+2026-01-24 17:05:25,761 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 2: Heavy Load 2-3
+2026-01-24 17:05:25,762 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:25,762 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:26,052 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1: Basic 1-4
+2026-01-24 17:05:26,095 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 3: Custom 3-4
+2026-01-24 17:05:26,152 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:26,248 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:26,362 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 2: Heavy Load 2-4
+2026-01-24 17:05:26,462 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:26,550 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1: Basic 1-5
+2026-01-24 17:05:26,554 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:26,593 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 3: Custom 3-5
+2026-01-24 17:05:26,737 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:26,806 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:26,963 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 2: Heavy Load 2-5
+2026-01-24 17:05:27,049 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1: Basic 1-6
+2026-01-24 17:05:27,093 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 3: Custom 3-6
+2026-01-24 17:05:27,499 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:27,550 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1: Basic 1-7
+2026-01-24 17:05:27,558 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1: Basic 1-1
+2026-01-24 17:05:27,558 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1: Basic 1-1
+2026-01-24 17:05:27,563 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 2: Heavy Load 2-6
+2026-01-24 17:05:27,594 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 3: Custom 3-7
+2026-01-24 17:05:27,626 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:27,675 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 2: Heavy Load 2-2
+2026-01-24 17:05:27,675 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 2: Heavy Load 2-2
+2026-01-24 17:05:27,686 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 2: Heavy Load 2-1
+2026-01-24 17:05:27,686 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 2: Heavy Load 2-1
+2026-01-24 17:05:27,724 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:27,769 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:28,048 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1: Basic 1-8
+2026-01-24 17:05:28,094 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 3: Custom 3-8
+2026-01-24 17:05:28,161 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 2: Heavy Load 2-7
+2026-01-24 17:05:28,551 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1: Basic 1-9
+2026-01-24 17:05:28,593 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 3: Custom 3-9
+2026-01-24 17:05:28,763 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 2: Heavy Load 2-8
+2026-01-24 17:05:29,049 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1: Basic 1-10
+2026-01-24 17:05:29,094 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 3: Custom 3-10
+2026-01-24 17:05:29,362 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 2: Heavy Load 2-9
+2026-01-24 17:05:29,592 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 3: Custom 3-11
+2026-01-24 17:05:29,627 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:29,963 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 2: Heavy Load 2-10
+2026-01-24 17:05:30,095 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 3: Custom 3-12
+2026-01-24 17:05:30,190 INFO o.a.j.r.Summariser: summary +     23 in 00:00:06 =    4.1/s Avg:  1316 Min:   308 Max:  4009 Err:     0 (0.00%) Active: 29 Started: 32 Finished: 3
+2026-01-24 17:05:30,191 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1: Basic 1-2
+2026-01-24 17:05:30,191 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1: Basic 1-2
+2026-01-24 17:05:30,226 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:30,321 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 2: Heavy Load 2-3
+2026-01-24 17:05:30,321 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 2: Heavy Load 2-3
+2026-01-24 17:05:30,562 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 2: Heavy Load 2-11
+2026-01-24 17:05:30,593 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 3: Custom 3-13
+2026-01-24 17:05:31,094 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 3: Custom 3-14
+2026-01-24 17:05:31,163 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 2: Heavy Load 2-12
+2026-01-24 17:05:31,242 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:31,594 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 3: Custom 3-15
+2026-01-24 17:05:31,763 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 2: Heavy Load 2-13
+2026-01-24 17:05:31,915 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:32,050 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:32,094 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 3: Custom 3-16
+2026-01-24 17:05:32,111 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:32,361 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 2: Heavy Load 2-14
+2026-01-24 17:05:32,426 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1: Basic 1-3
+2026-01-24 17:05:32,426 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1: Basic 1-3
+2026-01-24 17:05:32,593 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 3: Custom 3-17
+2026-01-24 17:05:32,600 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 2: Heavy Load 2-7
+2026-01-24 17:05:32,600 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 2: Heavy Load 2-7
+2026-01-24 17:05:32,619 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 2: Heavy Load 2-4
+2026-01-24 17:05:32,620 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 2: Heavy Load 2-4
+2026-01-24 17:05:32,963 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 2: Heavy Load 2-15
+2026-01-24 17:05:33,066 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:33,096 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 3: Custom 3-18
+2026-01-24 17:05:33,295 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:33,314 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 2: Heavy Load 2-10
+2026-01-24 17:05:33,314 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 2: Heavy Load 2-10
+2026-01-24 17:05:33,319 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:33,460 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:33,533 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:33,563 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 2: Heavy Load 2-16
+2026-01-24 17:05:33,594 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 3: Custom 3-19
+2026-01-24 17:05:33,701 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 2: Heavy Load 2-6
+2026-01-24 17:05:33,701 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 2: Heavy Load 2-6
+2026-01-24 17:05:34,096 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 3: Custom 3-20
+2026-01-24 17:05:34,163 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 2: Heavy Load 2-17
+2026-01-24 17:05:34,292 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:34,349 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:34,764 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 2: Heavy Load 2-18
+2026-01-24 17:05:35,364 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 2: Heavy Load 2-19
+2026-01-24 17:05:35,963 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 2: Heavy Load 2-20
+2026-01-24 17:05:36,300 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:36,499 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 2: Heavy Load 2-8
+2026-01-24 17:05:36,499 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 2: Heavy Load 2-8
+2026-01-24 17:05:36,569 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 2: Heavy Load 2-21
+2026-01-24 17:05:36,829 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:36,860 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:37,010 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:37,022 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:37,174 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 2: Heavy Load 2-22
+2026-01-24 17:05:37,260 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 2: Heavy Load 2-9
+2026-01-24 17:05:37,260 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 2: Heavy Load 2-9
+2026-01-24 17:05:37,282 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:37,488 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 2: Heavy Load 2-11
+2026-01-24 17:05:37,488 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 2: Heavy Load 2-11
+2026-01-24 17:05:37,690 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 2: Heavy Load 2-12
+2026-01-24 17:05:37,690 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 2: Heavy Load 2-12
+2026-01-24 17:05:37,745 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:37,763 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 2: Heavy Load 2-23
+2026-01-24 17:05:37,783 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:38,047 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:38,362 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 2: Heavy Load 2-24
+2026-01-24 17:05:38,526 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:38,962 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 2: Heavy Load 2-25
+2026-01-24 17:05:39,565 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 2: Heavy Load 2-26
+2026-01-24 17:05:39,778 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 2: Heavy Load 2-14
+2026-01-24 17:05:39,778 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 2: Heavy Load 2-14
+2026-01-24 17:05:40,162 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 2: Heavy Load 2-27
+2026-01-24 17:05:40,274 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:40,615 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:40,647 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 2: Heavy Load 2-15
+2026-01-24 17:05:40,647 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 2: Heavy Load 2-15
+2026-01-24 17:05:40,763 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 2: Heavy Load 2-28
+2026-01-24 17:05:40,774 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 2: Heavy Load 2-18
+2026-01-24 17:05:40,774 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 2: Heavy Load 2-18
+2026-01-24 17:05:40,983 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:41,364 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 2: Heavy Load 2-29
+2026-01-24 17:05:41,561 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:41,739 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 2: Heavy Load 2-22
+2026-01-24 17:05:41,739 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 2: Heavy Load 2-22
+2026-01-24 17:05:41,842 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 2: Heavy Load 2-13
+2026-01-24 17:05:41,842 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 2: Heavy Load 2-13
+2026-01-24 17:05:41,962 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 2: Heavy Load 2-30
+2026-01-24 17:05:42,242 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:42,518 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:42,561 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 2: Heavy Load 2-31
+2026-01-24 17:05:42,772 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:42,909 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 2: Heavy Load 2-17
+2026-01-24 17:05:42,910 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 2: Heavy Load 2-17
+2026-01-24 17:05:43,049 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:43,162 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 2: Heavy Load 2-32
+2026-01-24 17:05:43,238 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:43,256 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:43,742 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:43,763 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 2: Heavy Load 2-33
+2026-01-24 17:05:43,878 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:43,889 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:44,161 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:44,232 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:44,363 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 2: Heavy Load 2-34
+2026-01-24 17:05:44,571 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:44,703 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:44,966 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 2: Heavy Load 2-35
+2026-01-24 17:05:44,968 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:45,253 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:45,574 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 2: Heavy Load 2-36
+2026-01-24 17:05:45,749 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 2: Heavy Load 2-5
+2026-01-24 17:05:45,750 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 2: Heavy Load 2-5
+2026-01-24 17:05:45,890 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 2: Heavy Load 2-30
+2026-01-24 17:05:45,890 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 2: Heavy Load 2-30
+2026-01-24 17:05:45,977 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:46,001 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 2: Heavy Load 2-29
+2026-01-24 17:05:46,001 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 2: Heavy Load 2-29
+2026-01-24 17:05:46,164 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 2: Heavy Load 2-37
+2026-01-24 17:05:46,369 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:46,764 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 2: Heavy Load 2-38
+2026-01-24 17:05:46,792 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 2: Heavy Load 2-31
+2026-01-24 17:05:46,792 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 2: Heavy Load 2-31
+2026-01-24 17:05:46,828 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 2: Heavy Load 2-28
+2026-01-24 17:05:46,828 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 2: Heavy Load 2-28
+2026-01-24 17:05:46,867 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:47,351 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1: Basic 1-8
+2026-01-24 17:05:47,351 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1: Basic 1-8
+2026-01-24 17:05:47,363 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 2: Heavy Load 2-39
+2026-01-24 17:05:47,384 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:47,421 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 2: Heavy Load 2-19
+2026-01-24 17:05:47,421 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 2: Heavy Load 2-19
+2026-01-24 17:05:47,539 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:47,832 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 2: Heavy Load 2-25
+2026-01-24 17:05:47,832 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 2: Heavy Load 2-25
+2026-01-24 17:05:47,832 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:47,839 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 2: Heavy Load 2-32
+2026-01-24 17:05:47,839 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 2: Heavy Load 2-32
+2026-01-24 17:05:47,839 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 2: Heavy Load 2-27
+2026-01-24 17:05:47,839 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 2: Heavy Load 2-27
+2026-01-24 17:05:47,961 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 2: Heavy Load 2-40
+2026-01-24 17:05:48,161 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 2: Heavy Load 2-23
+2026-01-24 17:05:48,161 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 2: Heavy Load 2-23
+2026-01-24 17:05:48,161 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:48,269 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:48,558 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 2: Heavy Load 2-21
+2026-01-24 17:05:48,558 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 2: Heavy Load 2-21
+2026-01-24 17:05:48,561 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 2: Heavy Load 2-41
+2026-01-24 17:05:48,624 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 2: Heavy Load 2-34
+2026-01-24 17:05:48,624 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 2: Heavy Load 2-34
+2026-01-24 17:05:48,841 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:49,165 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 2: Heavy Load 2-42
+2026-01-24 17:05:49,478 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:49,760 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 2: Heavy Load 2-26
+2026-01-24 17:05:49,760 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 2: Heavy Load 2-26
+2026-01-24 17:05:49,763 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 2: Heavy Load 2-43
+2026-01-24 17:05:49,814 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:50,004 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 2: Heavy Load 2-33
+2026-01-24 17:05:50,004 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 2: Heavy Load 2-33
+2026-01-24 17:05:50,362 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 2: Heavy Load 2-44
+2026-01-24 17:05:50,377 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:50,378 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 2: Heavy Load 2-24
+2026-01-24 17:05:50,378 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 2: Heavy Load 2-24
+2026-01-24 17:05:50,383 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:50,736 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:50,799 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:50,965 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 2: Heavy Load 2-45
+2026-01-24 17:05:51,030 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:51,092 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1: Basic 1-9
+2026-01-24 17:05:51,093 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1: Basic 1-9
+2026-01-24 17:05:51,376 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:51,564 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 2: Heavy Load 2-46
+2026-01-24 17:05:51,934 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 2: Heavy Load 2-38
+2026-01-24 17:05:51,934 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 2: Heavy Load 2-38
+2026-01-24 17:05:52,165 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 2: Heavy Load 2-47
+2026-01-24 17:05:52,764 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 2: Heavy Load 2-48
+2026-01-24 17:05:52,904 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:52,920 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:52,926 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:52,950 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:52,997 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:53,061 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 2: Heavy Load 2-40
+2026-01-24 17:05:53,061 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 2: Heavy Load 2-40
+2026-01-24 17:05:53,250 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 2: Heavy Load 2-37
+2026-01-24 17:05:53,251 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 2: Heavy Load 2-37
+2026-01-24 17:05:53,363 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 2: Heavy Load 2-49
+2026-01-24 17:05:53,445 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:53,675 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:53,782 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1: Basic 1-6
+2026-01-24 17:05:53,782 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1: Basic 1-6
+2026-01-24 17:05:53,839 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1: Basic 1-4
+2026-01-24 17:05:53,839 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 2: Heavy Load 2-39
+2026-01-24 17:05:53,839 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1: Basic 1-4
+2026-01-24 17:05:53,839 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 2: Heavy Load 2-39
+2026-01-24 17:05:53,963 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 2: Heavy Load 2-50
+2026-01-24 17:05:54,375 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 2: Heavy Load 2-41
+2026-01-24 17:05:54,376 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 2: Heavy Load 2-41
+2026-01-24 17:05:54,702 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 2: Heavy Load 2-44
+2026-01-24 17:05:54,702 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 2: Heavy Load 2-44
+2026-01-24 17:05:54,735 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:55,133 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 2: Heavy Load 2-45
+2026-01-24 17:05:55,133 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 2: Heavy Load 2-45
+2026-01-24 17:05:55,174 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 2: Heavy Load 2-36
+2026-01-24 17:05:55,174 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 2: Heavy Load 2-36
+2026-01-24 17:05:55,295 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1: Basic 1-7
+2026-01-24 17:05:55,295 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1: Basic 1-7
+2026-01-24 17:05:55,618 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:55,973 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 2: Heavy Load 2-42
+2026-01-24 17:05:55,974 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 2: Heavy Load 2-42
+2026-01-24 17:05:56,102 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:56,166 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:56,226 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 2: Heavy Load 2-43
+2026-01-24 17:05:56,226 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 2: Heavy Load 2-43
+2026-01-24 17:05:56,256 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 2: Heavy Load 2-35
+2026-01-24 17:05:56,256 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 2: Heavy Load 2-35
+2026-01-24 17:05:56,492 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 2: Heavy Load 2-47
+2026-01-24 17:05:56,492 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 2: Heavy Load 2-47
+2026-01-24 17:05:56,601 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:56,613 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:56,727 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 2: Heavy Load 2-46
+2026-01-24 17:05:56,728 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 2: Heavy Load 2-46
+2026-01-24 17:05:57,052 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 2: Heavy Load 2-48
+2026-01-24 17:05:57,052 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 2: Heavy Load 2-48
+2026-01-24 17:05:57,063 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 2: Heavy Load 2-50
+2026-01-24 17:05:57,063 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 2: Heavy Load 2-50
+2026-01-24 17:05:57,299 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 2: Heavy Load 2-49
+2026-01-24 17:05:57,299 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 2: Heavy Load 2-49
+2026-01-24 17:05:57,423 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:57,455 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:57,650 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1: Basic 1-10
+2026-01-24 17:05:57,651 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1: Basic 1-10
+2026-01-24 17:05:57,734 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:57,826 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:57,874 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:58,902 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:59,069 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:59,096 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:59,234 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:59,489 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:59,680 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:05:59,745 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:00,199 INFO o.a.j.r.Summariser: summary +    248 in 00:00:30 =    8.3/s Avg:  4322 Min:  1014 Max: 17598 Err:     0 (0.00%) Active: 23 Started: 80 Finished: 57
+2026-01-24 17:06:00,199 INFO o.a.j.r.Summariser: summary =    271 in 00:00:36 =    7.6/s Avg:  4067 Min:   308 Max: 17598 Err:     0 (0.00%)
+2026-01-24 17:06:00,524 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 2: Heavy Load 2-16
+2026-01-24 17:06:00,524 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 2: Heavy Load 2-16
+2026-01-24 17:06:01,151 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:01,216 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:01,887 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 2: Heavy Load 2-20
+2026-01-24 17:06:01,887 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 2: Heavy Load 2-20
+2026-01-24 17:06:02,048 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:02,116 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:02,296 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:02,681 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:02,786 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:02,891 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:03,110 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:03,495 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:03,534 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:03,641 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:03,838 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:04,189 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:04,213 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:04,434 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:04,479 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:04,522 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:05,249 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:05,771 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:06,628 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:07,791 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:07,791 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:07,951 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:08,067 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:08,810 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:08,855 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:09,104 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:09,386 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:09,943 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:09,972 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:10,014 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:10,055 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:10,055 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:10,258 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:10,674 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:11,798 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:12,219 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:12,871 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:12,954 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:13,015 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:13,091 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:13,342 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1: Basic 1-5
+2026-01-24 17:06:13,342 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1: Basic 1-5
+2026-01-24 17:06:14,328 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:14,481 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:14,529 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:14,562 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:15,616 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:15,801 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:15,812 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:15,852 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:16,093 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:16,580 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:16,615 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:16,811 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:16,878 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:17,918 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:18,114 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:18,362 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:18,394 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:18,785 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:18,802 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:19,712 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:19,874 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:20,076 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:20,350 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:21,251 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:21,714 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:21,790 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:22,026 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:22,088 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:22,625 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:22,684 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:22,776 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:22,818 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:22,937 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:23,464 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:23,824 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:24,051 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:24,095 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:24,573 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-01-24 17:06:24,800 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 3: Custom 3-20
+2026-01-24 17:06:24,800 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 3: Custom 3-20
+2026-01-24 17:06:24,820 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 3: Custom 3-14
+2026-01-24 17:06:24,820 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 3: Custom 3-14
+2026-01-24 17:06:24,837 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 3: Custom 3-2
+2026-01-24 17:06:24,837 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 3: Custom 3-2
+2026-01-24 17:06:24,914 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 3: Custom 3-18
+2026-01-24 17:06:24,914 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 3: Custom 3-18
+2026-01-24 17:06:25,100 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 3: Custom 3-16
+2026-01-24 17:06:25,100 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 3: Custom 3-16
+2026-01-24 17:06:25,492 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 3: Custom 3-17
+2026-01-24 17:06:25,492 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 3: Custom 3-17
+2026-01-24 17:06:25,668 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 3: Custom 3-1
+2026-01-24 17:06:25,668 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 3: Custom 3-1
+2026-01-24 17:06:25,727 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 3: Custom 3-7
+2026-01-24 17:06:25,727 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 3: Custom 3-7
+2026-01-24 17:06:25,785 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 3: Custom 3-9
+2026-01-24 17:06:25,785 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 3: Custom 3-9
+2026-01-24 17:06:26,152 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 3: Custom 3-10
+2026-01-24 17:06:26,152 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 3: Custom 3-10
+2026-01-24 17:06:26,279 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 3: Custom 3-5
+2026-01-24 17:06:26,279 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 3: Custom 3-5
+2026-01-24 17:06:26,356 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 3: Custom 3-12
+2026-01-24 17:06:26,357 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 3: Custom 3-12
+2026-01-24 17:06:26,413 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 3: Custom 3-19
+2026-01-24 17:06:26,413 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 3: Custom 3-19
+2026-01-24 17:06:26,521 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 3: Custom 3-13
+2026-01-24 17:06:26,522 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 3: Custom 3-13
+2026-01-24 17:06:26,636 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 3: Custom 3-15
+2026-01-24 17:06:26,636 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 3: Custom 3-15
+2026-01-24 17:06:26,644 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 3: Custom 3-6
+2026-01-24 17:06:26,644 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 3: Custom 3-6
+2026-01-24 17:06:26,755 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 3: Custom 3-3
+2026-01-24 17:06:26,755 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 3: Custom 3-3
+2026-01-24 17:06:27,139 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 3: Custom 3-11
+2026-01-24 17:06:27,140 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 3: Custom 3-11
+2026-01-24 17:06:27,359 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 3: Custom 3-4
+2026-01-24 17:06:27,360 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 3: Custom 3-4
+2026-01-24 17:06:27,426 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 3: Custom 3-8
+2026-01-24 17:06:27,426 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 3: Custom 3-8
+2026-01-24 17:06:27,426 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2026-01-24 17:06:27,429 INFO o.a.j.r.Summariser: summary +    181 in 00:00:27 =    6.6/s Avg:  3433 Min:  1376 Max: 23711 Err:     0 (0.00%) Active: 0 Started: 80 Finished: 80
+2026-01-24 17:06:27,429 INFO o.a.j.r.Summariser: summary =    452 in 00:01:03 =    7.2/s Avg:  3813 Min:   308 Max: 23711 Err:     0 (0.00%)
+2026-01-24 17:06:27,429 INFO o.a.j.JMeter: Generating Dashboard
+2026-01-24 17:06:27,429 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2026-01-24 17:06:27,442 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2026-01-24 17:06:27,633 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2026-01-24 17:06:27,633 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2026-01-24 17:06:27,636 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2026-01-24 17:06:27,637 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2026-01-24 17:06:27,647 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2026-01-24 17:06:27,649 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2026-01-24 17:06:27,649 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2026-01-24 17:06:27,649 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2026-01-24 17:06:27,700 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2026-01-24 17:06:27,702 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2026-01-24 17:06:27,702 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2026-01-24 17:06:27,702 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2026-01-24 17:06:27,728 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2026-01-24 17:06:27,730 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 8092 samples
+2026-01-24 17:06:27,730 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2026-01-24 17:06:27,730 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2026-01-24 17:06:27,730 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2026-01-24 17:06:27,731 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2026-01-24 17:06:27,733 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2026-01-24 17:06:27,733 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2026-01-24 17:06:27,740 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2026-01-24 17:06:27,741 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2026-01-24 17:06:27,741 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2026-01-24 17:06:27,741 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2026-01-24 17:06:27,741 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 17340 samples
+2026-01-24 17:06:27,741 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 3468 samples
+2026-01-24 17:06:27,741 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 1156 samples
+2026-01-24 17:06:27,742 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 1156 samples produced in 256ms on channel 0
+2026-01-24 17:06:27,742 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2026-01-24 17:06:27,934 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
+2026-01-24 17:06:27,935 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2026-01-24 17:06:27,935 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2026-01-24 17:06:27,935 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2026-01-24 17:06:27,936 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to C:\Java_OOP\Jmeter\jmeter\report\statistics.json
+2026-01-24 17:06:27,984 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2026-01-24 17:06:27,986 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: C:\Java_OOP\Jmeter\jmeter\report
+2026-01-24 17:06:28,181 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: C:\Java_OOP\Jmeter\jmeter\report, creating folder structure
+2026-01-24 17:06:28,185 INFO o.a.j.r.d.TemplateVisitor: Copying folder from 'C:\Java_OOP\Jmeter\apache-jmeter-5.6.3\bin\report-template' to 'C:\Java_OOP\Jmeter\jmeter\report', got message: C:\Java_OOP\Jmeter\jmeter\report, found non empty folder with following content [C:\Java_OOP\Jmeter\jmeter\report\statistics.json], will be ignored
+2026-01-24 17:06:28,539 INFO o.a.j.JMeter: Dashboard generated
